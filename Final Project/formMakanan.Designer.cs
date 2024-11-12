@@ -218,7 +218,7 @@
             this.guna2PictureBox5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2PictureBox5.BorderRadius = 10;
             this.guna2PictureBox5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox5.Image = global::Final_Project.Properties.Resources.Usaha_bakso;
+            this.guna2PictureBox5.Image = global::Final_Project.Properties.Resources._644d417a9c7ce2;
             this.guna2PictureBox5.ImageRotate = 0F;
             this.guna2PictureBox5.Location = new System.Drawing.Point(10, 11);
             this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(2);
@@ -262,12 +262,12 @@
             this.label10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label10.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(15, 118);
+            this.label10.Location = new System.Drawing.Point(27, 118);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(111, 19);
+            this.label10.Size = new System.Drawing.Size(82, 19);
             this.label10.TabIndex = 4;
-            this.label10.Text = "Bakso Jumbo";
+            this.label10.Text = "Ketoprak";
             // 
             // bunifuPanel4
             // 
@@ -384,7 +384,7 @@
             this.guna2PictureBox4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2PictureBox4.BorderRadius = 10;
             this.guna2PictureBox4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox4.Image = global::Final_Project.Properties.Resources.Usaha_bakso;
+            this.guna2PictureBox4.Image = global::Final_Project.Properties.Resources.soto;
             this.guna2PictureBox4.ImageRotate = 0F;
             this.guna2PictureBox4.Location = new System.Drawing.Point(10, 11);
             this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(2);
@@ -550,7 +550,7 @@
             this.guna2PictureBox6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2PictureBox6.BorderRadius = 10;
             this.guna2PictureBox6.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox6.Image = global::Final_Project.Properties.Resources.Usaha_bakso;
+            this.guna2PictureBox6.Image = global::Final_Project.Properties.Resources.new_title_29022024_1004231;
             this.guna2PictureBox6.ImageRotate = 0F;
             this.guna2PictureBox6.Location = new System.Drawing.Point(10, 11);
             this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2);
@@ -597,9 +597,9 @@
             this.label12.Location = new System.Drawing.Point(15, 118);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(111, 19);
+            this.label12.Size = new System.Drawing.Size(104, 19);
             this.label12.TabIndex = 4;
-            this.label12.Text = "Bakso Jumbo";
+            this.label12.Text = "Mie Goreng";
             // 
             // bunifuPanel7
             // 
@@ -716,7 +716,7 @@
             this.guna2PictureBox7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2PictureBox7.BorderRadius = 10;
             this.guna2PictureBox7.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox7.Image = global::Final_Project.Properties.Resources.Usaha_bakso;
+            this.guna2PictureBox7.Image = global::Final_Project.Properties.Resources.nasigor_seapood;
             this.guna2PictureBox7.ImageRotate = 0F;
             this.guna2PictureBox7.Location = new System.Drawing.Point(10, 11);
             this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(2);
@@ -760,12 +760,12 @@
             this.label14.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label14.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(15, 118);
+            this.label14.Location = new System.Drawing.Point(2, 118);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(111, 19);
+            this.label14.Size = new System.Drawing.Size(130, 19);
             this.label14.TabIndex = 4;
-            this.label14.Text = "Bakso Jumbo";
+            this.label14.Text = "Nasgor Seafood";
             // 
             // bunifuPanel3
             // 
@@ -882,7 +882,7 @@
             this.guna2PictureBox3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2PictureBox3.BorderRadius = 10;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.Image = global::Final_Project.Properties.Resources.Mie_Ayam_Bakso_4188967849;
+            this.guna2PictureBox3.Image = global::Final_Project.Properties.Resources.mieso;
             this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(10, 11);
             this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2);
@@ -1048,7 +1048,7 @@
             this.guna2PictureBox8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2PictureBox8.BorderRadius = 10;
             this.guna2PictureBox8.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox8.Image = global::Final_Project.Properties.Resources.Usaha_bakso;
+            this.guna2PictureBox8.Image = global::Final_Project.Properties.Resources.nasgor_ayam;
             this.guna2PictureBox8.ImageRotate = 0F;
             this.guna2PictureBox8.Location = new System.Drawing.Point(10, 11);
             this.guna2PictureBox8.Margin = new System.Windows.Forms.Padding(2);
@@ -1095,9 +1095,9 @@
             this.label16.Location = new System.Drawing.Point(15, 118);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(111, 19);
+            this.label16.Size = new System.Drawing.Size(115, 19);
             this.label16.TabIndex = 4;
-            this.label16.Text = "Bakso Jumbo";
+            this.label16.Text = "Nasgor Ayam";
             // 
             // bunifuPanel2
             // 
@@ -1436,7 +1436,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(749, 461);
+            this.ClientSize = new System.Drawing.Size(749, 487);
             this.Controls.Add(this.bunifuPanel5);
             this.Controls.Add(this.bunifuPanel4);
             this.Controls.Add(this.bunifuPanel6);
@@ -1446,7 +1446,7 @@
             this.Controls.Add(this.bunifuPanel2);
             this.Controls.Add(this.bunifuPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "formMakanan";
             this.Text = "formMakanan";
             this.Load += new System.EventHandler(this.formMakanan_Load);
