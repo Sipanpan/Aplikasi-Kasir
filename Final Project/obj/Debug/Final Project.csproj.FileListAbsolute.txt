@@ -42,3 +42,4 @@ C:\#KULIAH\SMT 3\Pemrog Lanjut\final project 2\Final Project\Final Project\bin\D
 C:\#KULIAH\SMT 3\Pemrog Lanjut\final project 2\Final Project\Final Project\bin\Debug\System.ValueTuple.xml
 C:\#KULIAH\SMT 3\Pemrog Lanjut\final project 2\Final Project\Final Project\obj\Debug\Final Pr.B69720BE.Up2Date
 C:\#KULIAH\SMT 3\Pemrog Lanjut\final project 2\Final Project\Final Project\obj\Debug\Final_Project.formKeranjang.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\final project 2\Final Project\Final Project\bin\Debug\Guna.UI2.dll
