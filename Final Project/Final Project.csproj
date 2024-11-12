@@ -113,6 +113,12 @@
     <Compile Include="formCemilan.Designer.cs">
       <DependentUpon>formCemilan.cs</DependentUpon>
     </Compile>
+    <Compile Include="formKeranjang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formKeranjang.Designer.cs">
+      <DependentUpon>formKeranjang.cs</DependentUpon>
+    </Compile>
     <Compile Include="formMakanan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formCemilan.resx">
       <DependentUpon>formCemilan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formKeranjang.resx">
+      <DependentUpon>formKeranjang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formMakanan.resx">
       <DependentUpon>formMakanan.cs</DependentUpon>

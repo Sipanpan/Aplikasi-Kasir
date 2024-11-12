@@ -15,6 +15,7 @@ namespace Final_Project
         formMakanan makanan;
         formMinuman minuman;
         formCemilan cemilan;
+        formKeranjang keranjang;
         formAboutUs aboutUs;
         public Form1()
         {
@@ -35,6 +36,7 @@ namespace Final_Project
                     pnMakanan.Width = sidebar.Width;
                     pnMinuman.Width = sidebar.Width;
                     pnCemilan.Width = sidebar.Width;
+                    pnKeranjang.Width = sidebar.Width;
                     pnAboutUs.Width = sidebar.Width;
                 }
             }
@@ -49,6 +51,7 @@ namespace Final_Project
                     pnMakanan.Width = sidebar.Width;
                     pnMinuman.Width = sidebar.Width;
                     pnCemilan.Width = sidebar.Width;
+                    pnKeranjang.Width = sidebar.Width;
                     pnAboutUs.Width = sidebar.Width;
                 }
             }
@@ -61,6 +64,7 @@ namespace Final_Project
 
         private void btnMakanan_Click(object sender, EventArgs e)
         {
+            pnWelcome.Visible = false;
             if (makanan == null)
             {
                 makanan = new formMakanan();
@@ -82,6 +86,7 @@ namespace Final_Project
 
         private void btnMinuman_Click(object sender, EventArgs e)
         {
+            pnWelcome.Visible = false;
             if (minuman == null)
             {
                 minuman = new formMinuman();
@@ -103,6 +108,7 @@ namespace Final_Project
 
         private void btnCemilan_Click(object sender, EventArgs e)
         {
+            pnWelcome.Visible = false;
             if (cemilan == null)
             {
                 cemilan = new formCemilan();
@@ -124,6 +130,7 @@ namespace Final_Project
 
         private void btnAboutUs_Click(object sender, EventArgs e)
         {
+            pnWelcome.Visible = false;
             if (aboutUs == null)
             {
                 aboutUs = new formAboutUs();
@@ -141,6 +148,51 @@ namespace Final_Project
         private void aboutUs_FormClosed(object sender, FormClosedEventArgs e)
         {
             aboutUs = null;
+        }
+
+        private void btnKeranjang_Click(object sender, EventArgs e)
+        {
+            pnWelcome.Visible = false;
+            if (keranjang == null)
+            {
+                keranjang = new formKeranjang();
+                keranjang.FormClosed += keranjang_FormClosed;
+                keranjang.MdiParent = this;
+                keranjang.Dock = DockStyle.Fill;
+                keranjang.Show();
+            }
+            else
+            {
+                keranjang.Activate();
+            }
+        }
+
+        private void keranjang_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            keranjang = null;
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void maximizeButton_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Maximized)
+            {
+                WindowState = FormWindowState.Normal;
+            }
+
+            else if (WindowState == FormWindowState.Normal)
+            {
+                WindowState = FormWindowState.Maximized;
+            }
+        }
+
+        private void minimizeButton_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
         }
     }
 }
