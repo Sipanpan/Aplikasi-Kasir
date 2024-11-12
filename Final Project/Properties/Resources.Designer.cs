@@ -133,6 +133,16 @@ namespace Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _663290feb5358 {
+            get {
+                object obj = ResourceManager.GetObject("663290feb5358", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnCemilan {
             get {
                 object obj = ResourceManager.GetObject("btnCemilan", resourceCulture);
@@ -186,6 +196,16 @@ namespace Final_Project.Properties {
         internal static System.Drawing.Bitmap c413b0dc748f4573cb50cac4912ae54a {
             get {
                 object obj = ResourceManager.GetObject("c413b0dc748f4573cb50cac4912ae54a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap es_campur {
+            get {
+                object obj = ResourceManager.GetObject("es campur", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,9 +443,29 @@ namespace Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap soda_gembira {
+            get {
+                object obj = ResourceManager.GetObject("soda gembira", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap soto {
             get {
                 object obj = ResourceManager.GetObject("soto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap susu {
+            get {
+                object obj = ResourceManager.GetObject("susu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

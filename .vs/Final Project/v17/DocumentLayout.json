@@ -24,15 +24,25 @@
               "RelativeDocumentMoniker": "Final Project\\Form1.cs",
               "ToolTip": "Final Project/Form1.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "Final Project",
-              "OverriddenToolTip": "Final Project/Form1.cs",
-              "WhenOpened": "2024-11-12T02:54:22.867Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-11-12T08:35:31.166Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "formMinuman.Designer.cs",
+              "DocumentMoniker": "D:\\Download\\final\\Final Project\\formMinuman.Designer.cs",
+              "RelativeDocumentMoniker": "Final Project\\formMinuman.Designer.cs",
+              "ToolTip": "D:\\Download\\final\\Final Project\\formMinuman.Designer.cs",
+              "RelativeToolTip": "Final Project\\formMinuman.Designer.cs",
+              "ViewState": "AgIAAGgEAAAAAAAAAAAowAUFAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:47:52.991Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

@@ -237,7 +237,7 @@
             this.guna2PictureBox5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2PictureBox5.BorderRadius = 10;
             this.guna2PictureBox5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox5.Image = global::Final_Project.Properties.Resources._644d417a9c7ce2;
+            this.guna2PictureBox5.Image = global::Final_Project.Properties.Resources.es_campur;
             this.guna2PictureBox5.ImageRotate = 0F;
             this.guna2PictureBox5.Location = new System.Drawing.Point(10, 11);
             this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(2);
@@ -258,7 +258,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(76, 18);
             this.label9.TabIndex = 6;
-            this.label9.Text = "Rp 20.000";
+            this.label9.Text = "Rp 15.000";
             // 
             // bunifuLabel5
             // 
@@ -284,9 +284,9 @@
             this.label10.Location = new System.Drawing.Point(27, 118);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(82, 19);
+            this.label10.Size = new System.Drawing.Size(97, 19);
             this.label10.TabIndex = 4;
-            this.label10.Text = "Ketoprak";
+            this.label10.Text = "Es Campur";
             // 
             // bunifuPanel4
             // 
@@ -569,7 +569,7 @@
             this.guna2PictureBox6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2PictureBox6.BorderRadius = 10;
             this.guna2PictureBox6.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox6.Image = global::Final_Project.Properties.Resources.new_title_29022024_1004231;
+            this.guna2PictureBox6.Image = global::Final_Project.Properties.Resources.soda_gembira;
             this.guna2PictureBox6.ImageRotate = 0F;
             this.guna2PictureBox6.Location = new System.Drawing.Point(10, 11);
             this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2);
@@ -590,7 +590,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(76, 18);
             this.label11.TabIndex = 6;
-            this.label11.Text = "Rp 20.000";
+            this.label11.Text = "Rp 15.000";
             // 
             // bunifuLabel6
             // 
@@ -613,12 +613,12 @@
             this.label12.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label12.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(15, 118);
+            this.label12.Location = new System.Drawing.Point(6, 118);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(104, 19);
+            this.label12.Size = new System.Drawing.Size(121, 19);
             this.label12.TabIndex = 4;
-            this.label12.Text = "Mie Goreng";
+            this.label12.Text = "Soda Gembira";
             // 
             // bunifuPanel7
             // 
@@ -735,7 +735,7 @@
             this.guna2PictureBox7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2PictureBox7.BorderRadius = 10;
             this.guna2PictureBox7.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox7.Image = global::Final_Project.Properties.Resources.nasigor_seapood;
+            this.guna2PictureBox7.Image = global::Final_Project.Properties.Resources.susu;
             this.guna2PictureBox7.ImageRotate = 0F;
             this.guna2PictureBox7.Location = new System.Drawing.Point(10, 11);
             this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(2);
@@ -751,12 +751,12 @@
             this.label13.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label13.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Coral;
-            this.label13.Location = new System.Drawing.Point(28, 141);
+            this.label13.Location = new System.Drawing.Point(35, 141);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(76, 18);
+            this.label13.Size = new System.Drawing.Size(68, 18);
             this.label13.TabIndex = 6;
-            this.label13.Text = "Rp 20.000";
+            this.label13.Text = "Rp 5.000";
             // 
             // bunifuLabel7
             // 
@@ -779,12 +779,12 @@
             this.label14.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label14.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(2, 118);
+            this.label14.Location = new System.Drawing.Point(27, 118);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(130, 19);
+            this.label14.Size = new System.Drawing.Size(69, 19);
             this.label14.TabIndex = 4;
-            this.label14.Text = "Nasgor Seafood";
+            this.label14.Text = "Es Susu";
             // 
             // bunifuPanel3
             // 
@@ -1067,7 +1067,7 @@
             this.guna2PictureBox8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2PictureBox8.BorderRadius = 10;
             this.guna2PictureBox8.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox8.Image = global::Final_Project.Properties.Resources.nasgor_ayam;
+            this.guna2PictureBox8.Image = global::Final_Project.Properties.Resources._663290feb5358;
             this.guna2PictureBox8.ImageRotate = 0F;
             this.guna2PictureBox8.Location = new System.Drawing.Point(10, 11);
             this.guna2PictureBox8.Margin = new System.Windows.Forms.Padding(2);
@@ -1088,7 +1088,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(76, 18);
             this.label15.TabIndex = 6;
-            this.label15.Text = "Rp 20.000";
+            this.label15.Text = "Rp 10.000";
             // 
             // bunifuLabel8
             // 
@@ -1111,12 +1111,12 @@
             this.label16.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label16.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label16.Location = new System.Drawing.Point(15, 118);
+            this.label16.Location = new System.Drawing.Point(23, 118);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(115, 19);
+            this.label16.Size = new System.Drawing.Size(88, 19);
             this.label16.TabIndex = 4;
-            this.label16.Text = "Nasgor Ayam";
+            this.label16.Text = "Kopi Susu";
             // 
             // bunifuPanel2
             // 

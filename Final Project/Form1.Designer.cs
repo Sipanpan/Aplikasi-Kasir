@@ -333,7 +333,6 @@
             this.pnWelcome.BorderRadius = 3;
             this.pnWelcome.BorderThickness = 1;
             this.pnWelcome.Controls.Add(this.bunifuFormResizeIcon1);
-            this.pnWelcome.Controls.Add(this.pictureBox1);
             this.pnWelcome.Controls.Add(this.bunifuLabel1);
             this.pnWelcome.Controls.Add(this.bunifuLabel3);
             this.pnWelcome.Controls.Add(this.bunifuLabel2);
@@ -357,12 +356,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Location = new System.Drawing.Point(241, 44);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(426, 168);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
             // 
             // bunifuLabel1
             // 
