@@ -63,6 +63,46 @@ namespace Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _066199400_1627521905_2021_07_28 {
+            get {
+                object obj = ResourceManager.GetObject("066199400_1627521905-2021-07-28", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _074fd838265b5fc588d4d242496fc646 {
+            get {
+                object obj = ResourceManager.GetObject("074fd838265b5fc588d4d242496fc646", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2020_04_20T14_16_46_07_00 {
+            get {
+                object obj = ResourceManager.GetObject("2020-04-20T14_16_46+07_00", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _245281_default {
+            get {
+                object obj = ResourceManager.GetObject("245281-default", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnCemilan {
             get {
                 object obj = ResourceManager.GetObject("btnCemilan", resourceCulture);
@@ -106,6 +146,56 @@ namespace Final_Project.Properties {
         internal static System.Drawing.Bitmap btnMinuman {
             get {
                 object obj = ResourceManager.GetObject("btnMinuman", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c413b0dc748f4573cb50cac4912ae54a {
+            get {
+                object obj = ResourceManager.GetObject("c413b0dc748f4573cb50cac4912ae54a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mie_Ayam_Bakso_4188967849 {
+            get {
+                object obj = ResourceManager.GetObject("Mie-Ayam-Bakso-4188967849", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mie_ayam_kecap {
+            get {
+                object obj = ResourceManager.GetObject("mie-ayam-kecap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mie_ayam_kecap_500x300 {
+            get {
+                object obj = ResourceManager.GetObject("mie-ayam-kecap-500x300", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Usaha_bakso {
+            get {
+                object obj = ResourceManager.GetObject("Usaha bakso", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

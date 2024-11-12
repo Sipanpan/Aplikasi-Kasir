@@ -42,6 +42,9 @@
     <Reference Include="Bunifu.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Bunifu.Utils.1.0.5\lib\net45\Bunifu.Utils.dll</HintPath>
     </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
@@ -186,6 +189,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btnKeranjang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\245281-default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usaha bakso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\074fd838265b5fc588d4d242496fc646.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\066199400_1627521905-2021-07-28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mie-ayam-kecap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mie-ayam-kecap-500x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2020-04-20T14_16_46+07_00.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c413b0dc748f4573cb50cac4912ae54a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mie-Ayam-Bakso-4188967849.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
