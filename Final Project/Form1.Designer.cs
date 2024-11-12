@@ -322,8 +322,7 @@
             this.menuButton.TabStop = false;
             this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
             // 
-<<<<<<< HEAD
-=======
+
             // pnWelcome
             // 
             this.pnWelcome.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
@@ -408,7 +407,6 @@
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
->>>>>>> 1d81ec9c574eccd4802231a347ee273423b8c572
             // bunifuFormResizer1
             // 
             this.bunifuFormResizer1.ContainerControl = this;
