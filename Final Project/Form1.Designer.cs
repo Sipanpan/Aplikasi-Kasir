@@ -322,6 +322,100 @@
             this.menuButton.TabStop = false;
             this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
             // 
+<<<<<<< HEAD
+=======
+            // pnWelcome
+            // 
+            this.pnWelcome.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.pnWelcome.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnWelcome.BackgroundImage")));
+            this.pnWelcome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnWelcome.BorderColor = System.Drawing.Color.Transparent;
+            this.pnWelcome.BorderRadius = 3;
+            this.pnWelcome.BorderThickness = 1;
+            this.pnWelcome.Controls.Add(this.bunifuFormResizeIcon1);
+            this.pnWelcome.Controls.Add(this.pictureBox1);
+            this.pnWelcome.Controls.Add(this.bunifuLabel1);
+            this.pnWelcome.Controls.Add(this.bunifuLabel3);
+            this.pnWelcome.Controls.Add(this.bunifuLabel2);
+            this.pnWelcome.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnWelcome.Location = new System.Drawing.Point(246, 62);
+            this.pnWelcome.Name = "pnWelcome";
+            this.pnWelcome.ShowBorders = true;
+            this.pnWelcome.Size = new System.Drawing.Size(909, 588);
+            this.pnWelcome.TabIndex = 5;
+            // 
+            // bunifuFormResizeIcon1
+            // 
+            this.bunifuFormResizeIcon1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuFormResizeIcon1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuFormResizeIcon1.ForeColor = System.Drawing.Color.Black;
+            this.bunifuFormResizeIcon1.IconSize = 16;
+            this.bunifuFormResizeIcon1.Location = new System.Drawing.Point(888, 567);
+            this.bunifuFormResizeIcon1.Name = "bunifuFormResizeIcon1";
+            this.bunifuFormResizeIcon1.Size = new System.Drawing.Size(21, 21);
+            this.bunifuFormResizeIcon1.TabIndex = 5;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Location = new System.Drawing.Point(241, 44);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(426, 168);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
+            // bunifuLabel1
+            // 
+            this.bunifuLabel1.AllowParentOverrides = false;
+            this.bunifuLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuLabel1.AutoEllipsis = false;
+            this.bunifuLabel1.CursorType = null;
+            this.bunifuLabel1.Font = new System.Drawing.Font("Rockwell Extra Bold", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel1.ForeColor = System.Drawing.Color.Red;
+            this.bunifuLabel1.Location = new System.Drawing.Point(101, 257);
+            this.bunifuLabel1.Name = "bunifuLabel1";
+            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel1.Size = new System.Drawing.Size(707, 78);
+            this.bunifuLabel1.TabIndex = 3;
+            this.bunifuLabel1.Text = "SELAMAT DATANG";
+            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel3
+            // 
+            this.bunifuLabel3.AllowParentOverrides = false;
+            this.bunifuLabel3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuLabel3.AutoEllipsis = false;
+            this.bunifuLabel3.CursorType = null;
+            this.bunifuLabel3.Font = new System.Drawing.Font("Rockwell Extra Bold", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel3.ForeColor = System.Drawing.Color.Red;
+            this.bunifuLabel3.Location = new System.Drawing.Point(409, 355);
+            this.bunifuLabel3.Name = "bunifuLabel3";
+            this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel3.Size = new System.Drawing.Size(90, 78);
+            this.bunifuLabel3.TabIndex = 2;
+            this.bunifuLabel3.Text = "DI";
+            this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel2
+            // 
+            this.bunifuLabel2.AllowParentOverrides = false;
+            this.bunifuLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuLabel2.AutoEllipsis = false;
+            this.bunifuLabel2.CursorType = null;
+            this.bunifuLabel2.Font = new System.Drawing.Font("Rockwell Extra Bold", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel2.ForeColor = System.Drawing.Color.Red;
+            this.bunifuLabel2.Location = new System.Drawing.Point(127, 446);
+            this.bunifuLabel2.Name = "bunifuLabel2";
+            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel2.Size = new System.Drawing.Size(654, 78);
+            this.bunifuLabel2.TabIndex = 1;
+            this.bunifuLabel2.Text = "RESTORAN MR.B";
+            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+>>>>>>> 1d81ec9c574eccd4802231a347ee273423b8c572
             // bunifuFormResizer1
             // 
             this.bunifuFormResizer1.ContainerControl = this;
