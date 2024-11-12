@@ -21,5 +21,12 @@ namespace Final_Project
         {
             this.ControlBox = false;
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }
