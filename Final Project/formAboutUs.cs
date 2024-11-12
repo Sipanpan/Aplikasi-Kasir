@@ -22,9 +22,11 @@ namespace Final_Project
             this.ControlBox = false;
         }
 
-        private void bunifuButton1_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
 
         }
+
+       
     }
 }

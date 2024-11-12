@@ -328,5 +328,41 @@
   <ItemGroup>
     <None Include="Resources\tahu penyet.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usaha bakso1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home Page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home Page %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Menu Male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Menu Male %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5804273.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-positive-young-people-posing-together.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marvel_studios_the_avengers_assembled_wallpaper_hd_by_joshua121penalba_ddavxow-fullview.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

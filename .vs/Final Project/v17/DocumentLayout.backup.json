@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "D:\\Download\\final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|d:\\download\\final\\final project\\formcemilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formcemilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formminuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formminuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formaboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formaboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formminuman.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formminuman.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|d:\\download\\final\\final project\\formcemilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formcemilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|d:\\download\\final\\final project\\formaboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formaboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formmakanan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formmakanan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|d:\\download\\final\\final project\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formminuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formminuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formminuman.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formminuman.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formminuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formminuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formmakanan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formmakanan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formcemilan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formkeranjang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\Download\\final\\final project\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,32 +94,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "formAboutUs.cs",
+              "DocumentMoniker": "D:\\Download\\final\\Final Project\\formAboutUs.cs",
+              "RelativeDocumentMoniker": "Final Project\\formAboutUs.cs",
+              "ToolTip": "D:\\Download\\final\\Final Project\\formAboutUs.cs*",
+              "RelativeToolTip": "Final Project\\formAboutUs.cs*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:19:43.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "formCemilan.cs [Design]",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\formCemilan.cs",
               "RelativeDocumentMoniker": "Final Project\\formCemilan.cs",
-              "ToolTip": "D:\\Download\\final\\Final Project\\formCemilan.cs [Design]*",
-              "RelativeToolTip": "Final Project\\formCemilan.cs [Design]*",
+              "ToolTip": "D:\\Download\\final\\Final Project\\formCemilan.cs [Design]",
+              "RelativeToolTip": "Final Project\\formCemilan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T15:04:54.811Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "formMinuman.cs",
-              "DocumentMoniker": "D:\\Download\\final\\Final Project\\formMinuman.cs",
-              "RelativeDocumentMoniker": "Final Project\\formMinuman.cs",
-              "ToolTip": "D:\\Download\\final\\Final Project\\formMinuman.cs*",
-              "RelativeToolTip": "Final Project\\formMinuman.cs*",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowBgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:47:40.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "formMakanan.Designer.cs",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\formMakanan.Designer.cs",
               "RelativeDocumentMoniker": "Final Project\\formMakanan.Designer.cs",
@@ -128,32 +136,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "formAboutUs.cs [Design]",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\formAboutUs.cs",
               "RelativeDocumentMoniker": "Final Project\\formAboutUs.cs",
-              "ToolTip": "D:\\Download\\final\\Final Project\\formAboutUs.cs [Design]",
-              "RelativeToolTip": "Final Project\\formAboutUs.cs [Design]",
+              "ToolTip": "D:\\Download\\final\\Final Project\\formAboutUs.cs [Design]*",
+              "RelativeToolTip": "Final Project\\formAboutUs.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T12:33:44.508Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Final Project\\Form1.Designer.cs",
               "ToolTip": "D:\\Download\\final\\Final Project\\Form1.Designer.cs",
               "RelativeToolTip": "Final Project\\Form1.Designer.cs",
-              "ViewState": "AgIAAIkBAAAAAAAAAAAMwJkBAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAANYBAAAAAAAAAAAMwNYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T08:27:48.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "formMakanan.cs [Design]",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\formMakanan.cs",
               "RelativeDocumentMoniker": "Final Project\\formMakanan.cs",
@@ -165,36 +173,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "formMinuman.Designer.cs",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\formMinuman.Designer.cs",
               "RelativeDocumentMoniker": "Final Project\\formMinuman.Designer.cs",
               "ToolTip": "D:\\Download\\final\\Final Project\\formMinuman.Designer.cs",
               "RelativeToolTip": "Final Project\\formMinuman.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAIwBAAAAAAAAAAAowKUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T13:47:52.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "formMinuman.cs [Design]",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\formMinuman.cs",
               "RelativeDocumentMoniker": "Final Project\\formMinuman.cs",
-              "ToolTip": "D:\\Download\\final\\Final Project\\formMinuman.cs [Design]*",
-              "RelativeToolTip": "Final Project\\formMinuman.cs [Design]*",
+              "ToolTip": "D:\\Download\\final\\Final Project\\formMinuman.cs [Design]",
+              "RelativeToolTip": "Final Project\\formMinuman.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T13:00:06.412Z",
               "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Download\\final\\Final Project\\Form1.cs",
+              "RelativeDocumentMoniker": "Final Project\\Form1.cs",
+              "ToolTip": "D:\\Download\\final\\Final Project\\Form1.cs [Design]",
+              "RelativeToolTip": "Final Project\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:27:56.355Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
+              "Title": "formMinuman.cs",
+              "DocumentMoniker": "D:\\Download\\final\\Final Project\\formMinuman.cs",
+              "RelativeDocumentMoniker": "Final Project\\formMinuman.cs",
+              "ToolTip": "D:\\Download\\final\\Final Project\\formMinuman.cs",
+              "RelativeToolTip": "Final Project\\formMinuman.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:47:40.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "formKeranjang.cs [Design]",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\formKeranjang.cs",
               "RelativeDocumentMoniker": "Final Project\\formKeranjang.cs",
@@ -206,12 +235,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "formAboutUs.Designer.cs",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\formAboutUs.Designer.cs",
               "RelativeDocumentMoniker": "Final Project\\formAboutUs.Designer.cs",
-              "ToolTip": "D:\\Download\\final\\Final Project\\formAboutUs.Designer.cs",
-              "RelativeToolTip": "Final Project\\formAboutUs.Designer.cs",
+              "ToolTip": "D:\\Download\\final\\Final Project\\formAboutUs.Designer.cs*",
+              "RelativeToolTip": "Final Project\\formAboutUs.Designer.cs*",
               "ViewState": "AgIAAMcBAAAAAAAAAAAowOABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T14:02:03.287Z",
@@ -219,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "packages.config",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\packages.config",
               "RelativeDocumentMoniker": "Final Project\\packages.config",
@@ -232,12 +261,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "formCemilan.Designer.cs",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\formCemilan.Designer.cs",
               "RelativeDocumentMoniker": "Final Project\\formCemilan.Designer.cs",
-              "ToolTip": "D:\\Download\\final\\Final Project\\formCemilan.Designer.cs*",
-              "RelativeToolTip": "Final Project\\formCemilan.Designer.cs*",
+              "ToolTip": "D:\\Download\\final\\Final Project\\formCemilan.Designer.cs",
+              "RelativeToolTip": "Final Project\\formCemilan.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T14:04:07.732Z",
@@ -245,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\Program.cs",
               "RelativeDocumentMoniker": "Final Project\\Program.cs",
@@ -258,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "formKeranjang.Designer.cs",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\formKeranjang.Designer.cs",
               "RelativeDocumentMoniker": "Final Project\\formKeranjang.Designer.cs",
@@ -271,19 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Download\\final\\Final Project\\Form1.cs",
-              "RelativeDocumentMoniker": "Final Project\\Form1.cs",
-              "ToolTip": "D:\\Download\\final\\Final Project\\Form1.cs [Design]",
-              "RelativeToolTip": "Final Project\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:27:56.355Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "formMakanan.cs",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\formMakanan.cs",
               "RelativeDocumentMoniker": "Final Project\\formMakanan.cs",
@@ -296,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Download\\final\\Final Project\\Form1.cs",
               "RelativeDocumentMoniker": "Final Project\\Form1.cs",
