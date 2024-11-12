@@ -42,6 +42,7 @@
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuButton = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.sidebar.SuspendLayout();
             this.pnMakanan.SuspendLayout();
             this.pnMinuman.SuspendLayout();
@@ -206,10 +207,18 @@
             this.menuButton.TabStop = false;
             this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
             // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(340, 97);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(112, 148);
+            this.panel2.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1155, 650);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -244,6 +253,7 @@
         private System.Windows.Forms.Label lblMenu;
         private System.Windows.Forms.Timer sidebarTimer;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
