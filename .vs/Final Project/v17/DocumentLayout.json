@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|c:\\#kuliah\\smt 3\\pemrog lanjut\\final project 2\\final project\\final project\\formkeranjang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formkeranjang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|c:\\#kuliah\\smt 3\\pemrog lanjut\\final project 2\\final project\\final project\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -26,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\Form1.cs",
               "RelativeDocumentMoniker": "Final Project\\Form1.cs",
@@ -43,6 +47,18 @@
               "EditorCaption": " [Design]"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "formKeranjang.cs [Design]",
+              "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formKeranjang.cs",
+              "RelativeDocumentMoniker": "Final Project\\formKeranjang.cs",
+              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formKeranjang.cs [Design]",
+              "RelativeToolTip": "Final Project\\formKeranjang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:06:39.736Z",
+              "EditorCaption": " [Design]"
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
@@ -52,19 +68,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "formMakanan.cs [Design]",
               "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formMakanan.cs",
               "RelativeDocumentMoniker": "Final Project\\formMakanan.cs",
-              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formMakanan.cs [Design]*",
-              "RelativeToolTip": "Final Project\\formMakanan.cs [Design]*",
+              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formMakanan.cs [Design]",
+              "RelativeToolTip": "Final Project\\formMakanan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T15:37:20.076Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "formCemilan.cs [Design]",
               "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formCemilan.cs",
               "RelativeDocumentMoniker": "Final Project\\formCemilan.cs",
@@ -76,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "formMinuman.cs [Design]",
               "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formMinuman.cs",
               "RelativeDocumentMoniker": "Final Project\\formMinuman.cs",
