@@ -153,6 +153,26 @@ namespace Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap c413b0dc748f4573cb50cac4912ae54a {
+            get {
+                object obj = ResourceManager.GetObject("c413b0dc748f4573cb50cac4912ae54a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mie_Ayam_Bakso_4188967849 {
+            get {
+                object obj = ResourceManager.GetObject("Mie-Ayam-Bakso-4188967849", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mie_ayam_kecap {
             get {
                 object obj = ResourceManager.GetObject("mie-ayam-kecap", resourceCulture);

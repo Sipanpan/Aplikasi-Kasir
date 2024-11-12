@@ -31,16 +31,16 @@
             this.components = new System.ComponentModel.Container();
             this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
             this.pnMakanan = new System.Windows.Forms.Panel();
+            this.btnMakanan = new System.Windows.Forms.Button();
             this.pnMinuman = new System.Windows.Forms.Panel();
+            this.btnMinuman = new System.Windows.Forms.Button();
             this.pnCemilan = new System.Windows.Forms.Panel();
+            this.btnCemilan = new System.Windows.Forms.Button();
             this.pnAboutUs = new System.Windows.Forms.Panel();
+            this.btnAboutUs = new System.Windows.Forms.Button();
             this.lblMenu = new System.Windows.Forms.Label();
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnMakanan = new System.Windows.Forms.Button();
-            this.btnMinuman = new System.Windows.Forms.Button();
-            this.btnCemilan = new System.Windows.Forms.Button();
-            this.btnAboutUs = new System.Windows.Forms.Button();
             this.menuButton = new System.Windows.Forms.PictureBox();
             this.sidebar.SuspendLayout();
             this.pnMakanan.SuspendLayout();
@@ -76,57 +76,6 @@
             this.pnMakanan.Size = new System.Drawing.Size(243, 62);
             this.pnMakanan.TabIndex = 1;
             // 
-            // pnMinuman
-            // 
-            this.pnMinuman.Controls.Add(this.btnMinuman);
-            this.pnMinuman.Location = new System.Drawing.Point(3, 121);
-            this.pnMinuman.Name = "pnMinuman";
-            this.pnMinuman.Size = new System.Drawing.Size(243, 62);
-            this.pnMinuman.TabIndex = 2;
-            // 
-            // pnCemilan
-            // 
-            this.pnCemilan.Controls.Add(this.btnCemilan);
-            this.pnCemilan.Location = new System.Drawing.Point(3, 189);
-            this.pnCemilan.Name = "pnCemilan";
-            this.pnCemilan.Size = new System.Drawing.Size(243, 62);
-            this.pnCemilan.TabIndex = 3;
-            // 
-            // pnAboutUs
-            // 
-            this.pnAboutUs.Controls.Add(this.btnAboutUs);
-            this.pnAboutUs.Location = new System.Drawing.Point(3, 257);
-            this.pnAboutUs.Name = "pnAboutUs";
-            this.pnAboutUs.Size = new System.Drawing.Size(243, 62);
-            this.pnAboutUs.TabIndex = 4;
-            // 
-            // lblMenu
-            // 
-            this.lblMenu.AutoSize = true;
-            this.lblMenu.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMenu.ForeColor = System.Drawing.Color.White;
-            this.lblMenu.Location = new System.Drawing.Point(68, 22);
-            this.lblMenu.Name = "lblMenu";
-            this.lblMenu.Size = new System.Drawing.Size(67, 20);
-            this.lblMenu.TabIndex = 1;
-            this.lblMenu.Text = "Menu";
-            // 
-            // sidebarTimer
-            // 
-            this.sidebarTimer.Interval = 10;
-            this.sidebarTimer.Tick += new System.EventHandler(this.sidebarTimer_Tick);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.panel1.Controls.Add(this.lblMenu);
-            this.panel1.Controls.Add(this.menuButton);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1212, 62);
-            this.panel1.TabIndex = 1;
-            // 
             // btnMakanan
             // 
             this.btnMakanan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -143,6 +92,14 @@
             this.btnMakanan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMakanan.UseVisualStyleBackColor = true;
             this.btnMakanan.Click += new System.EventHandler(this.btnMakanan_Click);
+            // 
+            // pnMinuman
+            // 
+            this.pnMinuman.Controls.Add(this.btnMinuman);
+            this.pnMinuman.Location = new System.Drawing.Point(3, 121);
+            this.pnMinuman.Name = "pnMinuman";
+            this.pnMinuman.Size = new System.Drawing.Size(243, 62);
+            this.pnMinuman.TabIndex = 2;
             // 
             // btnMinuman
             // 
@@ -161,6 +118,14 @@
             this.btnMinuman.UseVisualStyleBackColor = true;
             this.btnMinuman.Click += new System.EventHandler(this.btnMinuman_Click);
             // 
+            // pnCemilan
+            // 
+            this.pnCemilan.Controls.Add(this.btnCemilan);
+            this.pnCemilan.Location = new System.Drawing.Point(3, 189);
+            this.pnCemilan.Name = "pnCemilan";
+            this.pnCemilan.Size = new System.Drawing.Size(243, 62);
+            this.pnCemilan.TabIndex = 3;
+            // 
             // btnCemilan
             // 
             this.btnCemilan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -178,6 +143,14 @@
             this.btnCemilan.UseVisualStyleBackColor = true;
             this.btnCemilan.Click += new System.EventHandler(this.btnCemilan_Click);
             // 
+            // pnAboutUs
+            // 
+            this.pnAboutUs.Controls.Add(this.btnAboutUs);
+            this.pnAboutUs.Location = new System.Drawing.Point(3, 257);
+            this.pnAboutUs.Name = "pnAboutUs";
+            this.pnAboutUs.Size = new System.Drawing.Size(243, 62);
+            this.pnAboutUs.TabIndex = 4;
+            // 
             // btnAboutUs
             // 
             this.btnAboutUs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -194,6 +167,33 @@
             this.btnAboutUs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAboutUs.UseVisualStyleBackColor = true;
             this.btnAboutUs.Click += new System.EventHandler(this.btnAboutUs_Click);
+            // 
+            // lblMenu
+            // 
+            this.lblMenu.AutoSize = true;
+            this.lblMenu.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMenu.ForeColor = System.Drawing.Color.White;
+            this.lblMenu.Location = new System.Drawing.Point(68, 22);
+            this.lblMenu.Name = "lblMenu";
+            this.lblMenu.Size = new System.Drawing.Size(54, 16);
+            this.lblMenu.TabIndex = 1;
+            this.lblMenu.Text = "Menu";
+            // 
+            // sidebarTimer
+            // 
+            this.sidebarTimer.Interval = 10;
+            this.sidebarTimer.Tick += new System.EventHandler(this.sidebarTimer_Tick);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.panel1.Controls.Add(this.lblMenu);
+            this.panel1.Controls.Add(this.menuButton);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1212, 62);
+            this.panel1.TabIndex = 1;
             // 
             // menuButton
             // 
