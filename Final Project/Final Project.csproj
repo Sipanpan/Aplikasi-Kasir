@@ -217,5 +217,32 @@
   <ItemGroup>
     <None Include="Resources\Mie-Ayam-Bakso-4188967849.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mieso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasgor ayam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasigor seapood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-title-29022024-100423.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\644d417a9c7ce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\644d417a9c7ce1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\644d417a9c7ce2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-title-29022024-1004231.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
