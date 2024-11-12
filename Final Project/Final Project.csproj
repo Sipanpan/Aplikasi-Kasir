@@ -292,5 +292,17 @@
   <ItemGroup>
     <None Include="Resources\teh botol.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\663290feb5358.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\susu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soda gembira.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\es campur.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
