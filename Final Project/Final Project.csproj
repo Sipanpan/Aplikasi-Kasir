@@ -304,5 +304,29 @@
   <ItemGroup>
     <None Include="Resources\es campur.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terong-crispy-geprek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kentang-goreng.jpg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tahu krispi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tempe-goreng-kriuk-ala-tepung-kobe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jamur crispy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorengan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tahu-bakso-ungaran.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tahu penyet.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

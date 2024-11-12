@@ -273,6 +273,16 @@ namespace Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gorengan {
+            get {
+                object obj = ResourceManager.GetObject("gorengan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Group_22 {
             get {
                 object obj = ResourceManager.GetObject("Group 22", resourceCulture);
@@ -346,6 +356,26 @@ namespace Final_Project.Properties {
         internal static System.Drawing.Bitmap Iced_Tea_resize2 {
             get {
                 object obj = ResourceManager.GetObject("Iced-Tea-resize2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jamur_crispy {
+            get {
+                object obj = ResourceManager.GetObject("jamur crispy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kentang_goreng_jpg {
+            get {
+                object obj = ResourceManager.GetObject("kentang-goreng.jpg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,9 +503,59 @@ namespace Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tahu_bakso_ungaran {
+            get {
+                object obj = ResourceManager.GetObject("tahu-bakso-ungaran", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tahu_krispi {
+            get {
+                object obj = ResourceManager.GetObject("tahu krispi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tahu_penyet {
+            get {
+                object obj = ResourceManager.GetObject("tahu penyet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap teh_botol {
             get {
                 object obj = ResourceManager.GetObject("teh botol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tempe_goreng_kriuk_ala_tepung_kobe {
+            get {
+                object obj = ResourceManager.GetObject("tempe-goreng-kriuk-ala-tepung-kobe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap terong_crispy_geprek {
+            get {
+                object obj = ResourceManager.GetObject("terong-crispy-geprek", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
