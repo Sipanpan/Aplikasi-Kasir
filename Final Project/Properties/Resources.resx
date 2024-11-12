@@ -118,29 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="nasgor ayam" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nasgor ayam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnKami" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnKami.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mie-ayam-kecap" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mie-ayam-kecap.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnMinuman" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnMinuman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="644d417a9c7ce" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\644d417a9c7ce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="c413b0dc748f4573cb50cac4912ae54a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c413b0dc748f4573cb50cac4912ae54a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnCemilan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnCemilan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2020-04-20T14_16_46+07_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2020-04-20T14_16_46+07_00.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="074fd838265b5fc588d4d242496fc646" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\074fd838265b5fc588d4d242496fc646.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="644d417a9c7ce1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\644d417a9c7ce1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="esteh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\esteh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 261" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 261.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iced-Tea-resize1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iced-Tea-resize1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnMakanan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnMakanan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ice tea mantap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ice tea mantap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnKami" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnKami.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="245281-default" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\245281-default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,43 +154,85 @@
   <data name="066199400_1627521905-2021-07-28" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\066199400_1627521905-2021-07-28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnMakanan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnMakanan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnCemilan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnCemilan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mie-Ayam-Bakso-4188967849" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mie-Ayam-Bakso-4188967849.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mie-ayam-kecap-500x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mie-ayam-kecap-500x300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Usaha bakso" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Usaha bakso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nasigor seapood" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nasigor seapood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="644d417a9c7ce1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\644d417a9c7ce1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="644d417a9c7ce2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\644d417a9c7ce2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="new-title-29022024-100423" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new-title-29022024-100423.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="soto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\soto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnKeranjang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnKeranjang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mie-ayam-kecap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mie-ayam-kecap.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mieso" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mieso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="es sirup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\es sirup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnKeranjang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnKeranjang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Usaha bakso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Usaha bakso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnMinuman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnMinuman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 221.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="074fd838265b5fc588d4d242496fc646" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\074fd838265b5fc588d4d242496fc646.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estehi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estehi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iced-Tea-resize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iced-Tea-resize.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nasgor ayam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nasgor ayam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-ice-teas-and-ice-tea-recipes-image_2943388" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-ice-teas-and-ice-tea-recipes-image_2943388.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="644d417a9c7ce2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\644d417a9c7ce2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iced-Tea-resize2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iced-Tea-resize2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nasigor seapood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nasigor seapood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="644d417a9c7ce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\644d417a9c7ce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new-title-29022024-100423" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new-title-29022024-100423.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="esteh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\esteh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="new-title-29022024-1004231" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\new-title-29022024-1004231.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="esteh1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\esteh1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mie-ayam-kecap-500x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mie-ayam-kecap-500x300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mie-Ayam-Bakso-4188967849" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mie-Ayam-Bakso-4188967849.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c413b0dc748f4573cb50cac4912ae54a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c413b0dc748f4573cb50cac4912ae54a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="esjeruk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\esjeruk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teh botol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teh botol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -121,7 +121,7 @@
   <data name="bunifuPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPMAAABSCAYAAACBtuJ0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEwSURBVHhe7dVBCsJQFATB3P88uZ/i4i9E3GeaKpD4knUz
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEwSURBVHhe7dVBCsJQFATB3P88uZ/i4i9E3GeaKpD4knUz
         FxBz3/frPM/P7XY/+/7x9wPwePqFiK+YlQ0RYoZdlhki9AsRlhmKxAy7LDNE6BciLDMUiRl2WWaI0C9E
         WGYoEjPssswQoV+IsMxQJGbYZZkhQr8QYZmhSMywyzJDhH4hwjJDkZhhl2WGCP1ChGWGIjHDLssMEfqF
         CMsMRWKGXZYZIvQLEZYZisQMuywzROgXIiwzFIkZdllmiNAvRFhmKBIz7LLMEKFfiLDMUCRm2GWZIUK/
@@ -135,7 +135,7 @@
   <data name="minimizeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAOtJREFUOE+tlOERwiAMhRnBkRzBDXSTctDytx3BDXCTjtARGEHzMO0JzQlVcvdd
+        DAAACwwBP0AiyAAAAOtJREFUOE+tlOERwiAMhRnBkRzBDXSTctDytx3BDXCTjtARGEHzMO0JzQlVcvdd
         zybv2UsCSgqt9ckYc+v73g/DsNDzycx455y7cmk5rLUXEoUPExGqW4rGVDjmwgo6lqeBRFZ4hJFt3sH9
         kgqrQavYTqms8b8SMMwmX7cCL/TO54k/eMAQuyUlD4NVgqGUmIhzgUnSioZEJxgkUM0900RaTXhlbj+U
         lmsTzzaWkX4UL4MS1NeFz8l2w4iFtexuHjIV16AG0mq2SQMJSfANfAjL5cCQKlcpoFUsKwdPHyu1HU3+
@@ -145,7 +145,7 @@
   <data name="maximizeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAP1JREFUOE+tlYENgzAMBC21A3QkRmCDMgKdoN0ANqGbMAIjMELrDw4K4UuMVEsn
+        DAAACwwBP0AiyAAAAP1JREFUOE+tlYENgzAMBC21A3QkRmCDMgKdoN0ANqGbMAIjMELrDw4K4UuMVEsn
         RGw/6J2A0GjldmmlubYy6HXS68cYw9pD7lZZDhWolTkRoeBBRWEt7PJGB09r3wYSWeEZOpNZwvxihW5g
         lckFwdR4Rm+wXGTGML1vVxkstwItCA4smeESVN4YBvYWS6Z433CCIEvCryhSBW+UdE2hnv4SxH4sCdI9
         65kwiCIslzL+fygYNUnkuASXs714U/oYwK/Dcx4mHENvalZ0ht2XRxdLR+uIl8lsA4ms0ENv7TwwJPhB
@@ -155,7 +155,7 @@
   <data name="closeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAQ1JREFUOE+dVIkNgzAM9AiM1g3oJu0GZYA+I5RNMkJGYATqo3ZlghNDLZ2Izvbh
+        DAAACwwBP0AiyAAAAQ1JREFUOE+dVIkNgzAM9AiM1g3oJu0GZYA+I5RNMkJGYATqo3ZlghNDLZ2Izvbh
         5KKQFy+i7kF0ZryfRJkxC5JwvZTGcSc6ccNkRGrAj9rCPNmtaArBPRdpXwcSXsMeYBCR+QbOyys8AhyV
         yBExYQ/+X0wwszodJxN/h5IXDrmSn6EFQVyDTVLPhfNX5bAWrmbeiO26fwNglIqqGDivVpAh6CV+UFFE
         ILYgFNTJEFh7NRZNh+027fa9WkFCQdMUu00V5bXnPjBCsHapE0RLHhyjZmSPCTpe7HkMImRMv4S8MF7R
@@ -163,10 +163,16 @@
         QmCC
 </value>
   </data>
+  <metadata name="bunifuFormResizer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>164, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>63</value>
+  </metadata>
   <data name="pnWelcome.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA40AAAJMCAYAAABel0OcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAA0NSURBVHhe7dnBTcQwAEXBHCmDI0dK2RI4UsZ2FjoJlRBM
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA0NSURBVHhe7dnBTcQwAEXBHCmDI0dK2RI4UsZ2FjoJlRBM
         1qdVnigg86WRJcsNPHkxMzMzMzMz+3f7tr4OdwAAAC7vbabiY+Piff/+2gEAAOCwrbeZjEc03k8fAQAA
         cE2jE2cyikYAAACeiEYAAACSaAQAACCJRgAAAJJoBAAAIIlGAAAAkmgEAAAgiUYAAACSaAQAACCJRgAA
         AJJoBAAAIIlGAAAAkmgEAAAgiUYAAACSaAQAACCJRgAAAJJoBAAAIIlGAAAAkmgEAAAgiUYAAACSaAQA
@@ -234,12 +240,6 @@
   <data name="bunifuLabel2.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Rockwell Extra Bold'; font-size: 40pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 0, 0); text-align: left; }</value>
   </data>
-  <metadata name="bunifuFormResizer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>164, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>63</value>
-  </metadata>
   <metadata name="bunifuFormDrag1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>355, 17</value>
   </metadata>

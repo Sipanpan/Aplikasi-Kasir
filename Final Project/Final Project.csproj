@@ -244,5 +244,53 @@
   <ItemGroup>
     <None Include="Resources\new-title-29022024-1004231.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 261.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esteh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-ice-teas-and-ice-tea-recipes-image_2943388.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estehi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esteh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esteh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iced-Tea-resize.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iced-Tea-resize1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iced-Tea-resize2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ice tea mantap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esjeruk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\es sirup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teh botol.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

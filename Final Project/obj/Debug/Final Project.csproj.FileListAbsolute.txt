@@ -43,3 +43,48 @@ C:\#KULIAH\SMT 3\Pemrog Lanjut\final project 2\Final Project\Final Project\bin\D
 C:\#KULIAH\SMT 3\Pemrog Lanjut\final project 2\Final Project\Final Project\obj\Debug\Final Pr.B69720BE.Up2Date
 C:\#KULIAH\SMT 3\Pemrog Lanjut\final project 2\Final Project\Final Project\obj\Debug\Final_Project.formKeranjang.resources
 C:\#KULIAH\SMT 3\Pemrog Lanjut\final project 2\Final Project\Final Project\bin\Debug\Guna.UI2.dll
+D:\Download\final\Final Project\bin\Debug\Final Project.exe.config
+D:\Download\final\Final Project\bin\Debug\Final Project.exe
+D:\Download\final\Final Project\bin\Debug\Final Project.pdb
+D:\Download\final\Final Project\bin\Debug\Bunifu.Licensing.dll
+D:\Download\final\Final Project\bin\Debug\Bunifu.UI.WinForms.dll
+D:\Download\final\Final Project\bin\Debug\Bunifu.Utils.dll
+D:\Download\final\Final Project\bin\Debug\Guna.UI2.dll
+D:\Download\final\Final Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Download\final\Final Project\bin\Debug\Newtonsoft.Json.dll
+D:\Download\final\Final Project\bin\Debug\RestSharp.dll
+D:\Download\final\Final Project\bin\Debug\System.Buffers.dll
+D:\Download\final\Final Project\bin\Debug\System.CodeDom.dll
+D:\Download\final\Final Project\bin\Debug\System.Memory.dll
+D:\Download\final\Final Project\bin\Debug\System.Numerics.Vectors.dll
+D:\Download\final\Final Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Download\final\Final Project\bin\Debug\System.Text.Encodings.Web.dll
+D:\Download\final\Final Project\bin\Debug\System.Text.Json.dll
+D:\Download\final\Final Project\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Download\final\Final Project\bin\Debug\System.ValueTuple.dll
+D:\Download\final\Final Project\bin\Debug\Bunifu.UI.WinForms.xml
+D:\Download\final\Final Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Download\final\Final Project\bin\Debug\Newtonsoft.Json.xml
+D:\Download\final\Final Project\bin\Debug\RestSharp.xml
+D:\Download\final\Final Project\bin\Debug\System.Buffers.xml
+D:\Download\final\Final Project\bin\Debug\System.CodeDom.xml
+D:\Download\final\Final Project\bin\Debug\System.Memory.xml
+D:\Download\final\Final Project\bin\Debug\System.Numerics.Vectors.xml
+D:\Download\final\Final Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Download\final\Final Project\bin\Debug\System.Text.Encodings.Web.xml
+D:\Download\final\Final Project\bin\Debug\System.Text.Json.xml
+D:\Download\final\Final Project\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Download\final\Final Project\bin\Debug\System.ValueTuple.xml
+D:\Download\final\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+D:\Download\final\Final Project\obj\Debug\Final_Project.Form1.resources
+D:\Download\final\Final Project\obj\Debug\Final_Project.formAboutUs.resources
+D:\Download\final\Final Project\obj\Debug\Final_Project.formCemilan.resources
+D:\Download\final\Final Project\obj\Debug\Final_Project.formKeranjang.resources
+D:\Download\final\Final Project\obj\Debug\Final_Project.formMakanan.resources
+D:\Download\final\Final Project\obj\Debug\Final_Project.formMinuman.resources
+D:\Download\final\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+D:\Download\final\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+D:\Download\final\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+D:\Download\final\Final Project\obj\Debug\Final Pr.B69720BE.Up2Date
+D:\Download\final\Final Project\obj\Debug\Final Project.exe
+D:\Download\final\Final Project\obj\Debug\Final Project.pdb

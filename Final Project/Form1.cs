@@ -194,5 +194,7 @@ namespace Final_Project
         {
             WindowState = FormWindowState.Minimized;
         }
+
+        
     }
 }
