@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|c:\\#kuliah\\smt 3\\pemrog lanjut\\final project 2\\final project\\final project\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|c:\\#kuliah\\smt 3\\pemrog lanjut\\final project 2\\final project\\final project\\formminuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formminuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|c:\\#kuliah\\smt 3\\pemrog lanjut\\final project 2\\final project\\final project\\formaboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\formaboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\final project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -14,35 +26,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\Form1.cs",
               "RelativeDocumentMoniker": "Final Project\\Form1.cs",
               "ToolTip": "Final Project/Form1.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:35:31.166Z",
+              "OverriddenGroupName": "Final Project",
+              "OverriddenToolTip": "Final Project/Form1.cs",
+              "WhenOpened": "2024-11-12T02:54:22.867Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "formMinuman.Designer.cs",
-              "DocumentMoniker": "D:\\Download\\final\\Final Project\\formMinuman.Designer.cs",
-              "RelativeDocumentMoniker": "Final Project\\formMinuman.Designer.cs",
-              "ToolTip": "D:\\Download\\final\\Final Project\\formMinuman.Designer.cs",
-              "RelativeToolTip": "Final Project\\formMinuman.Designer.cs",
-              "ViewState": "AgIAAGgEAAAAAAAAAAAowAUFAAAqAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "formMinuman.cs [Design]",
+              "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formMinuman.cs",
+              "RelativeDocumentMoniker": "Final Project\\formMinuman.cs",
+              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formMinuman.cs [Design]",
+              "RelativeToolTip": "Final Project\\formMinuman.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:47:52.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T15:29:28.565Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "formMakanan.cs [Design]",
+              "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formMakanan.cs",
+              "RelativeDocumentMoniker": "Final Project\\formMakanan.cs",
+              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formMakanan.cs [Design]*",
+              "RelativeToolTip": "Final Project\\formMakanan.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:23:05.619Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formAboutUs.cs [Design]",
+              "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formAboutUs.cs",
+              "RelativeDocumentMoniker": "Final Project\\formAboutUs.cs",
+              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\final project 2\\Final Project\\Final Project\\formAboutUs.cs [Design]",
+              "RelativeToolTip": "Final Project\\formAboutUs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T14:57:20.771Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
