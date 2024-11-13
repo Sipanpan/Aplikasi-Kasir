@@ -175,6 +175,9 @@
   <data name="teh botol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\teh botol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ice tea mantap1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ice tea mantap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -226,8 +229,8 @@
   <data name="terong-crispy-geprek" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\terong-crispy-geprek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="group-positive-young-people-posing-together" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\group-positive-young-people-posing-together.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="644d417a9c7ce" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\644d417a9c7ce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,6 +268,9 @@
   <data name="tempe-goreng-kriuk-ala-tepung-kobe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tempe-goreng-kriuk-ala-tepung-kobe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Iced-Tea-resize3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iced-Tea-resize.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tahu-bakso-ungaran" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tahu-bakso-ungaran.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -298,20 +304,20 @@
   <data name="tempe-goreng-kriuk-ala-tepung-kobe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tempe-goreng-kriuk-ala-tepung-kobe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="group-positive-young-people-posing-together" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\group-positive-young-people-posing-together.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="c413b0dc748f4573cb50cac4912ae54a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c413b0dc748f4573cb50cac4912ae54a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="new-title-29022024-100423" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\new-title-29022024-100423.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="photomania-0a6a2346024fe2034c053dcc29a84cba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photomania-0a6a2346024fe2034c053dcc29a84cba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kentang-goreng1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kentang-goreng.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Iced-Tea-resize3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iced-Tea-resize.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="about-us-information-service-sharing-join-concept" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\about-us-information-service-sharing-join-concept.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="User Menu Male" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\User Menu Male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -324,6 +330,9 @@
   </data>
   <data name="5804273" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5804273.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-people-talking-each-other" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-people-talking-each-other.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Usaha bakso" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Usaha bakso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
