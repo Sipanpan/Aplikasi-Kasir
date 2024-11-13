@@ -38,9 +38,9 @@
             this.pnAboutUs = new System.Windows.Forms.Panel();
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblMenu = new System.Windows.Forms.Label();
             this.bunifuFormResizer1 = new Bunifu.UI.WinForms.BunifuFormResizer(this.components);
             this.bunifuFormDrag1 = new Bunifu.UI.WinForms.BunifuFormDrag();
-            this.lblMenu = new System.Windows.Forms.Label();
             this.pnWelcome = new Bunifu.UI.WinForms.BunifuPanel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.bunifuFormResizeIcon1 = new Bunifu.UI.WinForms.BunifuFormResizeIcon();
@@ -151,6 +151,17 @@
             this.panel1.Size = new System.Drawing.Size(1155, 62);
             this.panel1.TabIndex = 1;
             // 
+            // lblMenu
+            // 
+            this.lblMenu.AutoSize = true;
+            this.lblMenu.Font = new System.Drawing.Font("Rockwell Extra Bold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMenu.ForeColor = System.Drawing.Color.White;
+            this.lblMenu.Location = new System.Drawing.Point(82, 12);
+            this.lblMenu.Name = "lblMenu";
+            this.lblMenu.Size = new System.Drawing.Size(107, 32);
+            this.lblMenu.TabIndex = 1;
+            this.lblMenu.Text = "MENU";
+            // 
             // bunifuFormResizer1
             // 
             this.bunifuFormResizer1.ContainerControl = this;
@@ -183,17 +194,6 @@
             this.bunifuFormDrag1.TitleBarOptions.TitleBarControl = null;
             this.bunifuFormDrag1.TitleBarOptions.UseBackColorOnDockingIndicators = false;
             // 
-            // lblMenu
-            // 
-            this.lblMenu.AutoSize = true;
-            this.lblMenu.Font = new System.Drawing.Font("Rockwell Extra Bold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMenu.ForeColor = System.Drawing.Color.White;
-            this.lblMenu.Location = new System.Drawing.Point(82, 12);
-            this.lblMenu.Name = "lblMenu";
-            this.lblMenu.Size = new System.Drawing.Size(107, 32);
-            this.lblMenu.TabIndex = 1;
-            this.lblMenu.Text = "MENU";
-            // 
             // pnWelcome
             // 
             this.pnWelcome.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
@@ -220,7 +220,7 @@
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::Final_Project.Properties.Resources.Group_261;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(265, 57);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(218, 57);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(472, 147);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -246,7 +246,7 @@
             this.bunifuLabel1.CursorType = null;
             this.bunifuLabel1.Font = new System.Drawing.Font("Rockwell Extra Bold", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1.ForeColor = System.Drawing.Color.Red;
-            this.bunifuLabel1.Location = new System.Drawing.Point(194, 266);
+            this.bunifuLabel1.Location = new System.Drawing.Point(175, 266);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel1.Size = new System.Drawing.Size(558, 62);
@@ -263,7 +263,7 @@
             this.bunifuLabel3.CursorType = null;
             this.bunifuLabel3.Font = new System.Drawing.Font("Rockwell Extra Bold", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel3.ForeColor = System.Drawing.Color.Red;
-            this.bunifuLabel3.Location = new System.Drawing.Point(424, 354);
+            this.bunifuLabel3.Location = new System.Drawing.Point(419, 354);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel3.Size = new System.Drawing.Size(70, 62);
@@ -280,7 +280,7 @@
             this.bunifuLabel2.CursorType = null;
             this.bunifuLabel2.Font = new System.Drawing.Font("Rockwell Extra Bold", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel2.ForeColor = System.Drawing.Color.Red;
-            this.bunifuLabel2.Location = new System.Drawing.Point(220, 443);
+            this.bunifuLabel2.Location = new System.Drawing.Point(196, 443);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel2.Size = new System.Drawing.Size(517, 62);

@@ -364,5 +364,17 @@
   <ItemGroup>
     <None Include="Resources\marvel_studios_the_avengers_assembled_wallpaper_hd_by_joshua121penalba_ddavxow-fullview.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-people-talking-each-other.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about-us-information-service-sharing-join-concept.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photomania-0a6a2346024fe2034c053dcc29a84cba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teamwork-62945dd853e2c376813b8f32.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

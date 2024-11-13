@@ -163,6 +163,16 @@ namespace Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap about_us_information_service_sharing_join_concept {
+            get {
+                object obj = ResourceManager.GetObject("about-us-information-service-sharing-join-concept", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnCemilan {
             get {
                 object obj = ResourceManager.GetObject("btnCemilan", resourceCulture);
@@ -206,6 +216,16 @@ namespace Final_Project.Properties {
         internal static System.Drawing.Bitmap btnMinuman {
             get {
                 object obj = ResourceManager.GetObject("btnMinuman", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap business_people_talking_each_other {
+            get {
+                object obj = ResourceManager.GetObject("business-people-talking-each-other", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -634,6 +654,16 @@ namespace Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap photomania_0a6a2346024fe2034c053dcc29a84cba {
+            get {
+                object obj = ResourceManager.GetObject("photomania-0a6a2346024fe2034c053dcc29a84cba", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_ice_teas_and_ice_tea_recipes_image_2943388 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-ice-teas-and-ice-tea-recipes-image_2943388", resourceCulture);
@@ -757,6 +787,16 @@ namespace Final_Project.Properties {
         internal static System.Drawing.Bitmap tahu_penyet1 {
             get {
                 object obj = ResourceManager.GetObject("tahu penyet1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap teamwork_62945dd853e2c376813b8f32 {
+            get {
+                object obj = ResourceManager.GetObject("teamwork-62945dd853e2c376813b8f32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
