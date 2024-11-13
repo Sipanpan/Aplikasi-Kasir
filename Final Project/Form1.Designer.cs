@@ -42,6 +42,7 @@
             this.bunifuFormResizer1 = new Bunifu.UI.WinForms.BunifuFormResizer(this.components);
             this.bunifuFormDrag1 = new Bunifu.UI.WinForms.BunifuFormDrag();
             this.pnWelcome = new Bunifu.UI.WinForms.BunifuPanel();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.bunifuFormResizeIcon1 = new Bunifu.UI.WinForms.BunifuFormResizeIcon();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -65,6 +66,7 @@
             this.pnAboutUs.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnWelcome.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.bunifuPanel1.SuspendLayout();
@@ -204,6 +206,7 @@
             this.pnWelcome.BorderColor = System.Drawing.Color.Transparent;
             this.pnWelcome.BorderRadius = 3;
             this.pnWelcome.BorderThickness = 1;
+            this.pnWelcome.Controls.Add(this.guna2PictureBox4);
             this.pnWelcome.Controls.Add(this.guna2PictureBox1);
             this.pnWelcome.Controls.Add(this.bunifuFormResizeIcon1);
             this.pnWelcome.Controls.Add(this.guna2PictureBox3);
@@ -214,16 +217,30 @@
             this.pnWelcome.Size = new System.Drawing.Size(909, 588);
             this.pnWelcome.TabIndex = 5;
             // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox4.Image = global::Final_Project.Properties.Resources.RATUSAN_RASA_DIBAWAH_SATU_ATAP;
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(165, 310);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(579, 162);
+            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox4.TabIndex = 8;
+            this.guna2PictureBox4.TabStop = false;
+            this.guna2PictureBox4.UseTransparentBackground = true;
+            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::Final_Project.Properties.Resources.Group_261;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(229, 56);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(267, 117);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(472, 147);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(417, 147);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 6;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
@@ -461,6 +478,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.pnWelcome.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.bunifuPanel1.ResumeLayout(false);
@@ -502,6 +520,7 @@
         private System.Windows.Forms.Button button1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
     }
 }
 

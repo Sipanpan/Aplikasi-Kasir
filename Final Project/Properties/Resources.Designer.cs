@@ -704,6 +704,16 @@ namespace Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap RATUSAN_RASA_DIBAWAH_SATU_ATAP {
+            get {
+                object obj = ResourceManager.GetObject("RATUSAN RASA DIBAWAH SATU ATAP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap soda_gembira {
             get {
                 object obj = ResourceManager.GetObject("soda gembira", resourceCulture);
@@ -807,16 +817,6 @@ namespace Final_Project.Properties {
         internal static System.Drawing.Bitmap tahu_penyet1 {
             get {
                 object obj = ResourceManager.GetObject("tahu penyet1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap teamwork_62945dd853e2c376813b8f32 {
-            get {
-                object obj = ResourceManager.GetObject("teamwork-62945dd853e2c376813b8f32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
