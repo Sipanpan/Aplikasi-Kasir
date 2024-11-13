@@ -101,9 +101,9 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(48, 264);
+            this.label14.Location = new System.Drawing.Point(41, 264);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(99, 16);
+            this.label14.Size = new System.Drawing.Size(119, 20);
             this.label14.TabIndex = 16;
             this.label14.Text = "23.11.5811";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -129,48 +129,12 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(32, 224);
+            this.label12.Location = new System.Drawing.Point(19, 224);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(131, 32);
+            this.label12.Size = new System.Drawing.Size(162, 40);
             this.label12.TabIndex = 14;
             this.label12.Text = "Reno Oktavian\r\nChandra Hadi";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(48, 187);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(119, 20);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "23.11.5860";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(10, 133);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(194, 40);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Muhammad Affan\r\nAl Ghifari";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(67, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 20);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Leader";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuPanel2
             // 
@@ -194,9 +158,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(48, 264);
+            this.label1.Location = new System.Drawing.Point(41, 264);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 16);
+            this.label1.Size = new System.Drawing.Size(119, 20);
             this.label1.TabIndex = 16;
             this.label1.Text = "23.11.5841";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -222,9 +186,9 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(35, 224);
+            this.label2.Location = new System.Drawing.Point(27, 224);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 32);
+            this.label2.Size = new System.Drawing.Size(147, 40);
             this.label2.TabIndex = 14;
             this.label2.Text = "Danang Yudo\r\nPrakosa";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -251,9 +215,9 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(48, 264);
+            this.label3.Location = new System.Drawing.Point(41, 264);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 16);
+            this.label3.Size = new System.Drawing.Size(119, 20);
             this.label3.TabIndex = 16;
             this.label3.Text = "23.11.5844";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -279,9 +243,9 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(23, 224);
+            this.label4.Location = new System.Drawing.Point(3, 224);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(162, 32);
+            this.label4.Size = new System.Drawing.Size(194, 40);
             this.label4.TabIndex = 14;
             this.label4.Text = "muhammad evan \r\nalviansyah";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -308,11 +272,11 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(48, 264);
+            this.label5.Location = new System.Drawing.Point(53, 10);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(99, 16);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "23.11.5816";
+            this.label5.Size = new System.Drawing.Size(94, 20);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Member";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuPictureBox4
@@ -336,9 +300,9 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(48, 224);
+            this.label6.Location = new System.Drawing.Point(33, 224);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(113, 32);
+            this.label6.Size = new System.Drawing.Size(134, 40);
             this.label6.TabIndex = 14;
             this.label6.Text = "Hasandro \r\nTumanggor ";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -365,48 +329,12 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(48, 264);
+            this.label7.Location = new System.Drawing.Point(41, 264);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(99, 16);
+            this.label7.Size = new System.Drawing.Size(119, 20);
             this.label7.TabIndex = 16;
             this.label7.Text = "23.11.5860";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(48, 188);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(119, 20);
-            this.label15.TabIndex = 17;
-            this.label15.Text = "23.11.5816";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(42, 136);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(130, 40);
-            this.label13.TabIndex = 15;
-            this.label13.Text = "Hasandro\r\nTumanggor";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(60, 10);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 20);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Member";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuPictureBox5
             // 
@@ -429,9 +357,9 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Rockwell Extra Bold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(21, 224);
+            this.label8.Location = new System.Drawing.Point(1, 224);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(164, 32);
+            this.label8.Size = new System.Drawing.Size(198, 40);
             this.label8.TabIndex = 14;
             this.label8.Text = "Muhammad affan \r\nal ghifari";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -442,7 +370,7 @@
             this.label9.Font = new System.Drawing.Font("Rockwell", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(542, 27);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(116, 29);
+            this.label9.Size = new System.Drawing.Size(147, 38);
             this.label9.TabIndex = 22;
             this.label9.Text = "About Us";
             // 
