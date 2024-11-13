@@ -523,6 +523,16 @@ namespace Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Makanan_Khas_Tradisional {
+            get {
+                object obj = ResourceManager.GetObject("Makanan-Khas-Tradisional", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap marvel_studios_the_avengers_assembled_wallpaper_hd_by_joshua121penalba_ddavxow_fullview {
             get {
                 object obj = ResourceManager.GetObject("marvel_studios_the_avengers_assembled_wallpaper_hd_by_joshua121penalba_ddavxow-fu" +
@@ -607,6 +617,16 @@ namespace Final_Project.Properties {
         internal static System.Drawing.Bitmap nasigor_seapood {
             get {
                 object obj = ResourceManager.GetObject("nasigor seapood", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap new_Makanan_Khas_Tradisional {
+            get {
+                object obj = ResourceManager.GetObject("new-Makanan-Khas-Tradisional", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

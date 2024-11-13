@@ -139,8 +139,8 @@
   <data name="ice tea mantap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ice tea mantap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnCemilan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnCemilan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="marvel_studios_the_avengers_assembled_wallpaper_hd_by_joshua121penalba_ddavxow-fullview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marvel_studios_the_avengers_assembled_wallpaper_hd_by_joshua121penalba_ddavxow-fullview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="es sirup" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\es sirup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,6 +202,9 @@
   <data name="btnMakanan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnMakanan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Makanan-Khas-Tradisional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Makanan-Khas-Tradisional.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="soda gembira" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\soda gembira.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -240,6 +243,9 @@
   </data>
   <data name="Group 261" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 261.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tahu penyet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tahu penyet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="soda gembira1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\soda gembira.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -328,8 +334,8 @@
   <data name="644d417a9c7ce2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\644d417a9c7ce2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tahu penyet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tahu penyet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnCemilan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnCemilan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="es campur" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\es campur.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -361,7 +367,7 @@
   <data name="soto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\soto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="marvel_studios_the_avengers_assembled_wallpaper_hd_by_joshua121penalba_ddavxow-fullview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marvel_studios_the_avengers_assembled_wallpaper_hd_by_joshua121penalba_ddavxow-fullview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="new-Makanan-Khas-Tradisional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new-Makanan-Khas-Tradisional.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

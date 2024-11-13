@@ -121,7 +121,7 @@
   <data name="bunifuPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPMAAABSCAYAAACBtuJ0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEwSURBVHhe7dVBCsJQFATB3P88uZ/i4i9E3GeaKpD4knUz
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEwSURBVHhe7dVBCsJQFATB3P88uZ/i4i9E3GeaKpD4knUz
         FxBz3/frPM/P7XY/+/7x9wPwePqFiK+YlQ0RYoZdlhki9AsRlhmKxAy7LDNE6BciLDMUiRl2WWaI0C9E
         WGYoEjPssswQoV+IsMxQJGbYZZkhQr8QYZmhSMywyzJDhH4hwjJDkZhhl2WGCP1ChGWGIjHDLssMEfqF
         CMsMRWKGXZYZIvQLEZYZisQMuywzROgXIiwzFIkZdllmiNAvRFhmKBIz7LLMEKFfiLDMUCRm2GWZIUK/
@@ -167,12 +167,12 @@
     <value>164, 17</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>63</value>
+    <value>50</value>
   </metadata>
   <data name="pnWelcome.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA40AAAJMCAYAAABel0OcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA0NSURBVHhe7dnBTcQwAEXBHCmDI0dK2RI4UsZ2FjoJlRBM
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAA0NSURBVHhe7dnBTcQwAEXBHCmDI0dK2RI4UsZ2FjoJlRBM
         1qdVnigg86WRJcsNPHkxMzMzMzMz+3f7tr4OdwAAAC7vbabiY+Piff/+2gEAAOCwrbeZjEc03k8fAQAA
         cE2jE2cyikYAAACeiEYAAACSaAQAACCJRgAAAJJoBAAAIIlGAAAAkmgEAAAgiUYAAACSaAQAACCJRgAA
         AJJoBAAAIIlGAAAAkmgEAAAgiUYAAACSaAQAACCJRgAAAJJoBAAAIIlGAAAAkmgEAAAgiUYAAACSaAQA
@@ -230,15 +230,6 @@
         iUYAAACSaAQAACCJRgAAAJJoBAAAID1F4+30EQAAAJf0s62fMxkfG+H4cfw4AgAAcGl/wTjOl5mLZmZm
         ZmZmZmdbll9uz7v1bYlinwAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Rockwell Extra Bold'; font-size: 40pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 0, 0); text-align: left; }</value>
-  </data>
-  <data name="bunifuLabel3.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Rockwell Extra Bold'; font-size: 40pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 0, 0); text-align: left; }</value>
-  </data>
-  <data name="bunifuLabel2.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Rockwell Extra Bold'; font-size: 40pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 0, 0); text-align: left; }</value>
   </data>
   <metadata name="bunifuFormDrag1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>355, 17</value>

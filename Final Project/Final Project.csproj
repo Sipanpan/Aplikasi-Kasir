@@ -364,5 +364,11 @@
   <ItemGroup>
     <None Include="Resources\marvel_studios_the_avengers_assembled_wallpaper_hd_by_joshua121penalba_ddavxow-fullview.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Makanan-Khas-Tradisional.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-Makanan-Khas-Tradisional.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
