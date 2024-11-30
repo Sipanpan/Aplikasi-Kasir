@@ -62,6 +62,11 @@ namespace Final_Project
             sidebarTimer.Start();
         }
 
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            pnWelcome.Visible = true;
+        }
+
         private void btnMakanan_Click(object sender, EventArgs e)
         {
             pnWelcome.Visible = false;
@@ -195,6 +200,6 @@ namespace Final_Project
             WindowState = FormWindowState.Minimized;
         }
 
-        
+
     }
 }

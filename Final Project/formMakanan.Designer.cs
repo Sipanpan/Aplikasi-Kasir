@@ -213,6 +213,7 @@
             this.bunifuButton22.TextMarginLeft = 0;
             this.bunifuButton22.TextPadding = new System.Windows.Forms.Padding(0);
             this.bunifuButton22.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton22.Click += new System.EventHandler(this.bunifuButton22_Click);
             // 
             // guna2PictureBox2
             // 
@@ -240,7 +241,7 @@
             this.label3.ForeColor = System.Drawing.Color.Coral;
             this.label3.Location = new System.Drawing.Point(52, 214);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 22);
+            this.label3.Size = new System.Drawing.Size(116, 27);
             this.label3.TabIndex = 6;
             this.label3.Text = "Rp 17.000";
             // 
@@ -267,7 +268,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(33, 177);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(127, 22);
+            this.label4.Size = new System.Drawing.Size(155, 27);
             this.label4.TabIndex = 4;
             this.label4.Text = "Bakso Jumbo";
             // 
@@ -409,7 +410,7 @@
             this.label5.ForeColor = System.Drawing.Color.Coral;
             this.label5.Location = new System.Drawing.Point(52, 214);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 22);
+            this.label5.Size = new System.Drawing.Size(116, 27);
             this.label5.TabIndex = 6;
             this.label5.Text = "Rp 10.000";
             // 
@@ -436,7 +437,7 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label6.Location = new System.Drawing.Point(49, 177);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(103, 22);
+            this.label6.Size = new System.Drawing.Size(123, 27);
             this.label6.TabIndex = 4;
             this.label6.Text = "Mie Ayam";
             // 
@@ -577,7 +578,7 @@
             this.label13.ForeColor = System.Drawing.Color.Coral;
             this.label13.Location = new System.Drawing.Point(52, 214);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(95, 22);
+            this.label13.Size = new System.Drawing.Size(116, 27);
             this.label13.TabIndex = 6;
             this.label13.Text = "Rp 12.000";
             // 
@@ -604,7 +605,7 @@
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label14.Location = new System.Drawing.Point(31, 177);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(131, 22);
+            this.label14.Size = new System.Drawing.Size(158, 27);
             this.label14.TabIndex = 4;
             this.label14.Text = "Nasgor Ayam";
             // 
@@ -745,7 +746,7 @@
             this.label7.ForeColor = System.Drawing.Color.Coral;
             this.label7.Location = new System.Drawing.Point(52, 214);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(95, 22);
+            this.label7.Size = new System.Drawing.Size(116, 27);
             this.label7.TabIndex = 6;
             this.label7.Text = "Rp 12.000";
             // 
@@ -772,7 +773,7 @@
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label8.Location = new System.Drawing.Point(71, 177);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(64, 22);
+            this.label8.Size = new System.Drawing.Size(79, 27);
             this.label8.TabIndex = 4;
             this.label8.Text = "Mieso";
             // 
@@ -913,7 +914,7 @@
             this.label11.ForeColor = System.Drawing.Color.Coral;
             this.label11.Location = new System.Drawing.Point(52, 214);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(95, 22);
+            this.label11.Size = new System.Drawing.Size(116, 27);
             this.label11.TabIndex = 6;
             this.label11.Text = "Rp 15.000";
             // 
@@ -940,7 +941,7 @@
             this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label12.Location = new System.Drawing.Point(20, 177);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(146, 22);
+            this.label12.Size = new System.Drawing.Size(181, 27);
             this.label12.TabIndex = 4;
             this.label12.Text = "Nasgor Seafood";
             // 
@@ -1081,7 +1082,7 @@
             this.label19.ForeColor = System.Drawing.Color.Coral;
             this.label19.Location = new System.Drawing.Point(52, 214);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(85, 22);
+            this.label19.Size = new System.Drawing.Size(104, 27);
             this.label19.TabIndex = 6;
             this.label19.Text = "Rp 7.000";
             // 
@@ -1108,7 +1109,7 @@
             this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label20.Location = new System.Drawing.Point(82, 177);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(46, 22);
+            this.label20.Size = new System.Drawing.Size(57, 27);
             this.label20.TabIndex = 4;
             this.label20.Text = "Soto";
             // 
@@ -1249,7 +1250,7 @@
             this.label9.ForeColor = System.Drawing.Color.Coral;
             this.label9.Location = new System.Drawing.Point(52, 214);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(95, 22);
+            this.label9.Size = new System.Drawing.Size(116, 27);
             this.label9.TabIndex = 6;
             this.label9.Text = "Rp 12.000";
             // 
@@ -1276,7 +1277,7 @@
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label10.Location = new System.Drawing.Point(38, 177);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(115, 22);
+            this.label10.Size = new System.Drawing.Size(144, 27);
             this.label10.TabIndex = 4;
             this.label10.Text = "Mie Goreng";
             // 
@@ -1417,7 +1418,7 @@
             this.label17.ForeColor = System.Drawing.Color.Coral;
             this.label17.Location = new System.Drawing.Point(52, 214);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(85, 22);
+            this.label17.Size = new System.Drawing.Size(104, 27);
             this.label17.TabIndex = 6;
             this.label17.Text = "Rp 8.000";
             // 
@@ -1444,7 +1445,7 @@
             this.label18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label18.Location = new System.Drawing.Point(54, 177);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(92, 22);
+            this.label18.Size = new System.Drawing.Size(113, 27);
             this.label18.TabIndex = 4;
             this.label18.Text = "Ketoprak";
             // 

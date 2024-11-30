@@ -31,14 +31,26 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnHome = new Bunifu.UI.WinForms.BunifuPanel();
+            this.btnHome = new System.Windows.Forms.Button();
             this.pnMakanan = new System.Windows.Forms.Panel();
+            this.btnMakanan = new System.Windows.Forms.Button();
             this.pnMinuman = new System.Windows.Forms.Panel();
+            this.btnMinuman = new System.Windows.Forms.Button();
             this.pnCemilan = new System.Windows.Forms.Panel();
+            this.btnCemilan = new System.Windows.Forms.Button();
             this.pnKeranjang = new System.Windows.Forms.Panel();
+            this.btnKeranjang = new System.Windows.Forms.Button();
             this.pnAboutUs = new System.Windows.Forms.Panel();
+            this.btnAboutUs = new System.Windows.Forms.Button();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblMenu = new System.Windows.Forms.Label();
+            this.minimizeButton = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.maximizeButton = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.closeButton = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.menuButton = new System.Windows.Forms.PictureBox();
             this.bunifuFormResizer1 = new Bunifu.UI.WinForms.BunifuFormResizer(this.components);
             this.bunifuFormDrag1 = new Bunifu.UI.WinForms.BunifuFormDrag();
             this.pnWelcome = new Bunifu.UI.WinForms.BunifuPanel();
@@ -46,41 +58,29 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.bunifuFormResizeIcon1 = new Bunifu.UI.WinForms.BunifuFormResizeIcon();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnMakanan = new System.Windows.Forms.Button();
-            this.btnMinuman = new System.Windows.Forms.Button();
-            this.btnCemilan = new System.Windows.Forms.Button();
-            this.btnKeranjang = new System.Windows.Forms.Button();
-            this.btnAboutUs = new System.Windows.Forms.Button();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.minimizeButton = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.maximizeButton = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.closeButton = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.menuButton = new System.Windows.Forms.PictureBox();
             this.sidebar.SuspendLayout();
+            this.pnHome.SuspendLayout();
             this.pnMakanan.SuspendLayout();
             this.pnMinuman.SuspendLayout();
             this.pnCemilan.SuspendLayout();
             this.pnKeranjang.SuspendLayout();
             this.pnAboutUs.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.pnWelcome.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.minimizeButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.maximizeButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
+            this.pnWelcome.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // sidebar
             // 
             this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.sidebar.Controls.Add(this.bunifuPanel1);
+            this.sidebar.Controls.Add(this.pnHome);
             this.sidebar.Controls.Add(this.pnMakanan);
             this.sidebar.Controls.Add(this.pnMinuman);
             this.sidebar.Controls.Add(this.pnCemilan);
@@ -96,6 +96,38 @@
             this.sidebar.Size = new System.Drawing.Size(246, 588);
             this.sidebar.TabIndex = 0;
             // 
+            // pnHome
+            // 
+            this.pnHome.BackgroundColor = System.Drawing.Color.Transparent;
+            this.pnHome.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnHome.BackgroundImage")));
+            this.pnHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnHome.BorderColor = System.Drawing.Color.Transparent;
+            this.pnHome.BorderRadius = 3;
+            this.pnHome.BorderThickness = 1;
+            this.pnHome.Controls.Add(this.btnHome);
+            this.pnHome.Location = new System.Drawing.Point(3, 3);
+            this.pnHome.Name = "pnHome";
+            this.pnHome.ShowBorders = true;
+            this.pnHome.Size = new System.Drawing.Size(243, 82);
+            this.pnHome.TabIndex = 5;
+            // 
+            // btnHome
+            // 
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.Image = global::Final_Project.Properties.Resources.Home_Page__1_;
+            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHome.Location = new System.Drawing.Point(-8, -3);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnHome.Size = new System.Drawing.Size(260, 93);
+            this.btnHome.TabIndex = 2;
+            this.btnHome.Text = "                 Home";
+            this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
             // pnMakanan
             // 
             this.pnMakanan.Controls.Add(this.btnMakanan);
@@ -103,6 +135,23 @@
             this.pnMakanan.Name = "pnMakanan";
             this.pnMakanan.Size = new System.Drawing.Size(243, 62);
             this.pnMakanan.TabIndex = 1;
+            // 
+            // btnMakanan
+            // 
+            this.btnMakanan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMakanan.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMakanan.ForeColor = System.Drawing.Color.White;
+            this.btnMakanan.Image = global::Final_Project.Properties.Resources.btnMakanan;
+            this.btnMakanan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMakanan.Location = new System.Drawing.Point(-8, -9);
+            this.btnMakanan.Name = "btnMakanan";
+            this.btnMakanan.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnMakanan.Size = new System.Drawing.Size(260, 78);
+            this.btnMakanan.TabIndex = 1;
+            this.btnMakanan.Text = "                 Makanan";
+            this.btnMakanan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMakanan.UseVisualStyleBackColor = true;
+            this.btnMakanan.Click += new System.EventHandler(this.btnMakanan_Click);
             // 
             // pnMinuman
             // 
@@ -112,6 +161,23 @@
             this.pnMinuman.Size = new System.Drawing.Size(243, 62);
             this.pnMinuman.TabIndex = 2;
             // 
+            // btnMinuman
+            // 
+            this.btnMinuman.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinuman.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinuman.ForeColor = System.Drawing.Color.White;
+            this.btnMinuman.Image = global::Final_Project.Properties.Resources.btnMinuman;
+            this.btnMinuman.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMinuman.Location = new System.Drawing.Point(-8, -9);
+            this.btnMinuman.Name = "btnMinuman";
+            this.btnMinuman.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnMinuman.Size = new System.Drawing.Size(260, 78);
+            this.btnMinuman.TabIndex = 1;
+            this.btnMinuman.Text = "                 Minuman";
+            this.btnMinuman.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMinuman.UseVisualStyleBackColor = true;
+            this.btnMinuman.Click += new System.EventHandler(this.btnMinuman_Click);
+            // 
             // pnCemilan
             // 
             this.pnCemilan.Controls.Add(this.btnCemilan);
@@ -119,6 +185,23 @@
             this.pnCemilan.Name = "pnCemilan";
             this.pnCemilan.Size = new System.Drawing.Size(243, 62);
             this.pnCemilan.TabIndex = 3;
+            // 
+            // btnCemilan
+            // 
+            this.btnCemilan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCemilan.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCemilan.ForeColor = System.Drawing.Color.White;
+            this.btnCemilan.Image = global::Final_Project.Properties.Resources.btnCemilan;
+            this.btnCemilan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCemilan.Location = new System.Drawing.Point(-8, -9);
+            this.btnCemilan.Name = "btnCemilan";
+            this.btnCemilan.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnCemilan.Size = new System.Drawing.Size(260, 78);
+            this.btnCemilan.TabIndex = 1;
+            this.btnCemilan.Text = "                 Cemilan";
+            this.btnCemilan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCemilan.UseVisualStyleBackColor = true;
+            this.btnCemilan.Click += new System.EventHandler(this.btnCemilan_Click);
             // 
             // pnKeranjang
             // 
@@ -128,6 +211,23 @@
             this.pnKeranjang.Size = new System.Drawing.Size(243, 62);
             this.pnKeranjang.TabIndex = 5;
             // 
+            // btnKeranjang
+            // 
+            this.btnKeranjang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKeranjang.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKeranjang.ForeColor = System.Drawing.Color.White;
+            this.btnKeranjang.Image = global::Final_Project.Properties.Resources.btnKeranjang;
+            this.btnKeranjang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKeranjang.Location = new System.Drawing.Point(-8, -9);
+            this.btnKeranjang.Name = "btnKeranjang";
+            this.btnKeranjang.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnKeranjang.Size = new System.Drawing.Size(260, 78);
+            this.btnKeranjang.TabIndex = 1;
+            this.btnKeranjang.Text = "                 Keranjang";
+            this.btnKeranjang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKeranjang.UseVisualStyleBackColor = true;
+            this.btnKeranjang.Click += new System.EventHandler(this.btnKeranjang_Click);
+            // 
             // pnAboutUs
             // 
             this.pnAboutUs.Controls.Add(this.btnAboutUs);
@@ -135,6 +235,32 @@
             this.pnAboutUs.Name = "pnAboutUs";
             this.pnAboutUs.Size = new System.Drawing.Size(243, 62);
             this.pnAboutUs.TabIndex = 4;
+            // 
+            // btnAboutUs
+            // 
+            this.btnAboutUs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAboutUs.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAboutUs.ForeColor = System.Drawing.Color.White;
+            this.btnAboutUs.Image = global::Final_Project.Properties.Resources.btnKami;
+            this.btnAboutUs.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAboutUs.Location = new System.Drawing.Point(-8, -9);
+            this.btnAboutUs.Name = "btnAboutUs";
+            this.btnAboutUs.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnAboutUs.Size = new System.Drawing.Size(260, 78);
+            this.btnAboutUs.TabIndex = 1;
+            this.btnAboutUs.Text = "                 About Us";
+            this.btnAboutUs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAboutUs.UseVisualStyleBackColor = true;
+            this.btnAboutUs.Click += new System.EventHandler(this.btnAboutUs_Click);
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(252, 3);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(300, 200);
+            this.guna2PictureBox2.TabIndex = 6;
+            this.guna2PictureBox2.TabStop = false;
             // 
             // sidebarTimer
             // 
@@ -165,6 +291,69 @@
             this.lblMenu.Size = new System.Drawing.Size(135, 40);
             this.lblMenu.TabIndex = 1;
             this.lblMenu.Text = "MENU";
+            // 
+            // minimizeButton
+            // 
+            this.minimizeButton.AllowFocused = false;
+            this.minimizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.minimizeButton.AutoSizeHeight = true;
+            this.minimizeButton.BorderRadius = 12;
+            this.minimizeButton.Image = ((System.Drawing.Image)(resources.GetObject("minimizeButton.Image")));
+            this.minimizeButton.IsCircle = true;
+            this.minimizeButton.Location = new System.Drawing.Point(1056, 12);
+            this.minimizeButton.Name = "minimizeButton";
+            this.minimizeButton.Size = new System.Drawing.Size(25, 25);
+            this.minimizeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.minimizeButton.TabIndex = 3;
+            this.minimizeButton.TabStop = false;
+            this.minimizeButton.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
+            this.minimizeButton.Click += new System.EventHandler(this.minimizeButton_Click);
+            // 
+            // maximizeButton
+            // 
+            this.maximizeButton.AllowFocused = false;
+            this.maximizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.maximizeButton.AutoSizeHeight = true;
+            this.maximizeButton.BorderRadius = 12;
+            this.maximizeButton.Image = ((System.Drawing.Image)(resources.GetObject("maximizeButton.Image")));
+            this.maximizeButton.IsCircle = true;
+            this.maximizeButton.Location = new System.Drawing.Point(1087, 12);
+            this.maximizeButton.Name = "maximizeButton";
+            this.maximizeButton.Size = new System.Drawing.Size(25, 25);
+            this.maximizeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.maximizeButton.TabIndex = 2;
+            this.maximizeButton.TabStop = false;
+            this.maximizeButton.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
+            this.maximizeButton.Click += new System.EventHandler(this.maximizeButton_Click);
+            // 
+            // closeButton
+            // 
+            this.closeButton.AllowFocused = false;
+            this.closeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.closeButton.AutoSizeHeight = true;
+            this.closeButton.BorderRadius = 12;
+            this.closeButton.Image = ((System.Drawing.Image)(resources.GetObject("closeButton.Image")));
+            this.closeButton.IsCircle = true;
+            this.closeButton.Location = new System.Drawing.Point(1118, 12);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(25, 25);
+            this.closeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.closeButton.TabIndex = 1;
+            this.closeButton.TabStop = false;
+            this.closeButton.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
+            // 
+            // menuButton
+            // 
+            this.menuButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.menuButton.Image = global::Final_Project.Properties.Resources.Menu;
+            this.menuButton.Location = new System.Drawing.Point(12, 6);
+            this.menuButton.Name = "menuButton";
+            this.menuButton.Size = new System.Drawing.Size(50, 50);
+            this.menuButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.menuButton.TabIndex = 0;
+            this.menuButton.TabStop = false;
+            this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
             // 
             // bunifuFormResizer1
             // 
@@ -267,194 +456,6 @@
             this.guna2PictureBox3.TabIndex = 7;
             this.guna2PictureBox3.TabStop = false;
             // 
-            // bunifuPanel1
-            // 
-            this.bunifuPanel1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.bunifuPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel1.BackgroundImage")));
-            this.bunifuPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
-            this.bunifuPanel1.BorderRadius = 3;
-            this.bunifuPanel1.BorderThickness = 1;
-            this.bunifuPanel1.Controls.Add(this.button1);
-            this.bunifuPanel1.Location = new System.Drawing.Point(3, 3);
-            this.bunifuPanel1.Name = "bunifuPanel1";
-            this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(243, 82);
-            this.bunifuPanel1.TabIndex = 5;
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::Final_Project.Properties.Resources.Home_Page__1_;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(-8, -3);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(260, 93);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "                 Home";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // btnMakanan
-            // 
-            this.btnMakanan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMakanan.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMakanan.ForeColor = System.Drawing.Color.White;
-            this.btnMakanan.Image = global::Final_Project.Properties.Resources.btnMakanan;
-            this.btnMakanan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMakanan.Location = new System.Drawing.Point(-8, -9);
-            this.btnMakanan.Name = "btnMakanan";
-            this.btnMakanan.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnMakanan.Size = new System.Drawing.Size(260, 78);
-            this.btnMakanan.TabIndex = 1;
-            this.btnMakanan.Text = "                 Makanan";
-            this.btnMakanan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMakanan.UseVisualStyleBackColor = true;
-            this.btnMakanan.Click += new System.EventHandler(this.btnMakanan_Click);
-            // 
-            // btnMinuman
-            // 
-            this.btnMinuman.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinuman.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMinuman.ForeColor = System.Drawing.Color.White;
-            this.btnMinuman.Image = global::Final_Project.Properties.Resources.btnMinuman;
-            this.btnMinuman.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMinuman.Location = new System.Drawing.Point(-8, -9);
-            this.btnMinuman.Name = "btnMinuman";
-            this.btnMinuman.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnMinuman.Size = new System.Drawing.Size(260, 78);
-            this.btnMinuman.TabIndex = 1;
-            this.btnMinuman.Text = "                 Minuman";
-            this.btnMinuman.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMinuman.UseVisualStyleBackColor = true;
-            this.btnMinuman.Click += new System.EventHandler(this.btnMinuman_Click);
-            // 
-            // btnCemilan
-            // 
-            this.btnCemilan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCemilan.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCemilan.ForeColor = System.Drawing.Color.White;
-            this.btnCemilan.Image = global::Final_Project.Properties.Resources.btnCemilan;
-            this.btnCemilan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCemilan.Location = new System.Drawing.Point(-8, -9);
-            this.btnCemilan.Name = "btnCemilan";
-            this.btnCemilan.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnCemilan.Size = new System.Drawing.Size(260, 78);
-            this.btnCemilan.TabIndex = 1;
-            this.btnCemilan.Text = "                 Cemilan";
-            this.btnCemilan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCemilan.UseVisualStyleBackColor = true;
-            this.btnCemilan.Click += new System.EventHandler(this.btnCemilan_Click);
-            // 
-            // btnKeranjang
-            // 
-            this.btnKeranjang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKeranjang.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKeranjang.ForeColor = System.Drawing.Color.White;
-            this.btnKeranjang.Image = global::Final_Project.Properties.Resources.btnKeranjang;
-            this.btnKeranjang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKeranjang.Location = new System.Drawing.Point(-8, -9);
-            this.btnKeranjang.Name = "btnKeranjang";
-            this.btnKeranjang.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnKeranjang.Size = new System.Drawing.Size(260, 78);
-            this.btnKeranjang.TabIndex = 1;
-            this.btnKeranjang.Text = "                 Keranjang";
-            this.btnKeranjang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKeranjang.UseVisualStyleBackColor = true;
-            this.btnKeranjang.Click += new System.EventHandler(this.btnKeranjang_Click);
-            // 
-            // btnAboutUs
-            // 
-            this.btnAboutUs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAboutUs.Font = new System.Drawing.Font("Rockwell Extra Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAboutUs.ForeColor = System.Drawing.Color.White;
-            this.btnAboutUs.Image = global::Final_Project.Properties.Resources.btnKami;
-            this.btnAboutUs.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAboutUs.Location = new System.Drawing.Point(-8, -9);
-            this.btnAboutUs.Name = "btnAboutUs";
-            this.btnAboutUs.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnAboutUs.Size = new System.Drawing.Size(260, 78);
-            this.btnAboutUs.TabIndex = 1;
-            this.btnAboutUs.Text = "                 About Us";
-            this.btnAboutUs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAboutUs.UseVisualStyleBackColor = true;
-            this.btnAboutUs.Click += new System.EventHandler(this.btnAboutUs_Click);
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(252, 3);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(300, 200);
-            this.guna2PictureBox2.TabIndex = 6;
-            this.guna2PictureBox2.TabStop = false;
-            // 
-            // minimizeButton
-            // 
-            this.minimizeButton.AllowFocused = false;
-            this.minimizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.minimizeButton.AutoSizeHeight = true;
-            this.minimizeButton.BorderRadius = 12;
-            this.minimizeButton.Image = ((System.Drawing.Image)(resources.GetObject("minimizeButton.Image")));
-            this.minimizeButton.IsCircle = true;
-            this.minimizeButton.Location = new System.Drawing.Point(1056, 12);
-            this.minimizeButton.Name = "minimizeButton";
-            this.minimizeButton.Size = new System.Drawing.Size(25, 25);
-            this.minimizeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.minimizeButton.TabIndex = 3;
-            this.minimizeButton.TabStop = false;
-            this.minimizeButton.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
-            this.minimizeButton.Click += new System.EventHandler(this.minimizeButton_Click);
-            // 
-            // maximizeButton
-            // 
-            this.maximizeButton.AllowFocused = false;
-            this.maximizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.maximizeButton.AutoSizeHeight = true;
-            this.maximizeButton.BorderRadius = 12;
-            this.maximizeButton.Image = ((System.Drawing.Image)(resources.GetObject("maximizeButton.Image")));
-            this.maximizeButton.IsCircle = true;
-            this.maximizeButton.Location = new System.Drawing.Point(1087, 12);
-            this.maximizeButton.Name = "maximizeButton";
-            this.maximizeButton.Size = new System.Drawing.Size(25, 25);
-            this.maximizeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.maximizeButton.TabIndex = 2;
-            this.maximizeButton.TabStop = false;
-            this.maximizeButton.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
-            this.maximizeButton.Click += new System.EventHandler(this.maximizeButton_Click);
-            // 
-            // closeButton
-            // 
-            this.closeButton.AllowFocused = false;
-            this.closeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.closeButton.AutoSizeHeight = true;
-            this.closeButton.BorderRadius = 12;
-            this.closeButton.Image = ((System.Drawing.Image)(resources.GetObject("closeButton.Image")));
-            this.closeButton.IsCircle = true;
-            this.closeButton.Location = new System.Drawing.Point(1118, 12);
-            this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(25, 25);
-            this.closeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.closeButton.TabIndex = 1;
-            this.closeButton.TabStop = false;
-            this.closeButton.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
-            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
-            // 
-            // menuButton
-            // 
-            this.menuButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.menuButton.Image = global::Final_Project.Properties.Resources.Menu;
-            this.menuButton.Location = new System.Drawing.Point(12, 6);
-            this.menuButton.Name = "menuButton";
-            this.menuButton.Size = new System.Drawing.Size(50, 50);
-            this.menuButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.menuButton.TabIndex = 0;
-            this.menuButton.TabStop = false;
-            this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
-            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -470,23 +471,23 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.sidebar.ResumeLayout(false);
+            this.pnHome.ResumeLayout(false);
             this.pnMakanan.ResumeLayout(false);
             this.pnMinuman.ResumeLayout(false);
             this.pnCemilan.ResumeLayout(false);
             this.pnKeranjang.ResumeLayout(false);
             this.pnAboutUs.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.pnWelcome.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            this.bunifuPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.minimizeButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.maximizeButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).EndInit();
+            this.pnWelcome.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -507,7 +508,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel pnKeranjang;
         private System.Windows.Forms.Button btnKeranjang;
-        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
+        private Bunifu.UI.WinForms.BunifuPanel pnHome;
         private System.Windows.Forms.Label lblMenu;
         private Bunifu.UI.WinForms.BunifuPictureBox minimizeButton;
         private Bunifu.UI.WinForms.BunifuPictureBox maximizeButton;
@@ -517,7 +518,7 @@
         private Bunifu.UI.WinForms.BunifuPanel pnWelcome;
         private Bunifu.UI.WinForms.BunifuFormResizeIcon bunifuFormResizeIcon1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnHome;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
