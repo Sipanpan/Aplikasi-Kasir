@@ -80,8 +80,8 @@ namespace Final_Project
             {
                 OnUpdate(brg); // panggil event OnUpdate
                 this.Close();
+            }*/
             }
-        }
 
         private void btnSelesai_Click(object sender, EventArgs e)
         {
