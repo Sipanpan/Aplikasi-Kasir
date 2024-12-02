@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace Final_Project
 {
@@ -200,6 +202,45 @@ namespace Final_Project
             WindowState = FormWindowState.Minimized;
         }
 
+        private void btnTesKoneksi_Click(object sender, EventArgs e)
+        {
+            // membuat objek connection
+            SQLiteConnection conn = GetOpenConnection();
 
+            // cek status koneksi
+            if (conn.State == ConnectionState.Open) // koneksi berhasil
+            {
+                MessageBox.Show("Koneksi ke database berhasil !", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+                MessageBox.Show("Koneksi ke database gagal !!!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+            conn.Dispose(); // tutup dan hapus objek connection dari memory
+        }
+
+        private SQLiteConnection GetOpenConnection()
+        {
+            SQLiteConnection conn = null; // deklarasi objek connection
+
+            try // penggunaan blok try-catch untuk penanganan error
+            {
+                // atur ulang lokasi database yang disesuaikan dengan
+                // lokasi database perpustakaan Anda
+                string dbName = @"C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\iniDatabase\DbKasir.db";
+
+                // deklarasi variabel connectionString, ref: https://www.connectionstrings.com/
+                string connectionString = string.Format("Data Source ={0}; FailIfMissing = True", dbName);
+
+                conn = new SQLiteConnection(connectionString); // buat objek connection
+
+                conn.Open(); // buka koneksi ke database
+            }
+            // jika terjadi error di blok try, akan ditangani langsung oleh blok catch
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return conn;
+        }
     }
 }

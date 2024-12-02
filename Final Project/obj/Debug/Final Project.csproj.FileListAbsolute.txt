@@ -134,3 +134,5 @@ C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final Pr.B
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final Project.exe
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final Project.pdb
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final_Project.formTambah.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\bin\Debug\System.Data.SQLite.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\bin\Debug\System.Data.SQLite.xml

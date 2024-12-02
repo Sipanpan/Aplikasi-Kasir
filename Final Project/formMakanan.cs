@@ -16,7 +16,7 @@ namespace Final_Project
         {
             InitializeComponent();
         }
-
+                
         private void formMakanan_Load(object sender, EventArgs e)
         {
             this.ControlBox = false;
@@ -24,7 +24,14 @@ namespace Final_Project
 
         public void bunifuButton22_Click(object sender, EventArgs e)
         {
-            
+            // buat objek form entry data barang
+            formTambah frmTambah = new formTambah("Tambah Data Barang");
+
+            // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
+            //frmTambah.OnCreate += formTambah_OnCreate;
+
+            // tampilkan form entry barang
+            frmTambah.ShowDialog();
         }
     }
 }

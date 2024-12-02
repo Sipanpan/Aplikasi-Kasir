@@ -32,11 +32,13 @@
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.lblKeranjang = new System.Windows.Forms.Label();
             this.lvwBarang = new System.Windows.Forms.ListView();
             this.btnTambah = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnEdit = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnHapus = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.btnTampil = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.SuspendLayout();
             // 
             // lblKeranjang
@@ -107,7 +109,7 @@
             this.btnTambah.IdleIconLeftImage = null;
             this.btnTambah.IdleIconRightImage = null;
             this.btnTambah.IndicateFocus = false;
-            this.btnTambah.Location = new System.Drawing.Point(44, 636);
+            this.btnTambah.Location = new System.Drawing.Point(12, 613);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnTambah.OnDisabledState.BorderRadius = 1;
@@ -199,7 +201,7 @@
             this.btnEdit.IdleIconLeftImage = null;
             this.btnEdit.IdleIconRightImage = null;
             this.btnEdit.IndicateFocus = false;
-            this.btnEdit.Location = new System.Drawing.Point(217, 636);
+            this.btnEdit.Location = new System.Drawing.Point(12, 659);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnEdit.OnDisabledState.BorderRadius = 1;
@@ -291,7 +293,7 @@
             this.btnHapus.IdleIconLeftImage = null;
             this.btnHapus.IdleIconRightImage = null;
             this.btnHapus.IndicateFocus = false;
-            this.btnHapus.Location = new System.Drawing.Point(390, 636);
+            this.btnHapus.Location = new System.Drawing.Point(168, 613);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnHapus.OnDisabledState.BorderRadius = 1;
@@ -334,11 +336,104 @@
             this.btnHapus.UseDefaultRadiusAndThickness = true;
             this.btnHapus.Click += new System.EventHandler(this.btnHapus_Click);
             // 
+            // btnTampil
+            // 
+            this.btnTampil.AllowAnimations = true;
+            this.btnTampil.AllowMouseEffects = true;
+            this.btnTampil.AllowToggling = false;
+            this.btnTampil.AnimationSpeed = 200;
+            this.btnTampil.AutoGenerateColors = false;
+            this.btnTampil.AutoRoundBorders = false;
+            this.btnTampil.AutoSizeLeftIcon = true;
+            this.btnTampil.AutoSizeRightIcon = true;
+            this.btnTampil.BackColor = System.Drawing.Color.Transparent;
+            this.btnTampil.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
+            this.btnTampil.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTampil.BackgroundImage")));
+            this.btnTampil.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnTampil.ButtonText = "Tampilkan";
+            this.btnTampil.ButtonTextMarginLeft = 0;
+            this.btnTampil.ColorContrastOnClick = 45;
+            this.btnTampil.ColorContrastOnHover = 45;
+            this.btnTampil.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.btnTampil.CustomizableEdges = borderEdges4;
+            this.btnTampil.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnTampil.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnTampil.DisabledFillColor = System.Drawing.Color.Empty;
+            this.btnTampil.DisabledForecolor = System.Drawing.Color.Empty;
+            this.btnTampil.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btnTampil.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnTampil.ForeColor = System.Drawing.Color.White;
+            this.btnTampil.IconLeft = null;
+            this.btnTampil.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTampil.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.btnTampil.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.btnTampil.IconMarginLeft = 11;
+            this.btnTampil.IconPadding = 10;
+            this.btnTampil.IconRight = null;
+            this.btnTampil.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnTampil.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.btnTampil.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.btnTampil.IconSize = 25;
+            this.btnTampil.IdleBorderColor = System.Drawing.Color.Empty;
+            this.btnTampil.IdleBorderRadius = 0;
+            this.btnTampil.IdleBorderThickness = 0;
+            this.btnTampil.IdleFillColor = System.Drawing.Color.Empty;
+            this.btnTampil.IdleIconLeftImage = null;
+            this.btnTampil.IdleIconRightImage = null;
+            this.btnTampil.IndicateFocus = false;
+            this.btnTampil.Location = new System.Drawing.Point(1012, 636);
+            this.btnTampil.Name = "btnTampil";
+            this.btnTampil.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnTampil.OnDisabledState.BorderRadius = 1;
+            this.btnTampil.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnTampil.OnDisabledState.BorderThickness = 1;
+            this.btnTampil.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnTampil.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnTampil.OnDisabledState.IconLeftImage = null;
+            this.btnTampil.OnDisabledState.IconRightImage = null;
+            this.btnTampil.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
+            this.btnTampil.onHoverState.BorderRadius = 1;
+            this.btnTampil.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnTampil.onHoverState.BorderThickness = 1;
+            this.btnTampil.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
+            this.btnTampil.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.btnTampil.onHoverState.IconLeftImage = null;
+            this.btnTampil.onHoverState.IconRightImage = null;
+            this.btnTampil.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnTampil.OnIdleState.BorderRadius = 1;
+            this.btnTampil.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnTampil.OnIdleState.BorderThickness = 1;
+            this.btnTampil.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btnTampil.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.btnTampil.OnIdleState.IconLeftImage = null;
+            this.btnTampil.OnIdleState.IconRightImage = null;
+            this.btnTampil.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnTampil.OnPressedState.BorderRadius = 1;
+            this.btnTampil.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnTampil.OnPressedState.BorderThickness = 1;
+            this.btnTampil.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnTampil.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.btnTampil.OnPressedState.IconLeftImage = null;
+            this.btnTampil.OnPressedState.IconRightImage = null;
+            this.btnTampil.Size = new System.Drawing.Size(150, 39);
+            this.btnTampil.TabIndex = 8;
+            this.btnTampil.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnTampil.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnTampil.TextMarginLeft = 0;
+            this.btnTampil.TextPadding = new System.Windows.Forms.Padding(0);
+            this.btnTampil.UseDefaultRadiusAndThickness = true;
+            this.btnTampil.Click += new System.EventHandler(this.btnTampil_Click);
+            // 
             // formKeranjang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 710);
+            this.Controls.Add(this.btnTampil);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnTambah);
@@ -359,5 +454,6 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnTambah;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnEdit;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnHapus;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnTampil;
     }
 }

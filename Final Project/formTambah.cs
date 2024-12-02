@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -56,6 +57,72 @@ namespace Final_Project
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
+            var result = 0;
+
+            // validasi nama harus diisi
+            if (string.IsNullOrEmpty(txtNama.Text))
+            {
+                MessageBox.Show("Nama harus diisi !!!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                txtNama.Focus();
+                return;
+            }
+
+            // validasi jumlah harus diisi
+            if (string.IsNullOrEmpty(txtJumlah.Text))
+            {
+                MessageBox.Show("Jumlah harus diisi !!!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                txtJumlah.Focus();
+                return;
+            }
+
+            // membuat objek Connection, sekaligus buka koneksi ke database
+            SQLiteConnection conn = GetOpenConnection();
+
+            // deklarasi variabel sql untuk menampung perintah INSERT
+            var sql = @"insert into barang (Nama, Jumlah, Harga) values (@Nama, @Jumlah, @Harga)";
+
+            // membuat objek Command untuk mengeksekusi perintah SQL
+            SQLiteCommand cmd = new SQLiteCommand(sql, conn);
+
+            try
+            {
+                // set parameter untuk Nama, Jumlah dan Harga
+                cmd.Parameters.AddWithValue("@Nama", txtNama.Text);
+                cmd.Parameters.AddWithValue("@Jumlah", txtJumlah.Text);
+                cmd.Parameters.AddWithValue("@Harga", txtHarga.Text);
+
+                result = cmd.ExecuteNonQuery(); // eksekusi perintah INSERT
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                cmd.Dispose();
+            }
+
+            if (result > 0)
+            {
+                MessageBox.Show("Data mahasiswa berhasil disimpan !", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
+                // reset form
+                txtNama.Clear();
+                txtJumlah.Clear();
+                txtHarga.Clear();
+                txtNama.Focus();
+            }
+            else
+                MessageBox.Show("Data mahasiswa gagal disimpan !!!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            
+            // setelah selesai digunakan,
+            // segera hapus objek connection dari memory
+            conn.Dispose();
+
+
+
+
+            /*
             // jika data baru, inisialisasi objek barang
             if (isNewData) brg = new Barang();
 
@@ -81,12 +148,37 @@ namespace Final_Project
                 OnUpdate(brg); // panggil event OnUpdate
                 this.Close();
             }*/
-            }
+        }
 
         private void btnSelesai_Click(object sender, EventArgs e)
         {
             // tutup form tambah data barang
             this.Close();
+        }
+
+        private SQLiteConnection GetOpenConnection()
+        {
+            SQLiteConnection conn = null; // deklarasi objek connection
+
+            try // penggunaan blok try-catch untuk penanganan error
+            {
+                // atur ulang lokasi database yang disesuaikan dengan
+                // lokasi database perpustakaan Anda
+                string dbName = @"C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\iniDatabase\DbKasir.db";
+
+                // deklarasi variabel connectionString, ref: https://www.connectionstrings.com/
+                string connectionString = string.Format("Data Source ={0}; FailIfMissing = True", dbName);
+
+                conn = new SQLiteConnection(connectionString); // buat objek connection
+
+                conn.Open(); // buka koneksi ke database
+            }
+            // jika terjadi error di blok try, akan ditangani langsung oleh blok catch
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return conn;
         }
     }
 }

@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Final_Project
 {
@@ -136,6 +138,65 @@ namespace Final_Project
             {
                 MessageBox.Show("Data belum dipilih", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+        }
+
+        private void btnTampil_Click(object sender, EventArgs e)
+        {
+            lvwBarang.Items.Clear();
+            // membuat objek Connection, sekaligus buka koneksi ke database
+            SQLiteConnection conn = GetOpenConnection();
+
+            // deklarasi variabel sql untuk menampung perintah SELECT
+            string sql = @"select Nama, Jumlah, Harga, Total from barang order by nama";
+
+            // membuat objek Command untuk mengeksekusi perintah SQL
+            SQLiteCommand cmd = new SQLiteCommand(sql, conn);
+
+            // membuat objek DataReader untuk menampung hasil perintah SELECT
+            SQLiteDataReader dtr = cmd.ExecuteReader(); // eksekusi perintah SELECT
+
+            while (dtr.Read()) // gunakan perulangan utk menampilkan data ke listview
+{
+                var noUrut = lvwBarang.Items.Count + 1;
+
+                var item = new ListViewItem(noUrut.ToString());
+                item.SubItems.Add(dtr["Nama"].ToString());
+                item.SubItems.Add(dtr["Jumlah"].ToString());
+                item.SubItems.Add(dtr["Harga"].ToString());
+                item.SubItems.Add(dtr["Total"].ToString());
+
+                lvwBarang.Items.Add(item);
+            }
+            // setelah selesai digunakan,
+            // segera hapus objek datareader, command dan connection dari memory
+            dtr.Dispose();
+            cmd.Dispose();
+            conn.Dispose();
+        }
+
+        private SQLiteConnection GetOpenConnection()
+        {
+            SQLiteConnection conn = null; // deklarasi objek connection
+
+            try // penggunaan blok try-catch untuk penanganan error
+            {
+                // atur ulang lokasi database yang disesuaikan dengan
+                // lokasi database perpustakaan Anda
+                string dbName = @"C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\iniDatabase\DbKasir.db";
+
+                // deklarasi variabel connectionString, ref: https://www.connectionstrings.com/
+                string connectionString = string.Format("Data Source ={0}; FailIfMissing = True", dbName);
+
+                conn = new SQLiteConnection(connectionString); // buat objek connection
+
+                conn.Open(); // buka koneksi ke database
+            }
+            // jika terjadi error di blok try, akan ditangani langsung oleh blok catch
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return conn;
         }
     }
 }
