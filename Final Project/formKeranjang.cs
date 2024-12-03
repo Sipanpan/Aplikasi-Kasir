@@ -85,17 +85,21 @@ namespace Final_Project
         {
             if (lvwBarang.SelectedItems.Count > 0)
             {
-                // ambil objek brg yang mau diedit dari collection
-                Barang brg = listOfBarang[lvwBarang.SelectedIndices[0]];
+                if (lvwBarang.SelectedIndices.Count > 0)
+                {
+                    // ambil objek brg yang mau diedit dari collection
+                    Barang brg = listOfBarang[lvwBarang.SelectedIndices[0]];
 
-                // buat objek form entry data barang
-                formTambah frmTambah = new formTambah("Edit Data barang", brg);
+                    // buat objek form entry data barang
+                    formTambah frmTambah = new formTambah("Edit Data barang", brg);
 
-                // mendaftarkan method event handler utk merespon event OnUpdate (subscribe)
-                frmTambah.OnUpdate += formTambah_OnUpdate;
+                    // mendaftarkan method event handler utk merespon event OnUpdate (subscribe)
+                    frmTambah.OnUpdate += formTambah_OnUpdate;
 
-                // tampilkan form entry barang
-                frmTambah.ShowDialog();
+                    // tampilkan form entry barang
+                    frmTambah.ShowDialog();
+                }
+                
             }
             else // data belum dipilih
             {
