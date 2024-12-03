@@ -186,10 +186,11 @@ namespace Final_Project
             {
                 // atur ulang lokasi database yang disesuaikan dengan
                 // lokasi database perpustakaan Anda
-                string dbName = @"C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\iniDatabase\DbKasir.db";
+                // string dbName = @"C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\iniDatabase\DbKasir.db";
+                string dbPath = "Data Source=DbKasir.db;Version=3;";
 
                 // deklarasi variabel connectionString, ref: https://www.connectionstrings.com/
-                string connectionString = string.Format("Data Source ={0}; FailIfMissing = True", dbName);
+                string connectionString = string.Format("Data Source ={0}; FailIfMissing = True", dbPath);
 
                 conn = new SQLiteConnection(connectionString); // buat objek connection
 
