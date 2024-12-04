@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
+using System.IO;
 
 namespace Final_Project
 {
@@ -208,14 +209,14 @@ namespace Final_Project
             SQLiteConnection conn = GetOpenConnection();
 
             // cek status koneksi
-            if (conn.State == ConnectionState.Open) // koneksi berhasil
+            if (conn != null && conn.State == ConnectionState.Open) // koneksi berhasil
             {
                 MessageBox.Show("Koneksi ke database berhasil !", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
                 MessageBox.Show("Koneksi ke database gagal !!!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
-            conn.Dispose(); // tutup dan hapus objek connection dari memory
+            conn?.Dispose(); // tutup dan hapus objek connection dari memory
         }
 
         private SQLiteConnection GetOpenConnection()
@@ -224,24 +225,45 @@ namespace Final_Project
 
             try // penggunaan blok try-catch untuk penanganan error
             {
-                // atur ulang lokasi database yang disesuaikan dengan
-                // lokasi database perpustakaan Anda
-                // string dbName = @"C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\iniDatabase\DbKasir.db";
-                string dbPath = "Data Source=DbKasir.db;Version=3;";
+                // Lokasi file database relatif terhadap folder aplikasi
+                string dbName = @"DbKasir.db"; // Nama file database
+                string basePath = AppDomain.CurrentDomain.BaseDirectory; // Lokasi aplikasi berjalan
+                string fullPath = Path.Combine(basePath, dbName); // Gabungkan jalur relatif
 
-                // deklarasi variabel connectionString, ref: https://www.connectionstrings.com/
-                string connectionString = string.Format("Data Source ={0}; FailIfMissing = True", dbPath);
+                // Buat database jika belum ada
+                CreateDatabaseIfNotExists(fullPath);
 
-                conn = new SQLiteConnection(connectionString); // buat objek connection
+                // Deklarasi variabel connectionString
+                string connectionString = $"Data Source={fullPath};Version=3;FailIfMissing=True";
 
-                conn.Open(); // buka koneksi ke database
+                // Buat objek connection
+                conn = new SQLiteConnection(connectionString);
+                conn.Open(); // Buka koneksi ke database
             }
             // jika terjadi error di blok try, akan ditangani langsung oleh blok catch
             catch (Exception ex)
             {
+                // Tampilkan pesan error jika terjadi kesalahan
                 MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             return conn;
+        }
+
+        private void CreateDatabaseIfNotExists(string fullPath)
+        {
+            try
+            {
+                if (!File.Exists(fullPath))
+                {
+                    // Buat file database baru jika belum ada
+                    SQLiteConnection.CreateFile(fullPath);
+                    MessageBox.Show($"Database baru dibuat di: {fullPath}", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Gagal membuat database: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
