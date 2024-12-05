@@ -21,17 +21,5 @@ namespace Final_Project
         {
             this.ControlBox = false;
         }
-
-        public void bunifuButton22_Click(object sender, EventArgs e)
-        {
-            // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang");
-
-            // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
-            //frmTambah.OnCreate += formTambah_OnCreate;
-
-            // tampilkan form entry barang
-            frmTambah.ShowDialog();
-        }
     }
 }

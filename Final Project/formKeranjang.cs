@@ -91,18 +91,29 @@ namespace Final_Project
                     // ambil objek brg yang mau diedit dari collection
                     Barang brg = listOfBarang[lvwBarang.SelectedIndices[0]];
 
-                    // buat objek form entry data barang
-                    formTambah frmTambah = new formTambah("Edit Data barang", brg);
-
-                    // mendaftarkan method event handler utk merespon event OnUpdate (subscribe)
+                    if (brg != null) // Pastikan objek tidak null
+                    {
+                        // Buat objek form entry data barang
+                        using (formTambah frmTambah = new formTambah("Edit Data Barang", brg))
+                        {
+                            // Mendaftarkan method event handler untuk merespon event OnUpdate (subscribe)
                     frmTambah.OnUpdate += formTambah_OnUpdate;
 
-                    // tampilkan form entry barang
+                            // Tampilkan form entry barang
                     frmTambah.ShowDialog();
                 }
-                
+                    }
+                    else
+                    {
+                        MessageBox.Show("Data barang tidak ditemukan.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            else // data belum dipilih
+                }
+                else
+            {
+                    MessageBox.Show("Indeks yang dipilih tidak valid.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            else // Data belum dipilih
             {
                 MessageBox.Show("Data belum dipilih", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
@@ -113,16 +124,20 @@ namespace Final_Project
             if (lvwBarang.SelectedItems.Count > 0)
             {
                 // ambil objek brg yang mau dihapus dari collection
-                Barang obj = listOfBarang[lvwBarang.SelectedIndices[0]];
+                int selectedIndex = lvwBarang.SelectedIndices[0];
+                Barang obj = listOfBarang[selectedIndex];
 
                 string msg = string.Format("Apakah data barang '{0}' ingin dihapus ? ", obj.Nama);
                 
                 if (MessageBox.Show(msg, "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
                 {
                     // hapus objek barang dari collection
-                    listOfBarang.Remove(obj);
+                    listOfBarang.RemoveAt(selectedIndex);
 
-                    lvwBarang.Items.Clear();
+                    // Refresh data brg yang ditampilkan ke listview
+                    RefreshListView();
+
+                    /*lvwBarang.Items.Clear();
 
                     // refresh data brg yang ditampilkan ke listview
                     foreach (Barang brg in listOfBarang)
