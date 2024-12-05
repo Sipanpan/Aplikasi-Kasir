@@ -144,7 +144,7 @@
         mP0u640qws4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuButton22.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnBaksoJumbo.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL4AAAAqCAYAAAANg+HIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFlSURBVHhe7d0tTgNBGIfxkUiOgMRt3+EA3ADNETCchQTD
@@ -185,7 +185,7 @@
         mP0u640qws4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuButton23.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnMieAyam.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL4AAAAqCAYAAAANg+HIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFlSURBVHhe7d0tTgNBGIfxkUiOgMRt3+EA3ADNETCchQTD
@@ -226,7 +226,7 @@
         mP0u640qws4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuButton26.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnNasgorAyam.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL4AAAAqCAYAAAANg+HIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFlSURBVHhe7d0tTgNBGIfxkUiOgMRt3+EA3ADNETCchQTD
@@ -267,7 +267,7 @@
         mP0u640qws4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuButton24.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnMieso.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL4AAAAqCAYAAAANg+HIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFlSURBVHhe7d0tTgNBGIfxkUiOgMRt3+EA3ADNETCchQTD
@@ -308,7 +308,7 @@
         mP0u640qws4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuButton27.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnNasgorSeafood.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL4AAAAqCAYAAAANg+HIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFlSURBVHhe7d0tTgNBGIfxkUiOgMRt3+EA3ADNETCchQTD
@@ -349,7 +349,7 @@
         mP0u640qws4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuButton210.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnSoto.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL4AAAAqCAYAAAANg+HIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFlSURBVHhe7d0tTgNBGIfxkUiOgMRt3+EA3ADNETCchQTD
@@ -390,7 +390,7 @@
         mP0u640qws4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuButton28.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnMieGoreng.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL4AAAAqCAYAAAANg+HIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFlSURBVHhe7d0tTgNBGIfxkUiOgMRt3+EA3ADNETCchQTD
@@ -431,7 +431,7 @@
         mP0u640qws4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuButton29.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnKetoprak.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL4AAAAqCAYAAAANg+HIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFlSURBVHhe7d0tTgNBGIfxkUiOgMRt3+EA3ADNETCchQTD

@@ -73,7 +73,7 @@ namespace Final_Project
         private void btnTambah_Click(object sender, EventArgs e)
         {
             // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang");
+            formTambah frmTambah = new formTambah("Tambah Data Barang", "Mieso");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             frmTambah.OnCreate += formTambah_OnCreate;
@@ -84,12 +84,16 @@ namespace Final_Project
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
+            // Memeriksa apakah ada item yang dipilih di ListView
             if (lvwBarang.SelectedItems.Count > 0)
             {
-                if (lvwBarang.SelectedIndices.Count > 0)
+                int selectedIndex = lvwBarang.SelectedIndices[0];
+
+                // Memastikan indeks yang dipilih valid
+                if (selectedIndex >= 0 && selectedIndex < listOfBarang.Count)
                 {
-                    // ambil objek brg yang mau diedit dari collection
-                    Barang brg = listOfBarang[lvwBarang.SelectedIndices[0]];
+                    // Ambil objek brg yang mau diedit dari koleksi
+                    Barang brg = listOfBarang[selectedIndex];
 
                     if (brg != null) // Pastikan objek tidak null
                     {
@@ -97,19 +101,19 @@ namespace Final_Project
                         using (formTambah frmTambah = new formTambah("Edit Data Barang", brg))
                         {
                             // Mendaftarkan method event handler untuk merespon event OnUpdate (subscribe)
-                    frmTambah.OnUpdate += formTambah_OnUpdate;
+                            frmTambah.OnUpdate += formTambah_OnUpdate;
 
                             // Tampilkan form entry barang
-                    frmTambah.ShowDialog();
-                }
+                            frmTambah.ShowDialog();
+                        }
                     }
                     else
                     {
                         MessageBox.Show("Data barang tidak ditemukan.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+                    }
                 }
                 else
-            {
+                {
                     MessageBox.Show("Indeks yang dipilih tidak valid.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
@@ -124,20 +128,16 @@ namespace Final_Project
             if (lvwBarang.SelectedItems.Count > 0)
             {
                 // ambil objek brg yang mau dihapus dari collection
-                int selectedIndex = lvwBarang.SelectedIndices[0];
-                Barang obj = listOfBarang[selectedIndex];
+                Barang obj = listOfBarang[lvwBarang.SelectedIndices[0]];
 
                 string msg = string.Format("Apakah data barang '{0}' ingin dihapus ? ", obj.Nama);
                 
                 if (MessageBox.Show(msg, "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
                 {
                     // hapus objek barang dari collection
-                    listOfBarang.RemoveAt(selectedIndex);
+                    listOfBarang.Remove(obj);
 
-                    // Refresh data brg yang ditampilkan ke listview
-                    RefreshListView();
-
-                    /*lvwBarang.Items.Clear();
+                    lvwBarang.Items.Clear();
 
                     // refresh data brg yang ditampilkan ke listview
                     foreach (Barang brg in listOfBarang)

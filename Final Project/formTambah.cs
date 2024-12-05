@@ -6,6 +6,7 @@ using System.Data.SQLite;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -35,10 +36,39 @@ namespace Final_Project
         }
 
         // Constructor untuk inisialisasi data ketika entri data baru
-        public formTambah(string title) : this()
+        public formTambah(string title, string mkn) : this()
         {
             // ganti text/judul form
             this.Text = title;
+
+            // membuat objek Connection, sekaligus buka koneksi ke database
+            SQLiteConnection conn = GetOpenConnection();
+
+            // deklarasi variabel sql untuk menampung perintah INSERT
+            string sql = @"select nama, harga from makanan where nama = @nama";
+
+            // membuat objek Command untuk mengeksekusi perintah SQL
+            using (SQLiteCommand cmd = new SQLiteCommand(sql, conn))
+            {
+                // Menambahkan parameter untuk mencegah SQL injection
+                cmd.Parameters.AddWithValue("@nama", mkn);
+
+                // Membuat objek datareader untuk menampung hasil perintah select
+                using (SQLiteDataReader dtr = cmd.ExecuteReader()) // Eksekusi perintah select
+                {
+                    if (dtr.Read())
+                    {
+                        txtNama.Text = dtr["nama"].ToString();
+                        txtHarga.Text = dtr["harga"].ToString();
+                    }
+                    else
+                    {
+                        // Menangani kasus ketika tidak ada data ditemukan, jika perlu
+                        txtNama.Text = string.Empty;
+                        txtHarga.Text = string.Empty;
+                    }
+                }
+            }
         }
 
         // Constructor untuk inisialisasi data ketika mengedit data
@@ -80,7 +110,7 @@ namespace Final_Project
             SQLiteConnection conn = GetOpenConnection();
 
             // deklarasi variabel sql untuk menampung perintah INSERT
-            var sql = @"insert into barang (Nama, Jumlah, Harga) values (@Nama, @Jumlah, @Harga)";
+            var sql = @"insert into barang (Nama, Jumlah, Harga, Total) values (@Nama, @Jumlah, @Harga, @Total)";
 
             // membuat objek Command untuk mengeksekusi perintah SQL
             SQLiteCommand cmd = new SQLiteCommand(sql, conn);
@@ -91,6 +121,7 @@ namespace Final_Project
                 cmd.Parameters.AddWithValue("@Nama", txtNama.Text);
                 cmd.Parameters.AddWithValue("@Jumlah", txtJumlah.Text);
                 cmd.Parameters.AddWithValue("@Harga", txtHarga.Text);
+                cmd.Parameters.AddWithValue("@Total", Int32.Parse(txtJumlah.Text) * Int32.Parse(txtHarga.Text));
 
                 result = cmd.ExecuteNonQuery(); // eksekusi perintah INSERT
             }
