@@ -136,7 +136,7 @@ namespace Final_Project
 
             if (result > 0)
             {
-                MessageBox.Show("Data mahasiswa berhasil disimpan !", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Pesanan telah ditambahkan di keranjang", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 
                 // reset form
                 txtNama.Clear();
@@ -145,7 +145,7 @@ namespace Final_Project
                 txtNama.Focus();
             }
             else
-                MessageBox.Show("Data mahasiswa gagal disimpan !!!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Menu gagal ditambahkan!!!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             
             // setelah selesai digunakan,
             // segera hapus objek connection dari memory

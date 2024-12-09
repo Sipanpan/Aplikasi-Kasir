@@ -116,11 +116,11 @@
             this.bunifuPanel2.Controls.Add(this.label3);
             this.bunifuPanel2.Controls.Add(this.bunifuLabel1);
             this.bunifuPanel2.Controls.Add(this.label4);
-            this.bunifuPanel2.Location = new System.Drawing.Point(28, 35);
-            this.bunifuPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuPanel2.Location = new System.Drawing.Point(21, 28);
+            this.bunifuPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel2.Name = "bunifuPanel2";
             this.bunifuPanel2.ShowBorders = true;
-            this.bunifuPanel2.Size = new System.Drawing.Size(220, 306);
+            this.bunifuPanel2.Size = new System.Drawing.Size(165, 249);
             this.bunifuPanel2.TabIndex = 21;
             // 
             // btnBaksoJumbo
@@ -171,8 +171,8 @@
             this.btnBaksoJumbo.IdleIconLeftImage = null;
             this.btnBaksoJumbo.IdleIconRightImage = null;
             this.btnBaksoJumbo.IndicateFocus = false;
-            this.btnBaksoJumbo.Location = new System.Drawing.Point(13, 250);
-            this.btnBaksoJumbo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBaksoJumbo.Location = new System.Drawing.Point(10, 203);
+            this.btnBaksoJumbo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBaksoJumbo.Name = "btnBaksoJumbo";
             this.btnBaksoJumbo.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnBaksoJumbo.OnDisabledState.BorderRadius = 10;
@@ -206,7 +206,7 @@
             this.btnBaksoJumbo.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnBaksoJumbo.OnPressedState.IconLeftImage = null;
             this.btnBaksoJumbo.OnPressedState.IconRightImage = null;
-            this.btnBaksoJumbo.Size = new System.Drawing.Size(190, 42);
+            this.btnBaksoJumbo.Size = new System.Drawing.Size(142, 34);
             this.btnBaksoJumbo.TabIndex = 12;
             this.btnBaksoJumbo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnBaksoJumbo.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -225,10 +225,10 @@
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::Final_Project.Properties.Resources.Usaha_bakso1;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(13, 14);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(10, 11);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(190, 154);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 4;
             this.guna2PictureBox2.TabStop = false;
@@ -239,9 +239,10 @@
             this.label3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Coral;
-            this.label3.Location = new System.Drawing.Point(52, 214);
+            this.label3.Location = new System.Drawing.Point(39, 174);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 27);
+            this.label3.Size = new System.Drawing.Size(95, 22);
             this.label3.TabIndex = 6;
             this.label3.Text = "Rp 17.000";
             // 
@@ -251,8 +252,8 @@
             this.bunifuLabel1.AutoEllipsis = false;
             this.bunifuLabel1.CursorType = null;
             this.bunifuLabel1.Font = new System.Drawing.Font("Rockwell", 10.2F);
-            this.bunifuLabel1.Location = new System.Drawing.Point(51, 177);
-            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuLabel1.Location = new System.Drawing.Point(38, 144);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel1.Size = new System.Drawing.Size(0, 0);
@@ -266,9 +267,10 @@
             this.label4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(33, 177);
+            this.label4.Location = new System.Drawing.Point(25, 144);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 27);
+            this.label4.Size = new System.Drawing.Size(127, 22);
             this.label4.TabIndex = 4;
             this.label4.Text = "Bakso Jumbo";
             // 
@@ -285,11 +287,11 @@
             this.bunifuPanel3.Controls.Add(this.label5);
             this.bunifuPanel3.Controls.Add(this.bunifuLabel3);
             this.bunifuPanel3.Controls.Add(this.label6);
-            this.bunifuPanel3.Location = new System.Drawing.Point(335, 35);
-            this.bunifuPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuPanel3.Location = new System.Drawing.Point(251, 28);
+            this.bunifuPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel3.Name = "bunifuPanel3";
             this.bunifuPanel3.ShowBorders = true;
-            this.bunifuPanel3.Size = new System.Drawing.Size(220, 306);
+            this.bunifuPanel3.Size = new System.Drawing.Size(165, 249);
             this.bunifuPanel3.TabIndex = 19;
             // 
             // btnMieAyam
@@ -340,8 +342,8 @@
             this.btnMieAyam.IdleIconLeftImage = null;
             this.btnMieAyam.IdleIconRightImage = null;
             this.btnMieAyam.IndicateFocus = false;
-            this.btnMieAyam.Location = new System.Drawing.Point(13, 250);
-            this.btnMieAyam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnMieAyam.Location = new System.Drawing.Point(10, 203);
+            this.btnMieAyam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMieAyam.Name = "btnMieAyam";
             this.btnMieAyam.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnMieAyam.OnDisabledState.BorderRadius = 10;
@@ -376,7 +378,7 @@
             this.btnMieAyam.OnPressedState.IconLeftImage = null;
             this.btnMieAyam.OnPressedState.IconRightImage = null;
             this.btnMieAyam.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnMieAyam.Size = new System.Drawing.Size(190, 42);
+            this.btnMieAyam.Size = new System.Drawing.Size(142, 34);
             this.btnMieAyam.TabIndex = 12;
             this.btnMieAyam.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnMieAyam.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -395,10 +397,10 @@
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = global::Final_Project.Properties.Resources._2020_04_20T14_16_46_07_00;
             this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(13, 14);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(10, 11);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(190, 154);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox3.TabIndex = 4;
             this.guna2PictureBox3.TabStop = false;
@@ -409,9 +411,10 @@
             this.label5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Coral;
-            this.label5.Location = new System.Drawing.Point(52, 214);
+            this.label5.Location = new System.Drawing.Point(39, 174);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 27);
+            this.label5.Size = new System.Drawing.Size(95, 22);
             this.label5.TabIndex = 6;
             this.label5.Text = "Rp 10.000";
             // 
@@ -421,8 +424,8 @@
             this.bunifuLabel3.AutoEllipsis = false;
             this.bunifuLabel3.CursorType = null;
             this.bunifuLabel3.Font = new System.Drawing.Font("Rockwell", 10.2F);
-            this.bunifuLabel3.Location = new System.Drawing.Point(51, 177);
-            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuLabel3.Location = new System.Drawing.Point(38, 144);
+            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel3.Size = new System.Drawing.Size(0, 0);
@@ -436,9 +439,10 @@
             this.label6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label6.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(49, 177);
+            this.label6.Location = new System.Drawing.Point(37, 144);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(123, 27);
+            this.label6.Size = new System.Drawing.Size(103, 22);
             this.label6.TabIndex = 4;
             this.label6.Text = "Mie Ayam";
             // 
@@ -455,11 +459,11 @@
             this.bunifuPanel7.Controls.Add(this.label13);
             this.bunifuPanel7.Controls.Add(this.bunifuLabel7);
             this.bunifuPanel7.Controls.Add(this.label14);
-            this.bunifuPanel7.Location = new System.Drawing.Point(28, 383);
-            this.bunifuPanel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuPanel7.Location = new System.Drawing.Point(21, 311);
+            this.bunifuPanel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel7.Name = "bunifuPanel7";
             this.bunifuPanel7.ShowBorders = true;
-            this.bunifuPanel7.Size = new System.Drawing.Size(220, 306);
+            this.bunifuPanel7.Size = new System.Drawing.Size(165, 249);
             this.bunifuPanel7.TabIndex = 20;
             // 
             // btnNasgorAyam
@@ -510,8 +514,8 @@
             this.btnNasgorAyam.IdleIconLeftImage = null;
             this.btnNasgorAyam.IdleIconRightImage = null;
             this.btnNasgorAyam.IndicateFocus = false;
-            this.btnNasgorAyam.Location = new System.Drawing.Point(13, 250);
-            this.btnNasgorAyam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnNasgorAyam.Location = new System.Drawing.Point(10, 203);
+            this.btnNasgorAyam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNasgorAyam.Name = "btnNasgorAyam";
             this.btnNasgorAyam.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnNasgorAyam.OnDisabledState.BorderRadius = 10;
@@ -545,13 +549,14 @@
             this.btnNasgorAyam.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnNasgorAyam.OnPressedState.IconLeftImage = null;
             this.btnNasgorAyam.OnPressedState.IconRightImage = null;
-            this.btnNasgorAyam.Size = new System.Drawing.Size(190, 42);
+            this.btnNasgorAyam.Size = new System.Drawing.Size(142, 34);
             this.btnNasgorAyam.TabIndex = 12;
             this.btnNasgorAyam.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnNasgorAyam.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnNasgorAyam.TextMarginLeft = 0;
             this.btnNasgorAyam.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnNasgorAyam.UseDefaultRadiusAndThickness = true;
+            this.btnNasgorAyam.Click += new System.EventHandler(this.btnNasgorAyam_Click);
             // 
             // guna2PictureBox7
             // 
@@ -563,10 +568,10 @@
             this.guna2PictureBox7.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox7.Image = global::Final_Project.Properties.Resources.nasgor_ayam1;
             this.guna2PictureBox7.ImageRotate = 0F;
-            this.guna2PictureBox7.Location = new System.Drawing.Point(13, 14);
-            this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox7.Location = new System.Drawing.Point(10, 11);
+            this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox7.Name = "guna2PictureBox7";
-            this.guna2PictureBox7.Size = new System.Drawing.Size(190, 154);
+            this.guna2PictureBox7.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox7.TabIndex = 4;
             this.guna2PictureBox7.TabStop = false;
@@ -577,9 +582,10 @@
             this.label13.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label13.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Coral;
-            this.label13.Location = new System.Drawing.Point(52, 214);
+            this.label13.Location = new System.Drawing.Point(39, 174);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(116, 27);
+            this.label13.Size = new System.Drawing.Size(95, 22);
             this.label13.TabIndex = 6;
             this.label13.Text = "Rp 12.000";
             // 
@@ -589,8 +595,8 @@
             this.bunifuLabel7.AutoEllipsis = false;
             this.bunifuLabel7.CursorType = null;
             this.bunifuLabel7.Font = new System.Drawing.Font("Rockwell", 10.2F);
-            this.bunifuLabel7.Location = new System.Drawing.Point(51, 177);
-            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuLabel7.Location = new System.Drawing.Point(38, 144);
+            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel7.Name = "bunifuLabel7";
             this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel7.Size = new System.Drawing.Size(0, 0);
@@ -604,9 +610,10 @@
             this.label14.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label14.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(31, 177);
+            this.label14.Location = new System.Drawing.Point(23, 144);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(158, 27);
+            this.label14.Size = new System.Drawing.Size(131, 22);
             this.label14.TabIndex = 4;
             this.label14.Text = "Nasgor Ayam";
             // 
@@ -623,11 +630,11 @@
             this.bunifuPanel4.Controls.Add(this.label7);
             this.bunifuPanel4.Controls.Add(this.bunifuLabel4);
             this.bunifuPanel4.Controls.Add(this.label8);
-            this.bunifuPanel4.Location = new System.Drawing.Point(642, 35);
-            this.bunifuPanel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuPanel4.Location = new System.Drawing.Point(482, 28);
+            this.bunifuPanel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel4.Name = "bunifuPanel4";
             this.bunifuPanel4.ShowBorders = true;
-            this.bunifuPanel4.Size = new System.Drawing.Size(220, 306);
+            this.bunifuPanel4.Size = new System.Drawing.Size(165, 249);
             this.bunifuPanel4.TabIndex = 17;
             // 
             // btnMieso
@@ -678,8 +685,8 @@
             this.btnMieso.IdleIconLeftImage = null;
             this.btnMieso.IdleIconRightImage = null;
             this.btnMieso.IndicateFocus = false;
-            this.btnMieso.Location = new System.Drawing.Point(13, 250);
-            this.btnMieso.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnMieso.Location = new System.Drawing.Point(10, 203);
+            this.btnMieso.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMieso.Name = "btnMieso";
             this.btnMieso.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnMieso.OnDisabledState.BorderRadius = 10;
@@ -713,13 +720,14 @@
             this.btnMieso.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnMieso.OnPressedState.IconLeftImage = null;
             this.btnMieso.OnPressedState.IconRightImage = null;
-            this.btnMieso.Size = new System.Drawing.Size(190, 42);
+            this.btnMieso.Size = new System.Drawing.Size(142, 34);
             this.btnMieso.TabIndex = 12;
             this.btnMieso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnMieso.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnMieso.TextMarginLeft = 0;
             this.btnMieso.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnMieso.UseDefaultRadiusAndThickness = true;
+            this.btnMieso.Click += new System.EventHandler(this.btnMieso_Click);
             // 
             // guna2PictureBox4
             // 
@@ -731,10 +739,10 @@
             this.guna2PictureBox4.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox4.Image = global::Final_Project.Properties.Resources.mieso;
             this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(13, 14);
-            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(10, 11);
+            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(190, 154);
+            this.guna2PictureBox4.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox4.TabIndex = 4;
             this.guna2PictureBox4.TabStop = false;
@@ -745,9 +753,10 @@
             this.label7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label7.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Coral;
-            this.label7.Location = new System.Drawing.Point(52, 214);
+            this.label7.Location = new System.Drawing.Point(39, 174);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(116, 27);
+            this.label7.Size = new System.Drawing.Size(95, 22);
             this.label7.TabIndex = 6;
             this.label7.Text = "Rp 12.000";
             // 
@@ -757,8 +766,8 @@
             this.bunifuLabel4.AutoEllipsis = false;
             this.bunifuLabel4.CursorType = null;
             this.bunifuLabel4.Font = new System.Drawing.Font("Rockwell", 10.2F);
-            this.bunifuLabel4.Location = new System.Drawing.Point(51, 177);
-            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuLabel4.Location = new System.Drawing.Point(38, 144);
+            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel4.Size = new System.Drawing.Size(0, 0);
@@ -772,9 +781,10 @@
             this.label8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label8.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(71, 177);
+            this.label8.Location = new System.Drawing.Point(53, 144);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(79, 27);
+            this.label8.Size = new System.Drawing.Size(64, 22);
             this.label8.TabIndex = 4;
             this.label8.Text = "Mieso";
             // 
@@ -791,11 +801,11 @@
             this.bunifuPanel6.Controls.Add(this.label11);
             this.bunifuPanel6.Controls.Add(this.bunifuLabel6);
             this.bunifuPanel6.Controls.Add(this.label12);
-            this.bunifuPanel6.Location = new System.Drawing.Point(335, 383);
-            this.bunifuPanel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuPanel6.Location = new System.Drawing.Point(251, 311);
+            this.bunifuPanel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel6.Name = "bunifuPanel6";
             this.bunifuPanel6.ShowBorders = true;
-            this.bunifuPanel6.Size = new System.Drawing.Size(220, 306);
+            this.bunifuPanel6.Size = new System.Drawing.Size(165, 249);
             this.bunifuPanel6.TabIndex = 18;
             // 
             // btnNasgorSeafood
@@ -846,8 +856,8 @@
             this.btnNasgorSeafood.IdleIconLeftImage = null;
             this.btnNasgorSeafood.IdleIconRightImage = null;
             this.btnNasgorSeafood.IndicateFocus = false;
-            this.btnNasgorSeafood.Location = new System.Drawing.Point(13, 250);
-            this.btnNasgorSeafood.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnNasgorSeafood.Location = new System.Drawing.Point(10, 203);
+            this.btnNasgorSeafood.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNasgorSeafood.Name = "btnNasgorSeafood";
             this.btnNasgorSeafood.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnNasgorSeafood.OnDisabledState.BorderRadius = 10;
@@ -881,13 +891,14 @@
             this.btnNasgorSeafood.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnNasgorSeafood.OnPressedState.IconLeftImage = null;
             this.btnNasgorSeafood.OnPressedState.IconRightImage = null;
-            this.btnNasgorSeafood.Size = new System.Drawing.Size(190, 42);
+            this.btnNasgorSeafood.Size = new System.Drawing.Size(142, 34);
             this.btnNasgorSeafood.TabIndex = 12;
             this.btnNasgorSeafood.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnNasgorSeafood.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnNasgorSeafood.TextMarginLeft = 0;
             this.btnNasgorSeafood.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnNasgorSeafood.UseDefaultRadiusAndThickness = true;
+            this.btnNasgorSeafood.Click += new System.EventHandler(this.btnNasgorSeafood_Click);
             // 
             // guna2PictureBox6
             // 
@@ -899,10 +910,10 @@
             this.guna2PictureBox6.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox6.Image = global::Final_Project.Properties.Resources.nasigor_seapood;
             this.guna2PictureBox6.ImageRotate = 0F;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(13, 14);
-            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox6.Location = new System.Drawing.Point(10, 11);
+            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox6.Name = "guna2PictureBox6";
-            this.guna2PictureBox6.Size = new System.Drawing.Size(190, 154);
+            this.guna2PictureBox6.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox6.TabIndex = 4;
             this.guna2PictureBox6.TabStop = false;
@@ -913,9 +924,10 @@
             this.label11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label11.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Coral;
-            this.label11.Location = new System.Drawing.Point(52, 214);
+            this.label11.Location = new System.Drawing.Point(39, 174);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(116, 27);
+            this.label11.Size = new System.Drawing.Size(95, 22);
             this.label11.TabIndex = 6;
             this.label11.Text = "Rp 15.000";
             // 
@@ -925,8 +937,8 @@
             this.bunifuLabel6.AutoEllipsis = false;
             this.bunifuLabel6.CursorType = null;
             this.bunifuLabel6.Font = new System.Drawing.Font("Rockwell", 10.2F);
-            this.bunifuLabel6.Location = new System.Drawing.Point(51, 177);
-            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuLabel6.Location = new System.Drawing.Point(38, 144);
+            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel6.Name = "bunifuLabel6";
             this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel6.Size = new System.Drawing.Size(0, 0);
@@ -940,9 +952,10 @@
             this.label12.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label12.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(20, 177);
+            this.label12.Location = new System.Drawing.Point(15, 144);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(181, 27);
+            this.label12.Size = new System.Drawing.Size(146, 22);
             this.label12.TabIndex = 4;
             this.label12.Text = "Nasgor Seafood";
             // 
@@ -959,11 +972,11 @@
             this.bunifuPanel10.Controls.Add(this.label19);
             this.bunifuPanel10.Controls.Add(this.bunifuLabel10);
             this.bunifuPanel10.Controls.Add(this.label20);
-            this.bunifuPanel10.Location = new System.Drawing.Point(949, 35);
-            this.bunifuPanel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuPanel10.Location = new System.Drawing.Point(712, 28);
+            this.bunifuPanel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel10.Name = "bunifuPanel10";
             this.bunifuPanel10.ShowBorders = true;
-            this.bunifuPanel10.Size = new System.Drawing.Size(220, 306);
+            this.bunifuPanel10.Size = new System.Drawing.Size(165, 249);
             this.bunifuPanel10.TabIndex = 15;
             // 
             // btnSoto
@@ -1014,8 +1027,8 @@
             this.btnSoto.IdleIconLeftImage = null;
             this.btnSoto.IdleIconRightImage = null;
             this.btnSoto.IndicateFocus = false;
-            this.btnSoto.Location = new System.Drawing.Point(13, 250);
-            this.btnSoto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSoto.Location = new System.Drawing.Point(10, 203);
+            this.btnSoto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSoto.Name = "btnSoto";
             this.btnSoto.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnSoto.OnDisabledState.BorderRadius = 10;
@@ -1049,13 +1062,14 @@
             this.btnSoto.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnSoto.OnPressedState.IconLeftImage = null;
             this.btnSoto.OnPressedState.IconRightImage = null;
-            this.btnSoto.Size = new System.Drawing.Size(190, 42);
+            this.btnSoto.Size = new System.Drawing.Size(142, 34);
             this.btnSoto.TabIndex = 12;
             this.btnSoto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSoto.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnSoto.TextMarginLeft = 0;
             this.btnSoto.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnSoto.UseDefaultRadiusAndThickness = true;
+            this.btnSoto.Click += new System.EventHandler(this.btnSoto_Click);
             // 
             // guna2PictureBox10
             // 
@@ -1067,10 +1081,10 @@
             this.guna2PictureBox10.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox10.Image = global::Final_Project.Properties.Resources.soto;
             this.guna2PictureBox10.ImageRotate = 0F;
-            this.guna2PictureBox10.Location = new System.Drawing.Point(13, 14);
-            this.guna2PictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox10.Location = new System.Drawing.Point(10, 11);
+            this.guna2PictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox10.Name = "guna2PictureBox10";
-            this.guna2PictureBox10.Size = new System.Drawing.Size(190, 154);
+            this.guna2PictureBox10.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox10.TabIndex = 4;
             this.guna2PictureBox10.TabStop = false;
@@ -1081,9 +1095,10 @@
             this.label19.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label19.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.Coral;
-            this.label19.Location = new System.Drawing.Point(52, 214);
+            this.label19.Location = new System.Drawing.Point(39, 174);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(104, 27);
+            this.label19.Size = new System.Drawing.Size(85, 22);
             this.label19.TabIndex = 6;
             this.label19.Text = "Rp 7.000";
             // 
@@ -1093,8 +1108,8 @@
             this.bunifuLabel10.AutoEllipsis = false;
             this.bunifuLabel10.CursorType = null;
             this.bunifuLabel10.Font = new System.Drawing.Font("Rockwell", 10.2F);
-            this.bunifuLabel10.Location = new System.Drawing.Point(51, 177);
-            this.bunifuLabel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuLabel10.Location = new System.Drawing.Point(38, 144);
+            this.bunifuLabel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel10.Name = "bunifuLabel10";
             this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel10.Size = new System.Drawing.Size(0, 0);
@@ -1108,9 +1123,10 @@
             this.label20.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label20.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label20.Location = new System.Drawing.Point(82, 177);
+            this.label20.Location = new System.Drawing.Point(62, 144);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(57, 27);
+            this.label20.Size = new System.Drawing.Size(46, 22);
             this.label20.TabIndex = 4;
             this.label20.Text = "Soto";
             // 
@@ -1127,11 +1143,11 @@
             this.bunifuPanel5.Controls.Add(this.label9);
             this.bunifuPanel5.Controls.Add(this.bunifuLabel5);
             this.bunifuPanel5.Controls.Add(this.label10);
-            this.bunifuPanel5.Location = new System.Drawing.Point(642, 383);
-            this.bunifuPanel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuPanel5.Location = new System.Drawing.Point(482, 311);
+            this.bunifuPanel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel5.Name = "bunifuPanel5";
             this.bunifuPanel5.ShowBorders = true;
-            this.bunifuPanel5.Size = new System.Drawing.Size(220, 306);
+            this.bunifuPanel5.Size = new System.Drawing.Size(165, 249);
             this.bunifuPanel5.TabIndex = 16;
             // 
             // btnMieGoreng
@@ -1182,8 +1198,8 @@
             this.btnMieGoreng.IdleIconLeftImage = null;
             this.btnMieGoreng.IdleIconRightImage = null;
             this.btnMieGoreng.IndicateFocus = false;
-            this.btnMieGoreng.Location = new System.Drawing.Point(13, 250);
-            this.btnMieGoreng.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnMieGoreng.Location = new System.Drawing.Point(10, 203);
+            this.btnMieGoreng.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMieGoreng.Name = "btnMieGoreng";
             this.btnMieGoreng.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnMieGoreng.OnDisabledState.BorderRadius = 10;
@@ -1217,13 +1233,14 @@
             this.btnMieGoreng.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnMieGoreng.OnPressedState.IconLeftImage = null;
             this.btnMieGoreng.OnPressedState.IconRightImage = null;
-            this.btnMieGoreng.Size = new System.Drawing.Size(190, 42);
+            this.btnMieGoreng.Size = new System.Drawing.Size(142, 34);
             this.btnMieGoreng.TabIndex = 12;
             this.btnMieGoreng.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnMieGoreng.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnMieGoreng.TextMarginLeft = 0;
             this.btnMieGoreng.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnMieGoreng.UseDefaultRadiusAndThickness = true;
+            this.btnMieGoreng.Click += new System.EventHandler(this.btnMieGoreng_Click);
             // 
             // guna2PictureBox5
             // 
@@ -1235,10 +1252,10 @@
             this.guna2PictureBox5.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox5.Image = global::Final_Project.Properties.Resources.new_title_29022024_1004231;
             this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(13, 14);
-            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox5.Location = new System.Drawing.Point(10, 11);
+            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(190, 154);
+            this.guna2PictureBox5.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox5.TabIndex = 4;
             this.guna2PictureBox5.TabStop = false;
@@ -1249,9 +1266,10 @@
             this.label9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label9.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Coral;
-            this.label9.Location = new System.Drawing.Point(52, 214);
+            this.label9.Location = new System.Drawing.Point(39, 174);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(116, 27);
+            this.label9.Size = new System.Drawing.Size(95, 22);
             this.label9.TabIndex = 6;
             this.label9.Text = "Rp 12.000";
             // 
@@ -1261,8 +1279,8 @@
             this.bunifuLabel5.AutoEllipsis = false;
             this.bunifuLabel5.CursorType = null;
             this.bunifuLabel5.Font = new System.Drawing.Font("Rockwell", 10.2F);
-            this.bunifuLabel5.Location = new System.Drawing.Point(51, 177);
-            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuLabel5.Location = new System.Drawing.Point(38, 144);
+            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel5.Name = "bunifuLabel5";
             this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel5.Size = new System.Drawing.Size(0, 0);
@@ -1276,9 +1294,10 @@
             this.label10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label10.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(38, 177);
+            this.label10.Location = new System.Drawing.Point(28, 144);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(144, 27);
+            this.label10.Size = new System.Drawing.Size(115, 22);
             this.label10.TabIndex = 4;
             this.label10.Text = "Mie Goreng";
             // 
@@ -1295,11 +1314,11 @@
             this.bunifuPanel9.Controls.Add(this.label17);
             this.bunifuPanel9.Controls.Add(this.bunifuLabel9);
             this.bunifuPanel9.Controls.Add(this.label18);
-            this.bunifuPanel9.Location = new System.Drawing.Point(949, 383);
-            this.bunifuPanel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuPanel9.Location = new System.Drawing.Point(712, 311);
+            this.bunifuPanel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel9.Name = "bunifuPanel9";
             this.bunifuPanel9.ShowBorders = true;
-            this.bunifuPanel9.Size = new System.Drawing.Size(220, 306);
+            this.bunifuPanel9.Size = new System.Drawing.Size(165, 249);
             this.bunifuPanel9.TabIndex = 14;
             // 
             // btnKetoprak
@@ -1350,8 +1369,8 @@
             this.btnKetoprak.IdleIconLeftImage = null;
             this.btnKetoprak.IdleIconRightImage = null;
             this.btnKetoprak.IndicateFocus = false;
-            this.btnKetoprak.Location = new System.Drawing.Point(13, 250);
-            this.btnKetoprak.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnKetoprak.Location = new System.Drawing.Point(10, 203);
+            this.btnKetoprak.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnKetoprak.Name = "btnKetoprak";
             this.btnKetoprak.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnKetoprak.OnDisabledState.BorderRadius = 10;
@@ -1385,13 +1404,14 @@
             this.btnKetoprak.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnKetoprak.OnPressedState.IconLeftImage = null;
             this.btnKetoprak.OnPressedState.IconRightImage = null;
-            this.btnKetoprak.Size = new System.Drawing.Size(190, 42);
+            this.btnKetoprak.Size = new System.Drawing.Size(142, 34);
             this.btnKetoprak.TabIndex = 12;
             this.btnKetoprak.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnKetoprak.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnKetoprak.TextMarginLeft = 0;
             this.btnKetoprak.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnKetoprak.UseDefaultRadiusAndThickness = true;
+            this.btnKetoprak.Click += new System.EventHandler(this.btnKetoprak_Click);
             // 
             // guna2PictureBox9
             // 
@@ -1403,10 +1423,10 @@
             this.guna2PictureBox9.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox9.Image = global::Final_Project.Properties.Resources._644d417a9c7ce2;
             this.guna2PictureBox9.ImageRotate = 0F;
-            this.guna2PictureBox9.Location = new System.Drawing.Point(13, 14);
-            this.guna2PictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox9.Location = new System.Drawing.Point(10, 11);
+            this.guna2PictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox9.Name = "guna2PictureBox9";
-            this.guna2PictureBox9.Size = new System.Drawing.Size(190, 154);
+            this.guna2PictureBox9.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox9.TabIndex = 4;
             this.guna2PictureBox9.TabStop = false;
@@ -1417,9 +1437,10 @@
             this.label17.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label17.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Coral;
-            this.label17.Location = new System.Drawing.Point(52, 214);
+            this.label17.Location = new System.Drawing.Point(39, 174);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(104, 27);
+            this.label17.Size = new System.Drawing.Size(85, 22);
             this.label17.TabIndex = 6;
             this.label17.Text = "Rp 8.000";
             // 
@@ -1429,8 +1450,8 @@
             this.bunifuLabel9.AutoEllipsis = false;
             this.bunifuLabel9.CursorType = null;
             this.bunifuLabel9.Font = new System.Drawing.Font("Rockwell", 10.2F);
-            this.bunifuLabel9.Location = new System.Drawing.Point(51, 177);
-            this.bunifuLabel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuLabel9.Location = new System.Drawing.Point(38, 144);
+            this.bunifuLabel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel9.Name = "bunifuLabel9";
             this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel9.Size = new System.Drawing.Size(0, 0);
@@ -1444,18 +1465,19 @@
             this.label18.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label18.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label18.Location = new System.Drawing.Point(54, 177);
+            this.label18.Location = new System.Drawing.Point(40, 144);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(113, 27);
+            this.label18.Size = new System.Drawing.Size(92, 22);
             this.label18.TabIndex = 4;
             this.label18.Text = "Ketoprak";
             // 
             // formMakanan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(1200, 710);
+            this.ClientSize = new System.Drawing.Size(900, 577);
             this.Controls.Add(this.bunifuPanel2);
             this.Controls.Add(this.bunifuPanel3);
             this.Controls.Add(this.bunifuPanel7);
@@ -1465,7 +1487,7 @@
             this.Controls.Add(this.bunifuPanel5);
             this.Controls.Add(this.bunifuPanel9);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "formMakanan";
             this.Text = "formMakanan";
             this.Load += new System.EventHandler(this.formMakanan_Load);

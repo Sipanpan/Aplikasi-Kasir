@@ -45,18 +45,21 @@
             // 
             this.lblKeranjang.AutoSize = true;
             this.lblKeranjang.Font = new System.Drawing.Font("Rockwell Extra Bold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKeranjang.Location = new System.Drawing.Point(473, 32);
+            this.lblKeranjang.Location = new System.Drawing.Point(355, 26);
+            this.lblKeranjang.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblKeranjang.Name = "lblKeranjang";
-            this.lblKeranjang.Size = new System.Drawing.Size(255, 40);
+            this.lblKeranjang.Size = new System.Drawing.Size(203, 32);
             this.lblKeranjang.TabIndex = 0;
             this.lblKeranjang.Text = "KERANJANG";
+            this.lblKeranjang.Click += new System.EventHandler(this.lblKeranjang_Click);
             // 
             // lvwBarang
             // 
             this.lvwBarang.HideSelection = false;
-            this.lvwBarang.Location = new System.Drawing.Point(12, 91);
+            this.lvwBarang.Location = new System.Drawing.Point(9, 74);
+            this.lvwBarang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lvwBarang.Name = "lvwBarang";
-            this.lvwBarang.Size = new System.Drawing.Size(1176, 516);
+            this.lvwBarang.Size = new System.Drawing.Size(883, 420);
             this.lvwBarang.TabIndex = 1;
             this.lvwBarang.UseCompatibleStateImageBehavior = false;
             // 
@@ -109,7 +112,8 @@
             this.btnTambah.IdleIconLeftImage = null;
             this.btnTambah.IdleIconRightImage = null;
             this.btnTambah.IndicateFocus = false;
-            this.btnTambah.Location = new System.Drawing.Point(12, 613);
+            this.btnTambah.Location = new System.Drawing.Point(9, 498);
+            this.btnTambah.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnTambah.OnDisabledState.BorderRadius = 1;
@@ -143,7 +147,7 @@
             this.btnTambah.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnTambah.OnPressedState.IconLeftImage = null;
             this.btnTambah.OnPressedState.IconRightImage = null;
-            this.btnTambah.Size = new System.Drawing.Size(150, 39);
+            this.btnTambah.Size = new System.Drawing.Size(112, 32);
             this.btnTambah.TabIndex = 5;
             this.btnTambah.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnTambah.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -201,7 +205,8 @@
             this.btnEdit.IdleIconLeftImage = null;
             this.btnEdit.IdleIconRightImage = null;
             this.btnEdit.IndicateFocus = false;
-            this.btnEdit.Location = new System.Drawing.Point(12, 659);
+            this.btnEdit.Location = new System.Drawing.Point(9, 535);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnEdit.OnDisabledState.BorderRadius = 1;
@@ -235,7 +240,7 @@
             this.btnEdit.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnEdit.OnPressedState.IconLeftImage = null;
             this.btnEdit.OnPressedState.IconRightImage = null;
-            this.btnEdit.Size = new System.Drawing.Size(150, 39);
+            this.btnEdit.Size = new System.Drawing.Size(112, 32);
             this.btnEdit.TabIndex = 6;
             this.btnEdit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnEdit.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -293,7 +298,8 @@
             this.btnHapus.IdleIconLeftImage = null;
             this.btnHapus.IdleIconRightImage = null;
             this.btnHapus.IndicateFocus = false;
-            this.btnHapus.Location = new System.Drawing.Point(168, 613);
+            this.btnHapus.Location = new System.Drawing.Point(126, 498);
+            this.btnHapus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnHapus.OnDisabledState.BorderRadius = 1;
@@ -327,7 +333,7 @@
             this.btnHapus.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnHapus.OnPressedState.IconLeftImage = null;
             this.btnHapus.OnPressedState.IconRightImage = null;
-            this.btnHapus.Size = new System.Drawing.Size(150, 39);
+            this.btnHapus.Size = new System.Drawing.Size(112, 32);
             this.btnHapus.TabIndex = 7;
             this.btnHapus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnHapus.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -385,7 +391,8 @@
             this.btnTampil.IdleIconLeftImage = null;
             this.btnTampil.IdleIconRightImage = null;
             this.btnTampil.IndicateFocus = false;
-            this.btnTampil.Location = new System.Drawing.Point(1012, 636);
+            this.btnTampil.Location = new System.Drawing.Point(759, 517);
+            this.btnTampil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnTampil.Name = "btnTampil";
             this.btnTampil.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnTampil.OnDisabledState.BorderRadius = 1;
@@ -419,7 +426,7 @@
             this.btnTampil.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnTampil.OnPressedState.IconLeftImage = null;
             this.btnTampil.OnPressedState.IconRightImage = null;
-            this.btnTampil.Size = new System.Drawing.Size(150, 39);
+            this.btnTampil.Size = new System.Drawing.Size(112, 32);
             this.btnTampil.TabIndex = 8;
             this.btnTampil.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnTampil.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -430,9 +437,9 @@
             // 
             // formKeranjang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 710);
+            this.ClientSize = new System.Drawing.Size(900, 577);
             this.Controls.Add(this.btnTampil);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnEdit);
@@ -440,6 +447,7 @@
             this.Controls.Add(this.lvwBarang);
             this.Controls.Add(this.lblKeranjang);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "formKeranjang";
             this.Text = "formKeranjang";
             this.ResumeLayout(false);

@@ -29,7 +29,7 @@ namespace Final_Project
         private void btnBaksoJumbo_Click(object sender, EventArgs e)
         {
             // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang", "Mieso");
+            formTambah frmTambah = new formTambah("Tambah Data Barang", "Bakso Jumbo");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             //frmTambah.OnCreate += formTambah_OnCreate;
@@ -42,6 +42,78 @@ namespace Final_Project
         {
             // buat objek form entry data barang
             formTambah frmTambah = new formTambah("Tambah Data Barang", "Mie Ayam");
+
+            // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
+            //frmTambah.OnCreate += formTambah_OnCreate;
+
+            // tampilkan form entry barang
+            frmTambah.ShowDialog();
+        }
+
+        private void btnMieso_Click(object sender, EventArgs e)
+        {
+            // buat objek form entry data barang
+            formTambah frmTambah = new formTambah("Tambah Data Barang", "Mie Bakso");
+
+            // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
+            //frmTambah.OnCreate += formTambah_OnCreate;
+
+            // tampilkan form entry barang
+            frmTambah.ShowDialog();
+        }
+
+        private void btnSoto_Click(object sender, EventArgs e)
+        {
+            // buat objek form entry data barang
+            formTambah frmTambah = new formTambah("Tambah Data Barang", "Soto");
+
+            // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
+            //frmTambah.OnCreate += formTambah_OnCreate;
+
+            // tampilkan form entry barang
+            frmTambah.ShowDialog();
+        }
+
+        private void btnNasgorAyam_Click(object sender, EventArgs e)
+        {
+            // buat objek form entry data barang
+            formTambah frmTambah = new formTambah("Tambah Data Barang", "Nasgor Ayam");
+
+            // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
+            //frmTambah.OnCreate += formTambah_OnCreate;
+
+            // tampilkan form entry barang
+            frmTambah.ShowDialog();
+        }
+
+        private void btnNasgorSeafood_Click(object sender, EventArgs e)
+        {
+            // buat objek form entry data barang
+            formTambah frmTambah = new formTambah("Tambah Data Barang", "Nasgor Seafood");
+
+            // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
+            //frmTambah.OnCreate += formTambah_OnCreate;
+
+            // tampilkan form entry barang
+            frmTambah.ShowDialog();
+        }
+
+        private void btnMieGoreng_Click(object sender, EventArgs e)
+        {
+            // buat objek form entry data barang
+            formTambah frmTambah = new formTambah("Tambah Data Barang", "Mie Goreng");
+
+            // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
+            //frmTambah.OnCreate += formTambah_OnCreate;
+
+            // tampilkan form entry barang
+            frmTambah.ShowDialog();
+        }
+
+        private void btnKetoprak_Click(object sender, EventArgs e)
+        {
+            // buat objek form entry data barang
+            formTambah frmTambah = new formTambah("Tambah Data Barang", "Ketoprak");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             //frmTambah.OnCreate += formTambah_OnCreate;

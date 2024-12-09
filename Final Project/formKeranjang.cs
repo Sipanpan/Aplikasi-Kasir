@@ -16,7 +16,7 @@ namespace Final_Project
     public partial class formKeranjang : Form
     {
         // deklarasi collection untuk menampung objek barang
-        private IList<Barang> listOfBarang = new List<Barang>();
+        private List<Barang> listOfBarang = new List<Barang>();
 
         // constructor
         public formKeranjang()
@@ -88,12 +88,15 @@ namespace Final_Project
             if (lvwBarang.SelectedItems.Count > 0)
             {
                 int selectedIndex = lvwBarang.SelectedIndices[0];
-
+                Console.WriteLine("==================================");  
+                Console.WriteLine(selectedIndex.ToString());
+                Console.WriteLine(listOfBarang.ToString());  
                 // Memastikan indeks yang dipilih valid
-                if (selectedIndex >= 0 && selectedIndex < listOfBarang.Count)
+                if (selectedIndex >= 0 )
                 {
                     // Ambil objek brg yang mau diedit dari koleksi
                     Barang brg = listOfBarang[selectedIndex];
+                    //Barang brg = listOfBarang[selectedIndex];
 
                     if (brg != null) // Pastikan objek tidak null
                     {
@@ -239,6 +242,11 @@ namespace Final_Project
             {
                 MessageBox.Show($"Gagal membuat database: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void lblKeranjang_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -136,3 +136,51 @@ C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final Proj
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final_Project.formTambah.resources
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\bin\Debug\System.Data.SQLite.dll
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\bin\Debug\System.Data.SQLite.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Final Project.exe.config
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Final Project.exe
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Final Project.pdb
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Bunifu.Licensing.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Bunifu.UI.WinForms.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Bunifu.Utils.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Guna.UI2.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Newtonsoft.Json.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\RestSharp.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Buffers.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.CodeDom.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Data.SQLite.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Memory.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Numerics.Vectors.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Text.Encodings.Web.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Text.Json.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.ValueTuple.dll
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Bunifu.UI.WinForms.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\Newtonsoft.Json.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\RestSharp.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Buffers.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.CodeDom.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Data.SQLite.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Memory.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Numerics.Vectors.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Text.Encodings.Web.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Text.Json.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\bin\Debug\System.ValueTuple.xml
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final_Project.Form1.resources
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final_Project.formAboutUs.resources
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final_Project.formCemilan.resources
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final_Project.formKeranjang.resources
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final_Project.formMakanan.resources
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final_Project.formMinuman.resources
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final_Project.formTambah.resources
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final Pr.B69720BE.Up2Date
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final Project.exe
+E:\Kuliah\Semester3\PemrogLanjut\LastProject\ini\Aplikasi-Kasir\Final Project\obj\Debug\Final Project.pdb
