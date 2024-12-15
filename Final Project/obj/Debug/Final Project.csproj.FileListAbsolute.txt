@@ -121,7 +121,6 @@ C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\bin\Debug\System.Tex
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\bin\Debug\System.ValueTuple.xml
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
-C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final_Project.Form1.resources
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final_Project.formAboutUs.resources
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final_Project.formCemilan.resources
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final_Project.formKeranjang.resources
@@ -136,3 +135,4 @@ C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final Proj
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final_Project.formTambah.resources
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\bin\Debug\System.Data.SQLite.dll
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\bin\Debug\System.Data.SQLite.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final_Project.formMain.resources

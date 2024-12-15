@@ -104,69 +104,74 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Barang.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Controller\BarangController.cs" />
+    <Compile Include="View\coba.cs" />
+    <Compile Include="View\formMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="View\formMain.Designer.cs">
+      <DependentUpon>formMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="formAboutUs.cs">
+    <Compile Include="View\formAboutUs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formAboutUs.Designer.cs">
+    <Compile Include="View\formAboutUs.Designer.cs">
       <DependentUpon>formAboutUs.cs</DependentUpon>
     </Compile>
-    <Compile Include="formCemilan.cs">
+    <Compile Include="View\formCemilan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formCemilan.Designer.cs">
+    <Compile Include="View\formCemilan.Designer.cs">
       <DependentUpon>formCemilan.cs</DependentUpon>
     </Compile>
-    <Compile Include="formKeranjang.cs">
+    <Compile Include="View\formKeranjang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formKeranjang.Designer.cs">
+    <Compile Include="View\formKeranjang.Designer.cs">
       <DependentUpon>formKeranjang.cs</DependentUpon>
     </Compile>
-    <Compile Include="formMakanan.cs">
+    <Compile Include="View\formMakanan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formMakanan.Designer.cs">
+    <Compile Include="View\formMakanan.Designer.cs">
       <DependentUpon>formMakanan.cs</DependentUpon>
     </Compile>
-    <Compile Include="formMinuman.cs">
+    <Compile Include="View\formMinuman.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formMinuman.Designer.cs">
+    <Compile Include="View\formMinuman.Designer.cs">
       <DependentUpon>formMinuman.cs</DependentUpon>
     </Compile>
-    <Compile Include="formTambah.cs">
+    <Compile Include="View\formTambah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formTambah.Designer.cs">
+    <Compile Include="View\formTambah.Designer.cs">
       <DependentUpon>formTambah.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Context\DbContext.cs" />
+    <Compile Include="Model\Entity\Barang.cs" />
+    <Compile Include="Model\Repository\BarangRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="View\formMain.resx">
+      <DependentUpon>formMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formAboutUs.resx">
+    <EmbeddedResource Include="View\formAboutUs.resx">
       <DependentUpon>formAboutUs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formCemilan.resx">
+    <EmbeddedResource Include="View\formCemilan.resx">
       <DependentUpon>formCemilan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formKeranjang.resx">
+    <EmbeddedResource Include="View\formKeranjang.resx">
       <DependentUpon>formKeranjang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formMakanan.resx">
+    <EmbeddedResource Include="View\formMakanan.resx">
       <DependentUpon>formMakanan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formMinuman.resx">
+    <EmbeddedResource Include="View\formMinuman.resx">
       <DependentUpon>formMinuman.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formTambah.resx">
+    <EmbeddedResource Include="View\formTambah.resx">
       <DependentUpon>formTambah.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -394,6 +399,7 @@
   <ItemGroup>
     <None Include="Resources\Group 331.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
