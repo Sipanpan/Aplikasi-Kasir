@@ -176,7 +176,9 @@ namespace Final_Project
 
         /*
                 int selectedIndex = lvwBarang.SelectedIndices[0];
-
+                Console.WriteLine("==================================");  
+                Console.WriteLine(selectedIndex.ToString());
+                Console.WriteLine(listOfBarang.ToString());  
                 // Memastikan indeks yang dipilih valid
                 if (selectedIndex == 1 )//&& selectedIndex < listOfBarang.Count)
                 {
@@ -187,6 +189,7 @@ namespace Final_Project
                     Console.WriteLine(listOfBarang);
                     // Ambil objek brg yang mau diedit dari koleksi
                     Barang brg = listOfBarang[selectedIndex];
+                    //Barang brg = listOfBarang[selectedIndex];
 
                     if (brg != null) // Pastikan objek tidak null
                     {

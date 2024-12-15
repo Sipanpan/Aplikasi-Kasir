@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir\\",
+  "WorkspaceRootPath": "E:\\Kuliah\\Semester3\\PemrogLanjut\\LastProject\\ini\\Aplikasi-Kasir\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|c:\\#kuliah\\smt 3\\pemrog lanjut\\aplikasi kasir\\final project\\view\\formkeranjang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,23 +30,61 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "formCemilan.cs [Design]",
+              "DocumentMoniker": "E:\\Kuliah\\Semester3\\PemrogLanjut\\LastProject\\ini\\Aplikasi-Kasir\\Final Project\\formCemilan.cs",
+              "RelativeDocumentMoniker": "Final Project\\formCemilan.cs",
+              "ToolTip": "E:\\Kuliah\\Semester3\\PemrogLanjut\\LastProject\\ini\\Aplikasi-Kasir\\Final Project\\formCemilan.cs [Design]",
+              "RelativeToolTip": "Final Project\\formCemilan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:19:00.264Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formMakanan.cs",
+              "DocumentMoniker": "E:\\Kuliah\\Semester3\\PemrogLanjut\\LastProject\\ini\\Aplikasi-Kasir\\Final Project\\formMakanan.cs",
+              "RelativeDocumentMoniker": "Final Project\\formMakanan.cs",
+              "ToolTip": "E:\\Kuliah\\Semester3\\PemrogLanjut\\LastProject\\ini\\Aplikasi-Kasir\\Final Project\\formMakanan.cs",
+              "RelativeToolTip": "Final Project\\formMakanan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:45:38.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "formKeranjang.cs [Design]",
+              "DocumentMoniker": "E:\\Kuliah\\Semester3\\PemrogLanjut\\LastProject\\ini\\Aplikasi-Kasir\\Final Project\\formKeranjang.cs",
+              "RelativeDocumentMoniker": "Final Project\\formKeranjang.cs",
+              "ToolTip": "E:\\Kuliah\\Semester3\\PemrogLanjut\\LastProject\\ini\\Aplikasi-Kasir\\Final Project\\formKeranjang.cs [Design]",
+              "RelativeToolTip": "Final Project\\formKeranjang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T14:08:25.371Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "formKeranjang.cs",
+              "DocumentMoniker": "E:\\Kuliah\\Semester3\\PemrogLanjut\\LastProject\\ini\\Aplikasi-Kasir\\Final Project\\formKeranjang.cs",
+              "RelativeDocumentMoniker": "Final Project\\formKeranjang.cs",
+              "ToolTip": "E:\\Kuliah\\Semester3\\PemrogLanjut\\LastProject\\ini\\Aplikasi-Kasir\\Final Project\\formKeranjang.cs",
+              "RelativeToolTip": "Final Project\\formKeranjang.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T08:14:03.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -99,6 +137,16 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T16:50:43.294Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
