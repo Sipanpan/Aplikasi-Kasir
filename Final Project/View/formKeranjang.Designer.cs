@@ -51,7 +51,6 @@
             this.lblKeranjang.Size = new System.Drawing.Size(203, 32);
             this.lblKeranjang.TabIndex = 0;
             this.lblKeranjang.Text = "KERANJANG";
-            this.lblKeranjang.Click += new System.EventHandler(this.lblKeranjang_Click);
             // 
             // lvwBarang
             // 
