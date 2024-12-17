@@ -161,19 +161,12 @@ namespace Final_Project
         private void btnKeranjang_Click(object sender, EventArgs e)
         {
             pnWelcome.Visible = false;
-            if (keranjang == null)
-            {
                 keranjang = new formKeranjang();
                 keranjang.FormClosed += keranjang_FormClosed;
                 keranjang.MdiParent = this;
                 keranjang.Dock = DockStyle.Fill;
                 keranjang.Show();
             }
-            else
-            {
-                keranjang.Activate();
-            }
-        }
 
         private void keranjang_FormClosed(object sender, FormClosedEventArgs e)
         {
