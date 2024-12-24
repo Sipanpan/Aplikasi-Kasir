@@ -383,6 +383,7 @@
             this.btnMieAyam.TextMarginLeft = 0;
             this.btnMieAyam.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnMieAyam.UseDefaultRadiusAndThickness = true;
+            this.btnMieAyam.Click += new System.EventHandler(this.btnMieAyam_Click);
             // 
             // guna2PictureBox3
             // 
@@ -551,6 +552,7 @@
             this.btnNasgorAyam.TextMarginLeft = 0;
             this.btnNasgorAyam.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnNasgorAyam.UseDefaultRadiusAndThickness = true;
+            this.btnNasgorAyam.Click += new System.EventHandler(this.btnNasgorAyam_Click);
             // 
             // guna2PictureBox7
             // 
@@ -719,6 +721,7 @@
             this.btnMieso.TextMarginLeft = 0;
             this.btnMieso.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnMieso.UseDefaultRadiusAndThickness = true;
+            this.btnMieso.Click += new System.EventHandler(this.btnMieso_Click);
             // 
             // guna2PictureBox4
             // 
@@ -887,6 +890,7 @@
             this.btnNasgorSeafood.TextMarginLeft = 0;
             this.btnNasgorSeafood.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnNasgorSeafood.UseDefaultRadiusAndThickness = true;
+            this.btnNasgorSeafood.Click += new System.EventHandler(this.btnNasgorSeafood_Click);
             // 
             // guna2PictureBox6
             // 
@@ -1055,6 +1059,7 @@
             this.btnSoto.TextMarginLeft = 0;
             this.btnSoto.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnSoto.UseDefaultRadiusAndThickness = true;
+            this.btnSoto.Click += new System.EventHandler(this.btnSoto_Click);
             // 
             // guna2PictureBox10
             // 
@@ -1223,6 +1228,7 @@
             this.btnMieGoreng.TextMarginLeft = 0;
             this.btnMieGoreng.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnMieGoreng.UseDefaultRadiusAndThickness = true;
+            this.btnMieGoreng.Click += new System.EventHandler(this.btnMieGoreng_Click);
             // 
             // guna2PictureBox5
             // 
@@ -1391,6 +1397,7 @@
             this.btnKetoprak.TextMarginLeft = 0;
             this.btnKetoprak.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnKetoprak.UseDefaultRadiusAndThickness = true;
+            this.btnKetoprak.Click += new System.EventHandler(this.btnKetoprak_Click);
             // 
             // guna2PictureBox9
             // 

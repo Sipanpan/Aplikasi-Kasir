@@ -46,17 +46,18 @@
             this.lblJumlah = new System.Windows.Forms.Label();
             this.btnSelesai = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnSimpan = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.lblNama = new System.Windows.Forms.Label();
             this.txtJumlah = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtHarga = new Bunifu.UI.WinForms.BunifuTextBox();
             this.lblHarga = new System.Windows.Forms.Label();
+            this.lblNama = new System.Windows.Forms.Label();
             this.txtNama = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.lblJudul = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblJumlah
             // 
             this.lblJumlah.AutoSize = true;
-            this.lblJumlah.Location = new System.Drawing.Point(28, 47);
+            this.lblJumlah.Location = new System.Drawing.Point(28, 77);
             this.lblJumlah.Name = "lblJumlah";
             this.lblJumlah.Size = new System.Drawing.Size(50, 16);
             this.lblJumlah.TabIndex = 0;
@@ -111,7 +112,7 @@
             this.btnSelesai.IdleIconLeftImage = null;
             this.btnSelesai.IdleIconRightImage = null;
             this.btnSelesai.IndicateFocus = false;
-            this.btnSelesai.Location = new System.Drawing.Point(214, 139);
+            this.btnSelesai.Location = new System.Drawing.Point(214, 151);
             this.btnSelesai.Name = "btnSelesai";
             this.btnSelesai.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnSelesai.OnDisabledState.BorderRadius = 1;
@@ -203,7 +204,7 @@
             this.btnSimpan.IdleIconLeftImage = null;
             this.btnSimpan.IdleIconRightImage = null;
             this.btnSimpan.IndicateFocus = false;
-            this.btnSimpan.Location = new System.Drawing.Point(48, 139);
+            this.btnSimpan.Location = new System.Drawing.Point(48, 151);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnSimpan.OnDisabledState.BorderRadius = 1;
@@ -246,15 +247,6 @@
             this.btnSimpan.UseDefaultRadiusAndThickness = true;
             this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
-            // lblNama
-            // 
-            this.lblNama.AutoSize = true;
-            this.lblNama.Location = new System.Drawing.Point(28, 12);
-            this.lblNama.Name = "lblNama";
-            this.lblNama.Size = new System.Drawing.Size(44, 16);
-            this.lblNama.TabIndex = 5;
-            this.lblNama.Text = "Nama";
-            // 
             // txtJumlah
             // 
             this.txtJumlah.AcceptsReturn = false;
@@ -284,7 +276,7 @@
             this.txtJumlah.IconRight = null;
             this.txtJumlah.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtJumlah.Lines = new string[0];
-            this.txtJumlah.Location = new System.Drawing.Point(102, 47);
+            this.txtJumlah.Location = new System.Drawing.Point(102, 77);
             this.txtJumlah.MaxLength = 32767;
             this.txtJumlah.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtJumlah.Modified = false;
@@ -360,7 +352,7 @@
             this.txtHarga.IconRight = null;
             this.txtHarga.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtHarga.Lines = new string[0];
-            this.txtHarga.Location = new System.Drawing.Point(102, 82);
+            this.txtHarga.Location = new System.Drawing.Point(102, 112);
             this.txtHarga.MaxLength = 32767;
             this.txtHarga.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtHarga.Modified = false;
@@ -410,11 +402,20 @@
             // lblHarga
             // 
             this.lblHarga.AutoSize = true;
-            this.lblHarga.Location = new System.Drawing.Point(28, 82);
+            this.lblHarga.Location = new System.Drawing.Point(28, 112);
             this.lblHarga.Name = "lblHarga";
             this.lblHarga.Size = new System.Drawing.Size(45, 16);
             this.lblHarga.TabIndex = 10;
             this.lblHarga.Text = "Harga";
+            // 
+            // lblNama
+            // 
+            this.lblNama.AutoSize = true;
+            this.lblNama.Location = new System.Drawing.Point(28, 42);
+            this.lblNama.Name = "lblNama";
+            this.lblNama.Size = new System.Drawing.Size(44, 16);
+            this.lblNama.TabIndex = 5;
+            this.lblNama.Text = "Nama";
             // 
             // txtNama
             // 
@@ -445,7 +446,7 @@
             this.txtNama.IconRight = null;
             this.txtNama.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtNama.Lines = new string[0];
-            this.txtNama.Location = new System.Drawing.Point(102, 12);
+            this.txtNama.Location = new System.Drawing.Point(102, 42);
             this.txtNama.MaxLength = 32767;
             this.txtNama.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtNama.Modified = false;
@@ -492,11 +493,22 @@
             this.txtNama.UseSystemPasswordChar = false;
             this.txtNama.WordWrap = true;
             // 
+            // lblJudul
+            // 
+            this.lblJudul.AutoSize = true;
+            this.lblJudul.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblJudul.Location = new System.Drawing.Point(143, 9);
+            this.lblJudul.Name = "lblJudul";
+            this.lblJudul.Size = new System.Drawing.Size(74, 29);
+            this.lblJudul.TabIndex = 11;
+            this.lblJudul.Text = "Judul";
+            // 
             // formTambah
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(376, 190);
+            this.ClientSize = new System.Drawing.Size(376, 202);
+            this.Controls.Add(this.lblJudul);
             this.Controls.Add(this.lblHarga);
             this.Controls.Add(this.txtHarga);
             this.Controls.Add(this.txtJumlah);
@@ -519,10 +531,11 @@
         private System.Windows.Forms.Label lblJumlah;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnSelesai;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnSimpan;
-        private System.Windows.Forms.Label lblNama;
         private Bunifu.UI.WinForms.BunifuTextBox txtJumlah;
         private Bunifu.UI.WinForms.BunifuTextBox txtHarga;
         private System.Windows.Forms.Label lblHarga;
+        private System.Windows.Forms.Label lblNama;
         private Bunifu.UI.WinForms.BunifuTextBox txtNama;
+        private System.Windows.Forms.Label lblJudul;
     }
 }

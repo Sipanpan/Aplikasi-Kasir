@@ -43,6 +43,7 @@ namespace Final_Project
         // Constructor untuk inisialisasi data ketika entri data baru
         public formTambah(string title, BarangController controller, string nama, string harga) : this()
         {
+            lblJudul.Text = nama;
             // ganti text/judul form
             this.Text = title;
             this.Controller = controller;
