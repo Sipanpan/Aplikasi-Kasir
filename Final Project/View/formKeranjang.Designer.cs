@@ -153,7 +153,6 @@
             this.btnTambah.TextMarginLeft = 0;
             this.btnTambah.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnTambah.UseDefaultRadiusAndThickness = true;
-            this.btnTambah.Click += new System.EventHandler(this.btnTambah_Click);
             // 
             // btnEdit
             // 

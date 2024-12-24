@@ -59,8 +59,10 @@ namespace Final_Project
 
         private void btnBaksoJumbo_Click(object sender, EventArgs e)
         {
+            //string ww = "Bakso Jumbo";
+
             // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang", controller);
+            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "Bakso Jumbo", "12000");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             frmTambah.OnCreate += OnCreateEventHandler;

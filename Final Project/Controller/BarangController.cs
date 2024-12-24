@@ -67,6 +67,57 @@ namespace Final_Project.Controller
             return result;
         }
 
+        public int Pesan(Barang brg, string fafa)
+        {
+            int result = 0;
+
+            // cek Nama yan diinputkan tidak boleh kosong
+            if (string.IsNullOrEmpty(brg.Nama))
+            {
+                MessageBox.Show("Nama harus diisi !!!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return 0;
+            }
+
+            // cek Jumlah yang diinputkan tidak boleh kosong
+            if (string.IsNullOrEmpty(brg.Jumlah))
+            {
+                MessageBox.Show("Jumlah harus diisi !!!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return 0;
+            }
+
+            // cek Harga yang diinputkan tidak boleh kosong
+            if (string.IsNullOrEmpty(brg.Harga))
+            {
+                MessageBox.Show("Harga harus diisi !!!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return 0;
+            }
+
+            // membuat objek context menggunakan blok using
+            using (DbContext context = new DbContext())
+            {
+                // membuat objek class repository
+                _repository = new BarangRepository(context);
+
+                // panggil method Create repository untuk menambahkan data
+                result = _repository.Pesan(brg, fafa);
+            }
+
+            if (result > 0)
+            {
+                MessageBox.Show("Data barang berhasil disimpan !", "Informasi",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Data barang gagal disimpan !!!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            return result;
+        }
+
         public int Update(Barang brg)
         {
             int result = 0;

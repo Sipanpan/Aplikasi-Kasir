@@ -41,11 +41,18 @@ namespace Final_Project
         }
 
         // Constructor untuk inisialisasi data ketika entri data baru
-        public formTambah(string title, BarangController controller) : this()
+        public formTambah(string title, BarangController controller, string nama, string harga) : this()
         {
             // ganti text/judul form
             this.Text = title;
             this.Controller = controller;
+
+            Barang brg = new Barang();
+
+            brg.Nama = nama;
+            brg.Harga = harga;
+            txtNama.Text = brg.Nama;
+            txtHarga.Text = brg.Harga;
         }
 
         /*
@@ -100,7 +107,7 @@ namespace Final_Project
             // jika data baru, inisisalisasi objek barang
             if (isNewData) brg = new Barang();
 
-            // set nilai property objek barang yang diambil dari textbox]
+            // set nilai property objek barang yang diambil dari textbox
             brg.Nama = txtNama.Text;
             brg.Jumlah = txtJumlah.Text;
             brg.Harga = txtHarga.Text;

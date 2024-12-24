@@ -7,6 +7,7 @@ using System.Data.SQLite;
 using Final_Project.Model.Entity;
 using Final_Project.Model.Context;
 using System.Threading;
+using System.Data.SqlClient;
 
 namespace Final_Project.Model.Repository
 {
@@ -77,6 +78,38 @@ namespace Final_Project.Model.Repository
                 catch (Exception ex)
                 {
                     System.Diagnostics.Debug.Print("Update error: {0}", ex.Message);
+                }
+            }
+            return result;
+        }
+
+        public int Pesan(Barang brg, string fufu)
+        {
+            int result = 0;
+
+            // deklarasi perintah SQL
+            string sql = @"select * from makanan where nama = '" + fufu + "'";
+
+            //string sql = @"update barang set Jumlah = @Jumlah, Total = @Total
+                           //where Nama = @Nama";
+
+            // membuat objek command menggunakan blok using
+            using (SQLiteCommand cmd = new SQLiteCommand(sql, _conn))
+            {
+                // mendaftarkan parameter dan mengeset nilainya
+                cmd.Parameters.AddWithValue("@Nama", brg.Nama);
+                cmd.Parameters.AddWithValue("@Jumlah", brg.Jumlah);
+                cmd.Parameters.AddWithValue("@Harga", brg.Harga);
+                cmd.Parameters.AddWithValue("@Total", brg.Total);
+
+                try
+                {
+                    // jalankan perintah UPDATE dan tampung hasilnya ke dalam variabel result
+                    result = cmd.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    System.Diagnostics.Debug.Print("Pesan error: {0}", ex.Message);
                 }
             }
             return result;

@@ -139,7 +139,7 @@ namespace Final_Project
             itemRow.SubItems[4].Text = brg.Total.ToString();
         }*/
 
-        private void btnTambah_Click(object sender, EventArgs e)
+        /*private void btnTambah_Click(object sender, EventArgs e)
         {
             // buat objek form entry data barang
             formTambah frmTambah = new formTambah("Tambah Data Barang", controller);
@@ -149,7 +149,7 @@ namespace Final_Project
 
             // tampilkan form tambah
             frmTambah.ShowDialog();
-        }
+        }*/
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
