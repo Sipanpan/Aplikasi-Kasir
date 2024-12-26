@@ -44,6 +44,7 @@ namespace Final_Project
         public formTambah(string title, BarangController controller, string nama, string harga) : this()
         {
             lblJudul.Text = nama;
+            lblHarga.Text = harga;
             // ganti text/judul form
             this.Text = title;
             this.Controller = controller;
@@ -52,8 +53,6 @@ namespace Final_Project
 
             brg.Nama = nama;
             brg.Harga = harga;
-            txtNama.Text = brg.Nama;
-            txtHarga.Text = brg.Harga;
         }
 
         /*
@@ -98,9 +97,9 @@ namespace Final_Project
             brg = obj; // set objek brg yang akan diedit
 
             // untuk edit data, tampilkan data lama
-            txtNama.Text = brg.Nama;
+            lblJudul.Text = brg.Nama;
             txtJumlah.Text = brg.Jumlah;
-            txtHarga.Text = brg.Harga;
+            lblHarga.Text = brg.Harga;
         }
 
         private void btnSimpan_Click(object sender, EventArgs e)
@@ -109,9 +108,9 @@ namespace Final_Project
             if (isNewData) brg = new Barang();
 
             // set nilai property objek barang yang diambil dari textbox
-            brg.Nama = txtNama.Text;
+            brg.Nama = lblJudul.Text;
             brg.Jumlah = txtJumlah.Text;
-            brg.Harga = txtHarga.Text;
+            brg.Harga = lblHarga.Text;
             brg.Total = Int32.Parse(brg.Jumlah) * Int32.Parse(brg.Harga);
 
             int result = 0;
@@ -126,11 +125,7 @@ namespace Final_Project
                     OnCreate(brg); // panggil event OnCreate
 
                     // reset form input, untuk persiapan input data berikutnya
-                    txtNama.Clear();
                     txtJumlah.Clear();
-                    txtHarga.Clear();
-
-                    txtNama.Focus();
                 }
             }
             else // edit data, panggil method Update

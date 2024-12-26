@@ -8,6 +8,7 @@ using Final_Project.Model.Entity;
 using Final_Project.Model.Context;
 using System.Threading;
 using System.Data.SqlClient;
+using static System.ComponentModel.Design.ObjectSelectorEditor;
 
 namespace Final_Project.Model.Repository
 {
@@ -51,6 +52,34 @@ namespace Final_Project.Model.Repository
                 }
             }
             return result;
+        }
+
+        public decimal GetTotal()
+        {
+            decimal Total = 0;
+
+            // Query SQL untuk menghitung jumlah total
+            string sql = @"SELECT SUM(Total) FROM barang";
+
+            using (SQLiteCommand cmd = new SQLiteCommand(sql, _conn))
+            {
+                try
+                {
+                    object result = cmd.ExecuteScalar();
+
+                    // Jika hasilnya tidak null, konversi ke decimal
+                    if (result != DBNull.Value)
+                    {
+                        Total = Convert.ToDecimal(result);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Tangani exception sesuai kebutuhan
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+            }
+            return Total;
         }
 
         public int Update(Barang brg)
