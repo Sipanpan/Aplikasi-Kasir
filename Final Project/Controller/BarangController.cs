@@ -239,11 +239,9 @@ namespace Final_Project.Controller
             return list;
         }
 
-        public List<Barang> ReadTTL()
+        public decimal GetTotal()
         {
-            // membuat objek collection
-            List<Barang> list = new List<Barang>();
-
+            decimal result = 0;
 
             // membuat objek context menggunakan blok using
             using (DbContext context = new DbContext())
@@ -253,8 +251,9 @@ namespace Final_Project.Controller
 
                 // panggil method GetAll yang ada di dalam class repository
                 // list = _repository.ReadTTL();
+                result = _repository.GetTotal();
             }
-            return list;
+            return result;
         }
     }
 }

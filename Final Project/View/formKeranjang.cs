@@ -58,6 +58,7 @@ namespace Final_Project
 
             // panggil method ReadAll dan tampung datanya ke dalam collection
             listOfBarang = controller.ReadAll();
+            txtTotal.Text = controller.GetTotal().ToString();
 
             // ekstrak objek brg dari collection
             foreach (var brg in listOfBarang)
@@ -70,12 +71,8 @@ namespace Final_Project
                 item.SubItems.Add(brg.Harga);
                 item.SubItems.Add(brg.Total.ToString());
 
-                //int a = item.SubItems[2];
-                //txtTotal.Text = a.ToString();
-
                 // tampilkan data brg ke listview
                 lvwBarang.Items.Add(item);
-                //txtTotal.Text += Int32.Parse(brg.Total.ToString());
             }
         }
 

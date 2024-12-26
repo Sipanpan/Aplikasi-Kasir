@@ -54,67 +54,32 @@ namespace Final_Project.Model.Repository
             return result;
         }
 
-        public int ReadTTL()
+        public decimal GetTotal()
         {
-            int result = 0;
+            decimal Total = 0;
 
-            // deklarasi perintah sql
-            string sql = @"select SUM(Total) from barang";
+            // Query SQL untuk menghitung jumlah total
+            string sql = @"SELECT SUM(Total) FROM barang";
 
-            // membuat objek command menggunakan blok using
             using (SQLiteCommand cmd = new SQLiteCommand(sql, _conn))
             {
                 try
                 {
-                    // jalankan perintah insert dan tampung hasilnya ke dalam variabel result
-                    result = cmd.ExecuteNonQuery();
+                    object result = cmd.ExecuteScalar();
+
+                    // Jika hasilnya tidak null, konversi ke decimal
+                    if (result != DBNull.Value)
+                    {
+                        Total = Convert.ToDecimal(result);
+                    }
                 }
                 catch (Exception ex)
                 {
-                    System.Diagnostics.Debug.Print("Read error : {0}", ex.Message);
+                    // Tangani exception sesuai kebutuhan
+                    Console.WriteLine("Error: " + ex.Message);
                 }
             }
-            return result;
-        }
-
-        public List<Barang> ReadTotal()
-        {
-            // membuat objek collection untuk menampung objek barang
-            List<Barang> list = new List<Barang>();
-
-            try
-            {
-                // deklarasi perintah SQL
-                string sql = @"select SUM(Total) from barang";
-
-                // membuat objek command menggunakan blok using
-                using (SQLiteCommand cmd = new SQLiteCommand(sql, _conn))
-                {
-                    // membuat objek dtr (data reader) untuk menampung result set (hasil perintah SELECT)
-                    using (SQLiteDataReader dtr = cmd.ExecuteReader())
-                    {
-                        // panggil method Read untuk mendapatkan baris dari result set
-                        while (dtr.Read())
-                        {
-                            // proses konversi dari row result set ke object
-                            Barang brg = new Barang();
-                            brg.Nama = dtr["Nama"].ToString();
-                            brg.Jumlah = dtr["Jumlah"].ToString();
-                            brg.Harga = dtr["Harga"].ToString();
-                            brg.Total = Int32.Parse(brg.Jumlah) * Int32.Parse(brg.Harga);
-
-                            // tambahkan objek mahasiswa ke dalam collection
-                            list.Add(brg);
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                System.Diagnostics.Debug.Print("ReadAll error: {0}", ex.Message);
-            }
-
-            return list;
+            return Total;
         }
 
         public int Update(Barang brg)
