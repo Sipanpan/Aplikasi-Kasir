@@ -136,14 +136,14 @@
   <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Usaha bakso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Usaha bakso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ice tea mantap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ice tea mantap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="marvel_studios_the_avengers_assembled_wallpaper_hd_by_joshua121penalba_ddavxow-fullview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marvel_studios_the_avengers_assembled_wallpaper_hd_by_joshua121penalba_ddavxow-fullview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="grup" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grup.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="es sirup" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\es sirup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,11 +163,17 @@
   <data name="gorengan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gorengan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nasgor ayam1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nasgor ayam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="susu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\susu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="esjeruk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\esjeruk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="estehi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\estehi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -183,9 +189,6 @@
   </data>
   <data name="teh botol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\teh botol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ice tea mantap1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ice tea mantap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,6 +211,9 @@
   <data name="Cash (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cash (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Bank Cards (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bank Cards (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Home Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Home Page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -229,11 +235,11 @@
   <data name="Group 33" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="663290feb53581" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\663290feb5358.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="2020-04-20T14_16_46+07_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2020-04-20T14_16_46+07_00.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="644d417a9c7ce1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\644d417a9c7ce1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="susu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\susu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,8 +268,8 @@
   <data name="Group 261" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 261.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tahu penyet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tahu penyet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Home Page (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home Page (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="soda gembira1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\soda gembira.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -283,9 +289,6 @@
   <data name="tempe-goreng-kriuk-ala-tepung-kobe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tempe-goreng-kriuk-ala-tepung-kobe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Iced-Tea-resize3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iced-Tea-resize.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="tahu-bakso-ungaran" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tahu-bakso-ungaran.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -294,9 +297,6 @@
   </data>
   <data name="es sirup1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\es sirup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="644d417a9c7ce1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\644d417a9c7ce1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnKami" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnKami.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,17 +355,20 @@
   <data name="business-people-talking-each-other" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\business-people-talking-each-other.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Usaha bakso" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Usaha bakso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grup.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nasgor ayam1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nasgor ayam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnCemilan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnCemilan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="soto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\soto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnCemilan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnCemilan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tahu penyet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tahu penyet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="es campur" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\es campur.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -382,11 +385,11 @@
   <data name="esjeruk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\esjeruk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Home Page (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Home Page (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Iced-Tea-resize3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iced-Tea-resize.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 26" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="663290feb53581" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\663290feb5358.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="644d417a9c7ce2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\644d417a9c7ce2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -400,7 +403,7 @@
   <data name="Qr Code" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Qr Code.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bank Cards (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bank Cards (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WhatsApp Image 2024-12-26 at 20.34.59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2024-12-26 at 20.34.59.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -56,7 +56,7 @@
             // 
             this.lvwBarang.HideSelection = false;
             this.lvwBarang.Location = new System.Drawing.Point(9, 74);
-            this.lvwBarang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lvwBarang.Margin = new System.Windows.Forms.Padding(2);
             this.lvwBarang.Name = "lvwBarang";
             this.lvwBarang.Size = new System.Drawing.Size(883, 420);
             this.lvwBarang.TabIndex = 1;
@@ -112,7 +112,7 @@
             this.btnTambah.IdleIconRightImage = null;
             this.btnTambah.IndicateFocus = false;
             this.btnTambah.Location = new System.Drawing.Point(9, 498);
-            this.btnTambah.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTambah.Margin = new System.Windows.Forms.Padding(2);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnTambah.OnDisabledState.BorderRadius = 1;
@@ -204,7 +204,7 @@
             this.btnEdit.IdleIconRightImage = null;
             this.btnEdit.IndicateFocus = false;
             this.btnEdit.Location = new System.Drawing.Point(9, 535);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnEdit.OnDisabledState.BorderRadius = 1;
@@ -297,7 +297,7 @@
             this.btnHapus.IdleIconRightImage = null;
             this.btnHapus.IndicateFocus = false;
             this.btnHapus.Location = new System.Drawing.Point(126, 498);
-            this.btnHapus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHapus.Margin = new System.Windows.Forms.Padding(2);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnHapus.OnDisabledState.BorderRadius = 1;
@@ -390,7 +390,7 @@
             this.btnTampil.IdleIconRightImage = null;
             this.btnTampil.IndicateFocus = false;
             this.btnTampil.Location = new System.Drawing.Point(759, 517);
-            this.btnTampil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTampil.Margin = new System.Windows.Forms.Padding(2);
             this.btnTampil.Name = "btnTampil";
             this.btnTampil.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnTampil.OnDisabledState.BorderRadius = 1;
@@ -431,6 +431,7 @@
             this.btnTampil.TextMarginLeft = 0;
             this.btnTampil.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnTampil.UseDefaultRadiusAndThickness = true;
+            this.btnTampil.Click += new System.EventHandler(this.btnTampil_Click);
             // 
             // formKeranjang
             // 
@@ -444,7 +445,7 @@
             this.Controls.Add(this.lvwBarang);
             this.Controls.Add(this.lblKeranjang);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "formKeranjang";
             this.Text = "formKeranjang";
             this.ResumeLayout(false);

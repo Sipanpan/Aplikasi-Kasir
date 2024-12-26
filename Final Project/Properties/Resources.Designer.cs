@@ -1010,5 +1010,15 @@ namespace Final_Project.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2024_12_26_at_20_34_59 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2024-12-26 at 20.34.59", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

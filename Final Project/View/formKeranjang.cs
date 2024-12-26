@@ -13,6 +13,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using Final_Project.Model.Entity;
 using Final_Project.Controller;
 using Bunifu.UI.WinForms;
+using Final_Project.View;
 
 namespace Final_Project
 {
@@ -247,39 +248,54 @@ namespace Final_Project
             }
         }
 
-            /*
-                // ambil objek brg yang mau dihapus dari collection
-                Barang obj = listOfBarang[lvwBarang.SelectedIndices[0]];
+        private void btnTampil_Click(object sender, EventArgs e)
+        {
+            btnTampil.Visible = false;
+            frmPembayaran pembayaran = new frmPembayaran();
+            pembayaran.FormClosed += FrmPembayaran_FormClosed;
+            pembayaran.Show(); 
+        }
 
-                string msg = string.Format("Apakah data barang '{0}' ingin dihapus ? ", obj.Nama);
-                
-                if (MessageBox.Show(msg, "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
+
+        private void FrmPembayaran_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            btnTampil.Visible = true;
+        }
+
+
+        /*
+            // ambil objek brg yang mau dihapus dari collection
+            Barang obj = listOfBarang[lvwBarang.SelectedIndices[0]];
+
+            string msg = string.Format("Apakah data barang '{0}' ingin dihapus ? ", obj.Nama);
+
+            if (MessageBox.Show(msg, "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
+            {
+                // hapus objek barang dari collection
+                listOfBarang.Remove(obj);
+
+                lvwBarang.Items.Clear();
+
+                // refresh data brg yang ditampilkan ke listview
+                foreach (Barang brg in listOfBarang)
                 {
-                    // hapus objek barang dari collection
-                    listOfBarang.Remove(obj);
+                    int noUrut = lvwBarang.Items.Count + 1;
 
-                    lvwBarang.Items.Clear();
+                    ListViewItem item = new ListViewItem(noUrut.ToString());
+                    item.SubItems.Add(brg.Nama);
+                    item.SubItems.Add(brg.Jumlah);
+                    item.SubItems.Add(brg.Harga);
+                    item.SubItems.Add(brg.Total.ToString());
 
-                    // refresh data brg yang ditampilkan ke listview
-                    foreach (Barang brg in listOfBarang)
-                    {
-                        int noUrut = lvwBarang.Items.Count + 1;
-
-                        ListViewItem item = new ListViewItem(noUrut.ToString());
-                        item.SubItems.Add(brg.Nama);
-                        item.SubItems.Add(brg.Jumlah);
-                        item.SubItems.Add(brg.Harga);
-                        item.SubItems.Add(brg.Total.ToString());
-
-                        lvwBarang.Items.Add(item);
-                    }
+                    lvwBarang.Items.Add(item);
                 }
             }
-            else // data belum dipilih
-            {
-                MessageBox.Show("Data belum dipilih", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }*/
+        }
+        else // data belum dipilih
+        {
+            MessageBox.Show("Data belum dipilih", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+    }*/
 
         /*
         private void btnTampil_Click(object sender, EventArgs e)
