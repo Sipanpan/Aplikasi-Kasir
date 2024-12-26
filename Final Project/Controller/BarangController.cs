@@ -238,5 +238,23 @@ namespace Final_Project.Controller
             }
             return list;
         }
+
+        public List<Barang> ReadTTL()
+        {
+            // membuat objek collection
+            List<Barang> list = new List<Barang>();
+
+
+            // membuat objek context menggunakan blok using
+            using (DbContext context = new DbContext())
+            {
+                // membuat objek dari class repository
+                _repository = new BarangRepository(context);
+
+                // panggil method GetAll yang ada di dalam class repository
+                // list = _repository.ReadTTL();
+            }
+            return list;
+        }
     }
 }
