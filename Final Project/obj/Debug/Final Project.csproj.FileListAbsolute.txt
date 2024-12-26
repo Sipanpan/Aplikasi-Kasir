@@ -184,3 +184,4 @@ D:\pemrog\new final\Final Project\obj\Debug\Final Project.csproj.CoreCompileInpu
 D:\pemrog\new final\Final Project\obj\Debug\Final Pr.B69720BE.Up2Date
 D:\pemrog\new final\Final Project\obj\Debug\Final Project.exe
 D:\pemrog\new final\Final Project\obj\Debug\Final Project.pdb
+D:\pemrog\new final\Final Project\obj\Debug\Final_Project.View.Pembayaran.resources

@@ -173,6 +173,16 @@ namespace Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bank_Cards__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Bank Cards (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnCemilan {
             get {
                 object obj = ResourceManager.GetObject("btnCemilan", resourceCulture);
@@ -236,6 +246,26 @@ namespace Final_Project.Properties {
         internal static System.Drawing.Bitmap c413b0dc748f4573cb50cac4912ae54a {
             get {
                 object obj = ResourceManager.GetObject("c413b0dc748f4573cb50cac4912ae54a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cash {
+            get {
+                object obj = ResourceManager.GetObject("Cash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cash__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Cash (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -717,6 +747,26 @@ namespace Final_Project.Properties {
         internal static System.Drawing.Bitmap pngtree_ice_teas_and_ice_tea_recipes_image_29433881 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-ice-teas-and-ice-tea-recipes-image_29433881", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Qr_Code {
+            get {
+                object obj = ResourceManager.GetObject("Qr Code", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Qr_Code__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Qr Code (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
