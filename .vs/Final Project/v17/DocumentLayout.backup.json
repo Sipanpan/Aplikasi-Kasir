@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "D:\\pemrog\\new final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\view\\formcemilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formcemilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\view\\formkeranjang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formkeranjang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|d:\\pemrog\\new final\\final project\\view\\frmqris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\frmqris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\controller\\barangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\controller\\barangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\model\\repository\\barangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\model\\repository\\barangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\view\\formkeranjang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formkeranjang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\view\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\view\\formcemilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formcemilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|d:\\pemrog\\new final\\final project\\view\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\view\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|d:\\pemrog\\new final\\final project\\view\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|d:\\pemrog\\new final\\final project\\view\\frmqris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\frmqris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\view\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|d:\\pemrog\\new final\\final project\\view\\frmqris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|d:\\pemrog\\new final\\final project\\view\\pembayaran.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\pembayaran.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\view\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,16 +87,8 @@
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\controller\\barangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\controller\\barangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\model\\entity\\barang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\model\\entity\\barang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|D:\\pemrog\\new final\\final project\\model\\repository\\barangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\model\\repository\\barangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,17 +98,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "formMakanan.cs",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\formMakanan.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formMakanan.cs",
               "ToolTip": "D:\\pemrog\\new final\\Final Project\\View\\formMakanan.cs",
               "RelativeToolTip": "Final Project\\View\\formMakanan.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAmwJcAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAuwJcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T18:35:45.345Z",
               "IsPinned": true,
@@ -116,13 +116,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "formCemilan.cs",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\formCemilan.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formCemilan.cs",
               "ToolTip": "D:\\pemrog\\new final\\Final Project\\View\\formCemilan.cs",
               "RelativeToolTip": "Final Project\\View\\formCemilan.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAcwJIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwJIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T10:06:15.775Z",
               "IsPinned": true,
@@ -130,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Pembayaran.cs [Design]",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\Pembayaran.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\Pembayaran.cs",
@@ -155,36 +155,74 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "formKeranjang.cs",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\formKeranjang.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formKeranjang.cs",
               "ToolTip": "D:\\pemrog\\new final\\Final Project\\View\\formKeranjang.cs",
               "RelativeToolTip": "Final Project\\View\\formKeranjang.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwD0AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwD0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T18:36:41.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmQRIS.cs [Design]",
-              "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\frmQRIS.cs",
-              "RelativeDocumentMoniker": "Final Project\\View\\frmQRIS.cs",
-              "ToolTip": "D:\\pemrog\\new final\\Final Project\\View\\frmQRIS.cs [Design]",
-              "RelativeToolTip": "Final Project\\View\\frmQRIS.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "BarangController.cs",
+              "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\Controller\\BarangController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Controller\\BarangController.cs",
+              "ToolTip": "D:\\pemrog\\new final\\Final Project\\Controller\\BarangController.cs",
+              "RelativeToolTip": "Final Project\\Controller\\BarangController.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAcwP0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T13:28:12.434Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-24T00:35:19.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BarangRepository.cs",
+              "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\Model\\Repository\\BarangRepository.cs",
+              "RelativeDocumentMoniker": "Final Project\\Model\\Repository\\BarangRepository.cs",
+              "ToolTip": "D:\\pemrog\\new final\\Final Project\\Model\\Repository\\BarangRepository.cs",
+              "RelativeToolTip": "Final Project\\Model\\Repository\\BarangRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwD0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:34:21.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
@@ -200,7 +238,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "formTambah.cs",
+              "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\formTambah.cs",
+              "RelativeDocumentMoniker": "Final Project\\View\\formTambah.cs",
+              "ToolTip": "D:\\pemrog\\new final\\Final Project\\View\\formTambah.cs",
+              "RelativeToolTip": "Final Project\\View\\formTambah.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:37:59.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmQRIS.cs [Design]",
+              "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\frmQRIS.cs",
+              "RelativeDocumentMoniker": "Final Project\\View\\frmQRIS.cs",
+              "ToolTip": "D:\\pemrog\\new final\\Final Project\\View\\frmQRIS.cs [Design]",
+              "RelativeToolTip": "Final Project\\View\\frmQRIS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T13:28:12.434Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Pembayaran.cs",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\Pembayaran.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\Pembayaran.cs",
@@ -213,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "frmQRIS.cs",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\frmQRIS.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\frmQRIS.cs",
@@ -226,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "formMain.cs",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\formMain.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formMain.cs",
@@ -239,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Pembayaran.Designer.cs",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\Pembayaran.Designer.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\Pembayaran.Designer.cs",
@@ -252,20 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "formTambah.cs",
-              "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\formTambah.cs",
-              "RelativeDocumentMoniker": "Final Project\\View\\formTambah.cs",
-              "ToolTip": "D:\\pemrog\\new final\\Final Project\\View\\formTambah.cs",
-              "RelativeToolTip": "Final Project\\View\\formTambah.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAowGUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T18:37:59.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "formCemilan.cs [Design]",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\formCemilan.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formCemilan.cs",
@@ -277,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "formAboutUs.cs [Design]",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\formAboutUs.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formAboutUs.cs",
@@ -289,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "formMain.cs [Design]",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\formMain.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formMain.cs",
@@ -301,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\Program.cs",
               "RelativeDocumentMoniker": "Final Project\\Program.cs",
@@ -313,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Barang.cs",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\Barang.cs",
               "RelativeDocumentMoniker": "Final Project\\Barang.cs",
@@ -325,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "formMakanan.cs [Design]",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\formMakanan.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formMakanan.cs",
@@ -337,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "coba.cs",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\coba.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\coba.cs",
@@ -349,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "formTambah.cs [Design]",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\View\\formTambah.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formTambah.cs",
@@ -361,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Barang.cs",
               "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\Model\\Entity\\Barang.cs",
               "RelativeDocumentMoniker": "Final Project\\Model\\Entity\\Barang.cs",
@@ -370,30 +420,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T01:18:58.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BarangController.cs",
-              "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\Controller\\BarangController.cs",
-              "RelativeDocumentMoniker": "Final Project\\Controller\\BarangController.cs",
-              "ToolTip": "D:\\pemrog\\new final\\Final Project\\Controller\\BarangController.cs",
-              "RelativeToolTip": "Final Project\\Controller\\BarangController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T00:35:19.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BarangRepository.cs",
-              "DocumentMoniker": "D:\\pemrog\\new final\\Final Project\\Model\\Repository\\BarangRepository.cs",
-              "RelativeDocumentMoniker": "Final Project\\Model\\Repository\\BarangRepository.cs",
-              "ToolTip": "D:\\pemrog\\new final\\Final Project\\Model\\Repository\\BarangRepository.cs",
-              "RelativeToolTip": "Final Project\\Model\\Repository\\BarangRepository.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAwF0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T02:34:21.493Z"
             }
           ]
         }

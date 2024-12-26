@@ -263,6 +263,12 @@ namespace Final_Project
             btnTampil.Visible = true;
         }
 
+        private void formKeranjang_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        
 
         /*
             // ambil objek brg yang mau dihapus dari collection
