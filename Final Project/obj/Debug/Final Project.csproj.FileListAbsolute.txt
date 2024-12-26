@@ -136,3 +136,52 @@ C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final_Proj
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\bin\Debug\System.Data.SQLite.dll
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\bin\Debug\System.Data.SQLite.xml
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir\Final Project\obj\Debug\Final_Project.formMain.resources
+D:\pemrog\new final\Final Project\bin\Debug\Final Project.exe.config
+D:\pemrog\new final\Final Project\bin\Debug\Final Project.exe
+D:\pemrog\new final\Final Project\bin\Debug\Final Project.pdb
+D:\pemrog\new final\Final Project\bin\Debug\Bunifu.Licensing.dll
+D:\pemrog\new final\Final Project\bin\Debug\Bunifu.UI.WinForms.dll
+D:\pemrog\new final\Final Project\bin\Debug\Bunifu.Utils.dll
+D:\pemrog\new final\Final Project\bin\Debug\Guna.UI2.dll
+D:\pemrog\new final\Final Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\pemrog\new final\Final Project\bin\Debug\Newtonsoft.Json.dll
+D:\pemrog\new final\Final Project\bin\Debug\RestSharp.dll
+D:\pemrog\new final\Final Project\bin\Debug\System.Buffers.dll
+D:\pemrog\new final\Final Project\bin\Debug\System.CodeDom.dll
+D:\pemrog\new final\Final Project\bin\Debug\System.Data.SQLite.dll
+D:\pemrog\new final\Final Project\bin\Debug\System.Memory.dll
+D:\pemrog\new final\Final Project\bin\Debug\System.Numerics.Vectors.dll
+D:\pemrog\new final\Final Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\pemrog\new final\Final Project\bin\Debug\System.Text.Encodings.Web.dll
+D:\pemrog\new final\Final Project\bin\Debug\System.Text.Json.dll
+D:\pemrog\new final\Final Project\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\pemrog\new final\Final Project\bin\Debug\System.ValueTuple.dll
+D:\pemrog\new final\Final Project\bin\Debug\Bunifu.UI.WinForms.xml
+D:\pemrog\new final\Final Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\pemrog\new final\Final Project\bin\Debug\Newtonsoft.Json.xml
+D:\pemrog\new final\Final Project\bin\Debug\RestSharp.xml
+D:\pemrog\new final\Final Project\bin\Debug\System.Buffers.xml
+D:\pemrog\new final\Final Project\bin\Debug\System.CodeDom.xml
+D:\pemrog\new final\Final Project\bin\Debug\System.Data.SQLite.xml
+D:\pemrog\new final\Final Project\bin\Debug\System.Memory.xml
+D:\pemrog\new final\Final Project\bin\Debug\System.Numerics.Vectors.xml
+D:\pemrog\new final\Final Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\pemrog\new final\Final Project\bin\Debug\System.Text.Encodings.Web.xml
+D:\pemrog\new final\Final Project\bin\Debug\System.Text.Json.xml
+D:\pemrog\new final\Final Project\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\pemrog\new final\Final Project\bin\Debug\System.ValueTuple.xml
+D:\pemrog\new final\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+D:\pemrog\new final\Final Project\obj\Debug\Final_Project.formMain.resources
+D:\pemrog\new final\Final Project\obj\Debug\Final_Project.formAboutUs.resources
+D:\pemrog\new final\Final Project\obj\Debug\Final_Project.formCemilan.resources
+D:\pemrog\new final\Final Project\obj\Debug\Final_Project.formKeranjang.resources
+D:\pemrog\new final\Final Project\obj\Debug\Final_Project.formMakanan.resources
+D:\pemrog\new final\Final Project\obj\Debug\Final_Project.formMinuman.resources
+D:\pemrog\new final\Final Project\obj\Debug\Final_Project.formTambah.resources
+D:\pemrog\new final\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+D:\pemrog\new final\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+D:\pemrog\new final\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+D:\pemrog\new final\Final Project\obj\Debug\Final Pr.B69720BE.Up2Date
+D:\pemrog\new final\Final Project\obj\Debug\Final Project.exe
+D:\pemrog\new final\Final Project\obj\Debug\Final Project.pdb
+D:\pemrog\new final\Final Project\obj\Debug\Final_Project.View.Pembayaran.resources
