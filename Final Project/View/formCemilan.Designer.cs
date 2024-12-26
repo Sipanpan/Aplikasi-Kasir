@@ -117,7 +117,7 @@
             this.bunifuPanel2.Controls.Add(this.bunifuLabel1);
             this.bunifuPanel2.Controls.Add(this.label4);
             this.bunifuPanel2.Location = new System.Drawing.Point(21, 28);
-            this.bunifuPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuPanel2.Name = "bunifuPanel2";
             this.bunifuPanel2.ShowBorders = true;
             this.bunifuPanel2.Size = new System.Drawing.Size(165, 249);
@@ -172,7 +172,7 @@
             this.bunifuButton22.IdleIconRightImage = null;
             this.bunifuButton22.IndicateFocus = false;
             this.bunifuButton22.Location = new System.Drawing.Point(10, 203);
-            this.bunifuButton22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuButton22.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuButton22.Name = "bunifuButton22";
             this.bunifuButton22.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton22.OnDisabledState.BorderRadius = 10;
@@ -225,7 +225,7 @@
             this.guna2PictureBox2.Image = global::Final_Project.Properties.Resources.kentang_goreng1;
             this.guna2PictureBox2.ImageRotate = 0F;
             this.guna2PictureBox2.Location = new System.Drawing.Point(10, 11);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -252,7 +252,7 @@
             this.bunifuLabel1.CursorType = null;
             this.bunifuLabel1.Font = new System.Drawing.Font("Rockwell", 10.2F);
             this.bunifuLabel1.Location = new System.Drawing.Point(38, 144);
-            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel1.Size = new System.Drawing.Size(0, 0);
@@ -287,7 +287,7 @@
             this.bunifuPanel3.Controls.Add(this.bunifuLabel3);
             this.bunifuPanel3.Controls.Add(this.label6);
             this.bunifuPanel3.Location = new System.Drawing.Point(251, 28);
-            this.bunifuPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuPanel3.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuPanel3.Name = "bunifuPanel3";
             this.bunifuPanel3.ShowBorders = true;
             this.bunifuPanel3.Size = new System.Drawing.Size(165, 249);
@@ -342,7 +342,7 @@
             this.bunifuButton23.IdleIconRightImage = null;
             this.bunifuButton23.IndicateFocus = false;
             this.bunifuButton23.Location = new System.Drawing.Point(10, 203);
-            this.bunifuButton23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuButton23.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuButton23.Name = "bunifuButton23";
             this.bunifuButton23.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton23.OnDisabledState.BorderRadius = 10;
@@ -384,6 +384,7 @@
             this.bunifuButton23.TextMarginLeft = 0;
             this.bunifuButton23.TextPadding = new System.Windows.Forms.Padding(0);
             this.bunifuButton23.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton23.Click += new System.EventHandler(this.bunifuButton23_Click);
             // 
             // guna2PictureBox3
             // 
@@ -396,7 +397,7 @@
             this.guna2PictureBox3.Image = global::Final_Project.Properties.Resources.terong_crispy_geprek1;
             this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(10, 11);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
             this.guna2PictureBox3.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -423,7 +424,7 @@
             this.bunifuLabel3.CursorType = null;
             this.bunifuLabel3.Font = new System.Drawing.Font("Rockwell", 10.2F);
             this.bunifuLabel3.Location = new System.Drawing.Point(38, 144);
-            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel3.Size = new System.Drawing.Size(0, 0);
@@ -458,7 +459,7 @@
             this.bunifuPanel7.Controls.Add(this.bunifuLabel7);
             this.bunifuPanel7.Controls.Add(this.label14);
             this.bunifuPanel7.Location = new System.Drawing.Point(21, 311);
-            this.bunifuPanel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuPanel7.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuPanel7.Name = "bunifuPanel7";
             this.bunifuPanel7.ShowBorders = true;
             this.bunifuPanel7.Size = new System.Drawing.Size(165, 249);
@@ -513,7 +514,7 @@
             this.bunifuButton26.IdleIconRightImage = null;
             this.bunifuButton26.IndicateFocus = false;
             this.bunifuButton26.Location = new System.Drawing.Point(10, 203);
-            this.bunifuButton26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuButton26.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuButton26.Name = "bunifuButton26";
             this.bunifuButton26.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton26.OnDisabledState.BorderRadius = 10;
@@ -566,7 +567,7 @@
             this.guna2PictureBox7.Image = global::Final_Project.Properties.Resources.jamur_crispy1;
             this.guna2PictureBox7.ImageRotate = 0F;
             this.guna2PictureBox7.Location = new System.Drawing.Point(10, 11);
-            this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox7.Name = "guna2PictureBox7";
             this.guna2PictureBox7.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -593,7 +594,7 @@
             this.bunifuLabel7.CursorType = null;
             this.bunifuLabel7.Font = new System.Drawing.Font("Rockwell", 10.2F);
             this.bunifuLabel7.Location = new System.Drawing.Point(38, 144);
-            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel7.Name = "bunifuLabel7";
             this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel7.Size = new System.Drawing.Size(0, 0);
@@ -628,7 +629,7 @@
             this.bunifuPanel4.Controls.Add(this.bunifuLabel4);
             this.bunifuPanel4.Controls.Add(this.label8);
             this.bunifuPanel4.Location = new System.Drawing.Point(482, 28);
-            this.bunifuPanel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuPanel4.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuPanel4.Name = "bunifuPanel4";
             this.bunifuPanel4.ShowBorders = true;
             this.bunifuPanel4.Size = new System.Drawing.Size(165, 249);
@@ -683,7 +684,7 @@
             this.bunifuButton24.IdleIconRightImage = null;
             this.bunifuButton24.IndicateFocus = false;
             this.bunifuButton24.Location = new System.Drawing.Point(10, 203);
-            this.bunifuButton24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuButton24.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuButton24.Name = "bunifuButton24";
             this.bunifuButton24.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton24.OnDisabledState.BorderRadius = 10;
@@ -736,7 +737,7 @@
             this.guna2PictureBox4.Image = global::Final_Project.Properties.Resources.tempe_goreng_kriuk_ala_tepung_kobe1;
             this.guna2PictureBox4.ImageRotate = 0F;
             this.guna2PictureBox4.Location = new System.Drawing.Point(10, 11);
-            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -763,7 +764,7 @@
             this.bunifuLabel4.CursorType = null;
             this.bunifuLabel4.Font = new System.Drawing.Font("Rockwell", 10.2F);
             this.bunifuLabel4.Location = new System.Drawing.Point(38, 144);
-            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel4.Size = new System.Drawing.Size(0, 0);
@@ -798,7 +799,7 @@
             this.bunifuPanel6.Controls.Add(this.bunifuLabel6);
             this.bunifuPanel6.Controls.Add(this.label12);
             this.bunifuPanel6.Location = new System.Drawing.Point(251, 311);
-            this.bunifuPanel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuPanel6.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuPanel6.Name = "bunifuPanel6";
             this.bunifuPanel6.ShowBorders = true;
             this.bunifuPanel6.Size = new System.Drawing.Size(165, 249);
@@ -853,7 +854,7 @@
             this.bunifuButton27.IdleIconRightImage = null;
             this.bunifuButton27.IndicateFocus = false;
             this.bunifuButton27.Location = new System.Drawing.Point(10, 203);
-            this.bunifuButton27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuButton27.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuButton27.Name = "bunifuButton27";
             this.bunifuButton27.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton27.OnDisabledState.BorderRadius = 10;
@@ -906,7 +907,7 @@
             this.guna2PictureBox6.Image = global::Final_Project.Properties.Resources.tahu_bakso_ungaran1;
             this.guna2PictureBox6.ImageRotate = 0F;
             this.guna2PictureBox6.Location = new System.Drawing.Point(10, 11);
-            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox6.Name = "guna2PictureBox6";
             this.guna2PictureBox6.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -933,7 +934,7 @@
             this.bunifuLabel6.CursorType = null;
             this.bunifuLabel6.Font = new System.Drawing.Font("Rockwell", 10.2F);
             this.bunifuLabel6.Location = new System.Drawing.Point(38, 144);
-            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel6.Name = "bunifuLabel6";
             this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel6.Size = new System.Drawing.Size(0, 0);
@@ -968,7 +969,7 @@
             this.bunifuPanel10.Controls.Add(this.bunifuLabel10);
             this.bunifuPanel10.Controls.Add(this.label20);
             this.bunifuPanel10.Location = new System.Drawing.Point(712, 28);
-            this.bunifuPanel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuPanel10.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuPanel10.Name = "bunifuPanel10";
             this.bunifuPanel10.ShowBorders = true;
             this.bunifuPanel10.Size = new System.Drawing.Size(165, 249);
@@ -1023,7 +1024,7 @@
             this.bunifuButton210.IdleIconRightImage = null;
             this.bunifuButton210.IndicateFocus = false;
             this.bunifuButton210.Location = new System.Drawing.Point(10, 203);
-            this.bunifuButton210.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuButton210.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuButton210.Name = "bunifuButton210";
             this.bunifuButton210.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton210.OnDisabledState.BorderRadius = 10;
@@ -1076,7 +1077,7 @@
             this.guna2PictureBox10.Image = global::Final_Project.Properties.Resources.tahu_krispi1;
             this.guna2PictureBox10.ImageRotate = 0F;
             this.guna2PictureBox10.Location = new System.Drawing.Point(10, 11);
-            this.guna2PictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox10.Name = "guna2PictureBox10";
             this.guna2PictureBox10.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1103,7 +1104,7 @@
             this.bunifuLabel10.CursorType = null;
             this.bunifuLabel10.Font = new System.Drawing.Font("Rockwell", 10.2F);
             this.bunifuLabel10.Location = new System.Drawing.Point(38, 144);
-            this.bunifuLabel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel10.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel10.Name = "bunifuLabel10";
             this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel10.Size = new System.Drawing.Size(0, 0);
@@ -1138,7 +1139,7 @@
             this.bunifuPanel5.Controls.Add(this.bunifuLabel5);
             this.bunifuPanel5.Controls.Add(this.label10);
             this.bunifuPanel5.Location = new System.Drawing.Point(482, 311);
-            this.bunifuPanel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuPanel5.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuPanel5.Name = "bunifuPanel5";
             this.bunifuPanel5.ShowBorders = true;
             this.bunifuPanel5.Size = new System.Drawing.Size(165, 249);
@@ -1193,7 +1194,7 @@
             this.bunifuButton28.IdleIconRightImage = null;
             this.bunifuButton28.IndicateFocus = false;
             this.bunifuButton28.Location = new System.Drawing.Point(10, 203);
-            this.bunifuButton28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuButton28.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuButton28.Name = "bunifuButton28";
             this.bunifuButton28.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton28.OnDisabledState.BorderRadius = 10;
@@ -1246,7 +1247,7 @@
             this.guna2PictureBox5.Image = global::Final_Project.Properties.Resources.gorengan1;
             this.guna2PictureBox5.ImageRotate = 0F;
             this.guna2PictureBox5.Location = new System.Drawing.Point(10, 11);
-            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox5.Name = "guna2PictureBox5";
             this.guna2PictureBox5.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1273,7 +1274,7 @@
             this.bunifuLabel5.CursorType = null;
             this.bunifuLabel5.Font = new System.Drawing.Font("Rockwell", 10.2F);
             this.bunifuLabel5.Location = new System.Drawing.Point(38, 144);
-            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel5.Name = "bunifuLabel5";
             this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel5.Size = new System.Drawing.Size(0, 0);
@@ -1308,7 +1309,7 @@
             this.bunifuPanel9.Controls.Add(this.bunifuLabel9);
             this.bunifuPanel9.Controls.Add(this.label18);
             this.bunifuPanel9.Location = new System.Drawing.Point(712, 311);
-            this.bunifuPanel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuPanel9.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuPanel9.Name = "bunifuPanel9";
             this.bunifuPanel9.ShowBorders = true;
             this.bunifuPanel9.Size = new System.Drawing.Size(165, 249);
@@ -1363,7 +1364,7 @@
             this.bunifuButton29.IdleIconRightImage = null;
             this.bunifuButton29.IndicateFocus = false;
             this.bunifuButton29.Location = new System.Drawing.Point(10, 203);
-            this.bunifuButton29.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuButton29.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuButton29.Name = "bunifuButton29";
             this.bunifuButton29.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton29.OnDisabledState.BorderRadius = 10;
@@ -1416,7 +1417,7 @@
             this.guna2PictureBox9.Image = global::Final_Project.Properties.Resources.tahu_penyet1;
             this.guna2PictureBox9.ImageRotate = 0F;
             this.guna2PictureBox9.Location = new System.Drawing.Point(10, 11);
-            this.guna2PictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox9.Name = "guna2PictureBox9";
             this.guna2PictureBox9.Size = new System.Drawing.Size(142, 125);
             this.guna2PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1443,7 +1444,7 @@
             this.bunifuLabel9.CursorType = null;
             this.bunifuLabel9.Font = new System.Drawing.Font("Rockwell", 10.2F);
             this.bunifuLabel9.Location = new System.Drawing.Point(38, 144);
-            this.bunifuLabel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel9.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel9.Name = "bunifuLabel9";
             this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel9.Size = new System.Drawing.Size(0, 0);
@@ -1478,7 +1479,7 @@
             this.Controls.Add(this.bunifuPanel5);
             this.Controls.Add(this.bunifuPanel9);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "formCemilan";
             this.Text = "formCemilan";
             this.Load += new System.EventHandler(this.formCemilan_Load);
