@@ -268,7 +268,7 @@ namespace Final_Project
 
         }
 
-        
+
 
         /*
             // ambil objek brg yang mau dihapus dari collection

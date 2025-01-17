@@ -189,3 +189,56 @@ D:\pemrog\new final\Final Project\bin\Debug\dje\Final Project.resources.dll
 D:\pemrog\new final\Final Project\obj\Debug\Final_Project.View.frmQRIS.resources
 D:\pemrog\new final\Final Project\obj\Debug\Final_Project.View.frmQRIS.dje.resources
 D:\pemrog\new final\Final Project\obj\Debug\dje\Final Project.resources.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Final Project.exe.config
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Final Project.exe
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Final Project.pdb
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\dje\Final Project.resources.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Bunifu.Licensing.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Bunifu.UI.WinForms.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Bunifu.Utils.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Guna.UI2.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Newtonsoft.Json.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\RestSharp.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Buffers.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.CodeDom.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Data.SQLite.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Memory.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Numerics.Vectors.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Text.Encodings.Web.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Text.Json.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.ValueTuple.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Bunifu.UI.WinForms.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\Newtonsoft.Json.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\RestSharp.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Buffers.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.CodeDom.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Data.SQLite.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Memory.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Numerics.Vectors.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Text.Encodings.Web.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Text.Json.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\bin\Debug\System.ValueTuple.xml
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.formMain.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.formAboutUs.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.formCemilan.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.formKeranjang.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.formMakanan.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.formMinuman.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.formTambah.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.View.frmQRIS.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.View.frmPembayaran.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.View.frmQRIS.dje.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\dje\Final Project.resources.dll
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final Pr.B69720BE.Up2Date
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final Project.exe
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final Project.pdb

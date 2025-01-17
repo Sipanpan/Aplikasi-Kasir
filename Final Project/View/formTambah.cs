@@ -41,18 +41,21 @@ namespace Final_Project
         }
 
         // Constructor untuk inisialisasi data ketika entri data baru
-        public formTambah(string title, BarangController controller, string nama, string harga) : this()
+        public formTambah(string title, BarangController controller, string jenis, string nama) : this()
         {
             lblJudul.Text = nama;
-            lblHarga.Text = harga;
+            //lblHarga.Text = harga;
+            
             // ganti text/judul form
             this.Text = title;
             this.Controller = controller;
 
             Barang brg = new Barang();
-
+            lblHarga.Text = controller.Pesan(brg, jenis, nama).ToString();
             brg.Nama = nama;
-            brg.Harga = harga;
+            //brg.Harga = harga;
+            brg.Harga = lblHarga.Text;
+
         }
 
         /*

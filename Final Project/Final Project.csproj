@@ -105,7 +105,6 @@
   <ItemGroup>
     <Compile Include="Barang.cs" />
     <Compile Include="Controller\BarangController.cs" />
-    <Compile Include="View\coba.cs" />
     <Compile Include="View\formMain.cs">
       <SubType>Form</SubType>
     </Compile>

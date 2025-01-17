@@ -112,35 +112,44 @@ namespace Final_Project.Model.Repository
             return result;
         }
 
-        public int Pesan(Barang brg, string fufu)
+        public int Pesan(Barang brg, string tabel, string kolom)
         {
             int result = 0;
 
-            // deklarasi perintah SQL
-            string sql = @"select * from makanan where nama = '" + fufu + "'";
-
-            //string sql = @"update barang set Jumlah = @Jumlah, Total = @Total
-                           //where Nama = @Nama";
-
-            // membuat objek command menggunakan blok using
-            using (SQLiteCommand cmd = new SQLiteCommand(sql, _conn))
+            try
             {
-                // mendaftarkan parameter dan mengeset nilainya
-                cmd.Parameters.AddWithValue("@Nama", brg.Nama);
-                cmd.Parameters.AddWithValue("@Jumlah", brg.Jumlah);
-                cmd.Parameters.AddWithValue("@Harga", brg.Harga);
-                cmd.Parameters.AddWithValue("@Total", brg.Total);
+                SQLiteDataReader reader = null;
 
-                try
+                // deklarasi perintah SQL
+                string sql = @"SELECT harga from " + tabel + " where nama = '" + kolom + "'";
+
+                //string sql = @"update barang set Jumlah = @Jumlah, Total = @Total
+                //where Nama = @Nama";
+
+                // membuat objek command menggunakan blok using
+                using (SQLiteCommand cmd = new SQLiteCommand(sql, _conn))
                 {
+                    cmd.ExecuteNonQuery();
+                    reader = cmd.ExecuteReader();
+
+                    if(reader.Read())
+                    {
+                        result = reader.GetInt32(0);
+                    }
+                    else
+                    {
+                        result = 1;
+                    }
+
                     // jalankan perintah UPDATE dan tampung hasilnya ke dalam variabel result
-                    result = cmd.ExecuteNonQuery();
-                }
-                catch (Exception ex)
-                {
-                    System.Diagnostics.Debug.Print("Pesan error: {0}", ex.Message);
+                    // result = cmd.ExecuteNonQuery();
                 }
             }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Print("Pesan error: {0}", ex.Message);
+            }
+
             return result;
         }
 

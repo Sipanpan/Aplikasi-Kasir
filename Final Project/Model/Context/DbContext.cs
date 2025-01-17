@@ -22,7 +22,7 @@ namespace Final_Project.Model.Context
         }
 
         // method untuk melakukan koneksi ke database
-        private SQLiteConnection GetOpenConnection()
+        public SQLiteConnection GetOpenConnection()
         {
             SQLiteConnection conn = null; // deklarasi objek connection
 

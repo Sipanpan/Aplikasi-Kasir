@@ -56,7 +56,7 @@ namespace Final_Project
         private void btnKentangGoreng_Click(object sender, EventArgs e)
         {
             // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "Kentang Goreng", "6000");
+            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "cemilan", "Kentang Goreng");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             frmTambah.OnCreate += OnCreateEventHandler;
@@ -68,7 +68,7 @@ namespace Final_Project
         private void btnTerongKrispi_Click(object sender, EventArgs e)
         {
             // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "Terong Krispi", "5000");
+            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "cemilan", "Terong Krispi");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             frmTambah.OnCreate += OnCreateEventHandler;
@@ -80,7 +80,7 @@ namespace Final_Project
         private void btnTempeKriuk_Click(object sender, EventArgs e)
         {
             // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "Tempe Kriuk", "4000");
+            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "cemilan", "Tempe Kriuk");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             frmTambah.OnCreate += OnCreateEventHandler;
@@ -92,7 +92,7 @@ namespace Final_Project
         private void btnTahuKrispi_Click(object sender, EventArgs e)
         {
             // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "Tahu Krispi", "5000");
+            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "cemilan", "Tahu Krispi");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             frmTambah.OnCreate += OnCreateEventHandler;
@@ -104,7 +104,7 @@ namespace Final_Project
         private void btnJamurKrispi_Click(object sender, EventArgs e)
         {
             // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "Jamur Krispi", "6000");
+            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "cemilan", "Jamur Krispi");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             frmTambah.OnCreate += OnCreateEventHandler;
@@ -116,7 +116,7 @@ namespace Final_Project
         private void btnTahuBakso_Click(object sender, EventArgs e)
         {
             // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "Tahu Bakso", "8000");
+            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "cemilan", "Tahu Bakso");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             frmTambah.OnCreate += OnCreateEventHandler;
@@ -128,7 +128,7 @@ namespace Final_Project
         private void btnGorengan_Click(object sender, EventArgs e)
         {
             // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "Gorengan", "5000");
+            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "cemilan", "Gorengan");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             frmTambah.OnCreate += OnCreateEventHandler;
@@ -140,7 +140,7 @@ namespace Final_Project
         private void btnTahuPenyet_Click(object sender, EventArgs e)
         {
             // buat objek form entry data barang
-            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "Tahu Penyet", "5000");
+            formTambah frmTambah = new formTambah("Tambah Data Barang", controller, "cemilan", "Tahu Penyet");
 
             // mendaftarkan method event handler utk merespon event OnCreate (subscribe)
             frmTambah.OnCreate += OnCreateEventHandler;
