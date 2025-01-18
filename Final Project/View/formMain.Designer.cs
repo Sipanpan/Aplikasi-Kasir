@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formMain));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
+            this.lblSelamatDatang = new System.Windows.Forms.Label();
             this.pnHome = new Bunifu.UI.WinForms.BunifuPanel();
             this.btnHome = new System.Windows.Forms.Button();
             this.pnMakanan = new System.Windows.Forms.Panel();
@@ -59,7 +59,8 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.bunifuFormResizeIcon1 = new Bunifu.UI.WinForms.BunifuFormResizeIcon();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.btnTesKoneksi = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.lblNama = new System.Windows.Forms.Label();
+            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.sidebar.SuspendLayout();
             this.pnHome.SuspendLayout();
             this.pnMakanan.SuspendLayout();
@@ -82,22 +83,35 @@
             // sidebar
             // 
             this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.sidebar.Controls.Add(this.lblSelamatDatang);
+            this.sidebar.Controls.Add(this.lblNama);
+            this.sidebar.Controls.Add(this.guna2Separator1);
             this.sidebar.Controls.Add(this.pnHome);
             this.sidebar.Controls.Add(this.pnMakanan);
             this.sidebar.Controls.Add(this.pnMinuman);
             this.sidebar.Controls.Add(this.pnCemilan);
             this.sidebar.Controls.Add(this.pnKeranjang);
             this.sidebar.Controls.Add(this.pnAboutUs);
-            this.sidebar.Controls.Add(this.btnTesKoneksi);
             this.sidebar.Controls.Add(this.guna2PictureBox2);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.sidebar.Location = new System.Drawing.Point(0, 62);
             this.sidebar.MaximumSize = new System.Drawing.Size(246, 1000);
-            this.sidebar.MinimumSize = new System.Drawing.Size(83, 588);
+            this.sidebar.MinimumSize = new System.Drawing.Size(83, 700);
             this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(246, 588);
+            this.sidebar.Size = new System.Drawing.Size(246, 700);
             this.sidebar.TabIndex = 0;
+            // 
+            // lblSelamatDatang
+            // 
+            this.lblSelamatDatang.AutoSize = true;
+            this.lblSelamatDatang.Font = new System.Drawing.Font("Rockwell Extra Bold", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSelamatDatang.ForeColor = System.Drawing.Color.White;
+            this.lblSelamatDatang.Location = new System.Drawing.Point(3, 0);
+            this.lblSelamatDatang.Name = "lblSelamatDatang";
+            this.lblSelamatDatang.Size = new System.Drawing.Size(194, 21);
+            this.lblSelamatDatang.TabIndex = 7;
+            this.lblSelamatDatang.Text = "Selamat datang, ";
             // 
             // pnHome
             // 
@@ -108,7 +122,7 @@
             this.pnHome.BorderRadius = 3;
             this.pnHome.BorderThickness = 1;
             this.pnHome.Controls.Add(this.btnHome);
-            this.pnHome.Location = new System.Drawing.Point(3, 3);
+            this.pnHome.Location = new System.Drawing.Point(3, 84);
             this.pnHome.Name = "pnHome";
             this.pnHome.ShowBorders = true;
             this.pnHome.Size = new System.Drawing.Size(243, 82);
@@ -134,7 +148,7 @@
             // pnMakanan
             // 
             this.pnMakanan.Controls.Add(this.btnMakanan);
-            this.pnMakanan.Location = new System.Drawing.Point(3, 91);
+            this.pnMakanan.Location = new System.Drawing.Point(3, 172);
             this.pnMakanan.Name = "pnMakanan";
             this.pnMakanan.Size = new System.Drawing.Size(243, 62);
             this.pnMakanan.TabIndex = 1;
@@ -159,7 +173,7 @@
             // pnMinuman
             // 
             this.pnMinuman.Controls.Add(this.btnMinuman);
-            this.pnMinuman.Location = new System.Drawing.Point(3, 159);
+            this.pnMinuman.Location = new System.Drawing.Point(3, 240);
             this.pnMinuman.Name = "pnMinuman";
             this.pnMinuman.Size = new System.Drawing.Size(243, 62);
             this.pnMinuman.TabIndex = 2;
@@ -184,7 +198,7 @@
             // pnCemilan
             // 
             this.pnCemilan.Controls.Add(this.btnCemilan);
-            this.pnCemilan.Location = new System.Drawing.Point(3, 227);
+            this.pnCemilan.Location = new System.Drawing.Point(3, 308);
             this.pnCemilan.Name = "pnCemilan";
             this.pnCemilan.Size = new System.Drawing.Size(243, 62);
             this.pnCemilan.TabIndex = 3;
@@ -209,7 +223,7 @@
             // pnKeranjang
             // 
             this.pnKeranjang.Controls.Add(this.btnKeranjang);
-            this.pnKeranjang.Location = new System.Drawing.Point(3, 295);
+            this.pnKeranjang.Location = new System.Drawing.Point(3, 376);
             this.pnKeranjang.Name = "pnKeranjang";
             this.pnKeranjang.Size = new System.Drawing.Size(243, 62);
             this.pnKeranjang.TabIndex = 5;
@@ -234,7 +248,7 @@
             // pnAboutUs
             // 
             this.pnAboutUs.Controls.Add(this.btnAboutUs);
-            this.pnAboutUs.Location = new System.Drawing.Point(3, 363);
+            this.pnAboutUs.Location = new System.Drawing.Point(3, 444);
             this.pnAboutUs.Name = "pnAboutUs";
             this.pnAboutUs.Size = new System.Drawing.Size(243, 62);
             this.pnAboutUs.TabIndex = 4;
@@ -272,7 +286,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(129)))), ((int)(((byte)(84)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel1.Controls.Add(this.lblMenu);
             this.panel1.Controls.Add(this.minimizeButton);
             this.panel1.Controls.Add(this.maximizeButton);
@@ -291,7 +305,7 @@
             this.lblMenu.ForeColor = System.Drawing.Color.White;
             this.lblMenu.Location = new System.Drawing.Point(82, 12);
             this.lblMenu.Name = "lblMenu";
-            this.lblMenu.Size = new System.Drawing.Size(135, 40);
+            this.lblMenu.Size = new System.Drawing.Size(107, 32);
             this.lblMenu.TabIndex = 1;
             this.lblMenu.Text = "MENU";
             // 
@@ -459,99 +473,27 @@
             this.guna2PictureBox3.TabIndex = 7;
             this.guna2PictureBox3.TabStop = false;
             // 
-            // btnTesKoneksi
+            // lblNama
             // 
-            this.btnTesKoneksi.AllowAnimations = true;
-            this.btnTesKoneksi.AllowMouseEffects = true;
-            this.btnTesKoneksi.AllowToggling = false;
-            this.btnTesKoneksi.AnimationSpeed = 200;
-            this.btnTesKoneksi.AutoGenerateColors = false;
-            this.btnTesKoneksi.AutoRoundBorders = false;
-            this.btnTesKoneksi.AutoSizeLeftIcon = true;
-            this.btnTesKoneksi.AutoSizeRightIcon = true;
-            this.btnTesKoneksi.BackColor = System.Drawing.Color.Transparent;
-            this.btnTesKoneksi.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
-            this.btnTesKoneksi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTesKoneksi.BackgroundImage")));
-            this.btnTesKoneksi.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnTesKoneksi.ButtonText = "Tes Koneksi";
-            this.btnTesKoneksi.ButtonTextMarginLeft = 0;
-            this.btnTesKoneksi.ColorContrastOnClick = 45;
-            this.btnTesKoneksi.ColorContrastOnHover = 45;
-            this.btnTesKoneksi.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.btnTesKoneksi.CustomizableEdges = borderEdges1;
-            this.btnTesKoneksi.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnTesKoneksi.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnTesKoneksi.DisabledFillColor = System.Drawing.Color.Empty;
-            this.btnTesKoneksi.DisabledForecolor = System.Drawing.Color.Empty;
-            this.btnTesKoneksi.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnTesKoneksi.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnTesKoneksi.ForeColor = System.Drawing.Color.White;
-            this.btnTesKoneksi.IconLeft = null;
-            this.btnTesKoneksi.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTesKoneksi.IconLeftCursor = System.Windows.Forms.Cursors.Default;
-            this.btnTesKoneksi.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.btnTesKoneksi.IconMarginLeft = 11;
-            this.btnTesKoneksi.IconPadding = 10;
-            this.btnTesKoneksi.IconRight = null;
-            this.btnTesKoneksi.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTesKoneksi.IconRightCursor = System.Windows.Forms.Cursors.Default;
-            this.btnTesKoneksi.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.btnTesKoneksi.IconSize = 25;
-            this.btnTesKoneksi.IdleBorderColor = System.Drawing.Color.Empty;
-            this.btnTesKoneksi.IdleBorderRadius = 0;
-            this.btnTesKoneksi.IdleBorderThickness = 0;
-            this.btnTesKoneksi.IdleFillColor = System.Drawing.Color.Empty;
-            this.btnTesKoneksi.IdleIconLeftImage = null;
-            this.btnTesKoneksi.IdleIconRightImage = null;
-            this.btnTesKoneksi.IndicateFocus = false;
-            this.btnTesKoneksi.Location = new System.Drawing.Point(3, 431);
-            this.btnTesKoneksi.Name = "btnTesKoneksi";
-            this.btnTesKoneksi.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnTesKoneksi.OnDisabledState.BorderRadius = 1;
-            this.btnTesKoneksi.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnTesKoneksi.OnDisabledState.BorderThickness = 1;
-            this.btnTesKoneksi.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnTesKoneksi.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnTesKoneksi.OnDisabledState.IconLeftImage = null;
-            this.btnTesKoneksi.OnDisabledState.IconRightImage = null;
-            this.btnTesKoneksi.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
-            this.btnTesKoneksi.onHoverState.BorderRadius = 1;
-            this.btnTesKoneksi.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnTesKoneksi.onHoverState.BorderThickness = 1;
-            this.btnTesKoneksi.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
-            this.btnTesKoneksi.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.btnTesKoneksi.onHoverState.IconLeftImage = null;
-            this.btnTesKoneksi.onHoverState.IconRightImage = null;
-            this.btnTesKoneksi.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.btnTesKoneksi.OnIdleState.BorderRadius = 1;
-            this.btnTesKoneksi.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnTesKoneksi.OnIdleState.BorderThickness = 1;
-            this.btnTesKoneksi.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
-            this.btnTesKoneksi.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.btnTesKoneksi.OnIdleState.IconLeftImage = null;
-            this.btnTesKoneksi.OnIdleState.IconRightImage = null;
-            this.btnTesKoneksi.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.btnTesKoneksi.OnPressedState.BorderRadius = 1;
-            this.btnTesKoneksi.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnTesKoneksi.OnPressedState.BorderThickness = 1;
-            this.btnTesKoneksi.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.btnTesKoneksi.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.btnTesKoneksi.OnPressedState.IconLeftImage = null;
-            this.btnTesKoneksi.OnPressedState.IconRightImage = null;
-            this.btnTesKoneksi.Size = new System.Drawing.Size(150, 39);
-            this.btnTesKoneksi.TabIndex = 4;
-            this.btnTesKoneksi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnTesKoneksi.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnTesKoneksi.TextMarginLeft = 0;
-            this.btnTesKoneksi.TextPadding = new System.Windows.Forms.Padding(0);
-            this.btnTesKoneksi.UseDefaultRadiusAndThickness = true;
-            this.btnTesKoneksi.Click += new System.EventHandler(this.btnTesKoneksi_Click);
+            this.lblNama.AutoSize = true;
+            this.lblNama.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNama.ForeColor = System.Drawing.Color.White;
+            this.lblNama.Location = new System.Drawing.Point(3, 21);
+            this.lblNama.Name = "lblNama";
+            this.lblNama.Size = new System.Drawing.Size(75, 28);
+            this.lblNama.TabIndex = 8;
+            this.lblNama.Text = "User";
             // 
-            // Form1
+            // guna2Separator1
+            // 
+            this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.guna2Separator1.FillThickness = 5;
+            this.guna2Separator1.Location = new System.Drawing.Point(3, 52);
+            this.guna2Separator1.Name = "guna2Separator1";
+            this.guna2Separator1.Size = new System.Drawing.Size(243, 26);
+            this.guna2Separator1.TabIndex = 4;
+            // 
+            // formMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1155, 650);
@@ -561,11 +503,13 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
             this.MinimumSize = new System.Drawing.Size(1155, 650);
-            this.Name = "Form1";
+            this.Name = "formMain";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.formMain_Load);
             this.sidebar.ResumeLayout(false);
+            this.sidebar.PerformLayout();
             this.pnHome.ResumeLayout(false);
             this.pnMakanan.ResumeLayout(false);
             this.pnMinuman.ResumeLayout(false);
@@ -617,7 +561,9 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnTesKoneksi;
+        private System.Windows.Forms.Label lblSelamatDatang;
+        private System.Windows.Forms.Label lblNama;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
     }
 }
 

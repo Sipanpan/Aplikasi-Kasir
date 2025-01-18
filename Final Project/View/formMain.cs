@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
 using System.IO;
+using Final_Project.View;
 
 namespace Final_Project
 {
@@ -20,6 +21,8 @@ namespace Final_Project
         formCemilan cemilan;
         formKeranjang keranjang;
         formAboutUs aboutUs;
+        formLogin login;
+        string username;
         public formMain()
         {
             InitializeComponent();
@@ -257,6 +260,15 @@ namespace Final_Project
             {
                 MessageBox.Show($"Gagal membuat database: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void formMain_Load(object sender, EventArgs e)
+        {
+            login = new formLogin();
+            login.ShowDialog();
+
+            username = login.usernames;
+            lblNama.Text = username;
         }
     }
 }

@@ -48,9 +48,10 @@
             // 
             this.lblJumlah.AutoSize = true;
             this.lblJumlah.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJumlah.Location = new System.Drawing.Point(33, 62);
+            this.lblJumlah.Location = new System.Drawing.Point(25, 50);
+            this.lblJumlah.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblJumlah.Name = "lblJumlah";
-            this.lblJumlah.Size = new System.Drawing.Size(63, 20);
+            this.lblJumlah.Size = new System.Drawing.Size(53, 17);
             this.lblJumlah.TabIndex = 0;
             this.lblJumlah.Text = "Jumlah";
             // 
@@ -103,7 +104,8 @@
             this.btnSelesai.IdleIconLeftImage = null;
             this.btnSelesai.IdleIconRightImage = null;
             this.btnSelesai.IndicateFocus = false;
-            this.btnSelesai.Location = new System.Drawing.Point(214, 151);
+            this.btnSelesai.Location = new System.Drawing.Point(160, 123);
+            this.btnSelesai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSelesai.Name = "btnSelesai";
             this.btnSelesai.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnSelesai.OnDisabledState.BorderRadius = 1;
@@ -137,7 +139,7 @@
             this.btnSelesai.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnSelesai.OnPressedState.IconLeftImage = null;
             this.btnSelesai.OnPressedState.IconRightImage = null;
-            this.btnSelesai.Size = new System.Drawing.Size(150, 39);
+            this.btnSelesai.Size = new System.Drawing.Size(112, 32);
             this.btnSelesai.TabIndex = 2;
             this.btnSelesai.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSelesai.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -195,7 +197,8 @@
             this.btnSimpan.IdleIconLeftImage = null;
             this.btnSimpan.IdleIconRightImage = null;
             this.btnSimpan.IndicateFocus = false;
-            this.btnSimpan.Location = new System.Drawing.Point(48, 151);
+            this.btnSimpan.Location = new System.Drawing.Point(36, 123);
+            this.btnSimpan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnSimpan.OnDisabledState.BorderRadius = 1;
@@ -229,7 +232,7 @@
             this.btnSimpan.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnSimpan.OnPressedState.IconLeftImage = null;
             this.btnSimpan.OnPressedState.IconRightImage = null;
-            this.btnSimpan.Size = new System.Drawing.Size(150, 39);
+            this.btnSimpan.Size = new System.Drawing.Size(112, 32);
             this.btnSimpan.TabIndex = 3;
             this.btnSimpan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSimpan.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -267,7 +270,8 @@
             this.txtJumlah.IconRight = null;
             this.txtJumlah.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtJumlah.Lines = new string[0];
-            this.txtJumlah.Location = new System.Drawing.Point(102, 53);
+            this.txtJumlah.Location = new System.Drawing.Point(76, 43);
+            this.txtJumlah.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtJumlah.MaxLength = 32767;
             this.txtJumlah.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtJumlah.Modified = false;
@@ -293,7 +297,7 @@
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtJumlah.OnIdleState = stateProperties4;
-            this.txtJumlah.Padding = new System.Windows.Forms.Padding(3);
+            this.txtJumlah.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtJumlah.PasswordChar = '\0';
             this.txtJumlah.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtJumlah.PlaceholderText = "Enter text";
@@ -303,7 +307,7 @@
             this.txtJumlah.SelectionLength = 0;
             this.txtJumlah.SelectionStart = 0;
             this.txtJumlah.ShortcutsEnabled = true;
-            this.txtJumlah.Size = new System.Drawing.Size(262, 37);
+            this.txtJumlah.Size = new System.Drawing.Size(196, 30);
             this.txtJumlah.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtJumlah.TabIndex = 7;
             this.txtJumlah.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -319,9 +323,10 @@
             // 
             this.lblJudul.AutoSize = true;
             this.lblJudul.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJudul.Location = new System.Drawing.Point(143, 9);
+            this.lblJudul.Location = new System.Drawing.Point(107, 7);
+            this.lblJudul.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblJudul.Name = "lblJudul";
-            this.lblJudul.Size = new System.Drawing.Size(74, 29);
+            this.lblJudul.Size = new System.Drawing.Size(60, 25);
             this.lblJudul.TabIndex = 11;
             this.lblJudul.Text = "Judul";
             // 
@@ -329,9 +334,10 @@
             // 
             this.lblHarga.AutoSize = true;
             this.lblHarga.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHarga.Location = new System.Drawing.Point(271, 104);
+            this.lblHarga.Location = new System.Drawing.Point(203, 84);
+            this.lblHarga.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHarga.Name = "lblHarga";
-            this.lblHarga.Size = new System.Drawing.Size(81, 29);
+            this.lblHarga.Size = new System.Drawing.Size(65, 25);
             this.lblHarga.TabIndex = 12;
             this.lblHarga.Text = "Harga";
             // 
@@ -339,18 +345,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(98, 112);
-            this.label1.Margin = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.label1.Location = new System.Drawing.Point(74, 91);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 20);
+            this.label1.Size = new System.Drawing.Size(104, 17);
             this.label1.TabIndex = 13;
             this.label1.Text = "Harga Satuan :";
             // 
             // formTambah
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(376, 202);
+            this.ClientSize = new System.Drawing.Size(282, 164);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHarga);
             this.Controls.Add(this.lblJudul);
@@ -359,6 +365,7 @@
             this.Controls.Add(this.btnSelesai);
             this.Controls.Add(this.lblJumlah);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "formTambah";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formTambah";

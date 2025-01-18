@@ -242,3 +242,7 @@ C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\dje\Fina
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final Pr.B69720BE.Up2Date
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final Project.exe
 C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final Project.pdb
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.View.formLogin.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.View.formRegister.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.View.formLupa.resources
+C:\#KULIAH\SMT 3\Pemrog Lanjut\aplikasi kasir 2\Final Project\obj\Debug\Final_Project.View.formReset.resources
