@@ -51,7 +51,7 @@ namespace Final_Project
             this.Controller = controller;
 
             Barang brg = new Barang();
-            lblHarga.Text = controller.Pesan(brg, jenis, nama).ToString();
+            lblHarga.Text = controller.Pesan(jenis, nama).ToString();
             brg.Nama = nama;
             //brg.Harga = harga;
             brg.Harga = lblHarga.Text;

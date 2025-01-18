@@ -67,7 +67,7 @@ namespace Final_Project.Controller
             return result;
         }
 
-        public int Pesan(Barang brg, string tabel, string kolom)
+        public int Pesan(string tabel, string kolom)
         {
             int result = 0;
 
@@ -78,7 +78,7 @@ namespace Final_Project.Controller
                 _repository = new BarangRepository(context);
 
                 // panggil method Create repository untuk menambahkan data
-                result = _repository.Pesan(brg, tabel, kolom);
+                result = _repository.Pesan(tabel, kolom);
             }
             return result;
         }

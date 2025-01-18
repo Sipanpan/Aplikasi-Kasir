@@ -112,44 +112,39 @@ namespace Final_Project.Model.Repository
             return result;
         }
 
-        public int Pesan(Barang brg, string tabel, string kolom)
+        public int Pesan(string tabel, string kolom)
         {
             int result = 0;
 
-            try
+            SQLiteDataReader reader = null;
+
+            // deklarasi perintah SQL
+            string sql = @"SELECT harga from " + tabel + " where nama = '" + kolom + "'";
+
+            // membuat objek command menggunakan blok using
+            using (SQLiteCommand cmd = new SQLiteCommand(sql, _conn))
             {
-                SQLiteDataReader reader = null;
+                
 
-                // deklarasi perintah SQL
-                string sql = @"SELECT harga from " + tabel + " where nama = '" + kolom + "'";
-
-                //string sql = @"update barang set Jumlah = @Jumlah, Total = @Total
-                //where Nama = @Nama";
-
-                // membuat objek command menggunakan blok using
-                using (SQLiteCommand cmd = new SQLiteCommand(sql, _conn))
+                try
                 {
-                    cmd.ExecuteNonQuery();
+                    // cmd.ExecuteNonQuery();
                     reader = cmd.ExecuteReader();
 
-                    if(reader.Read())
+                    if (reader.Read())
                     {
                         result = reader.GetInt32(0);
                     }
                     else
                     {
-                        result = 1;
+                        result = 0;
                     }
-
-                    // jalankan perintah UPDATE dan tampung hasilnya ke dalam variabel result
-                    // result = cmd.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    System.Diagnostics.Debug.Print("Pesan error: {0}", ex.Message);
                 }
             }
-            catch (Exception ex)
-            {
-                System.Diagnostics.Debug.Print("Pesan error: {0}", ex.Message);
-            }
-
             return result;
         }
 

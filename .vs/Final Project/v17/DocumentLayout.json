@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|c:\\#kuliah\\smt 3\\pemrog lanjut\\aplikasi kasir 2\\final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\final project\\model\\repository\\barangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\model\\repository\\barangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\final project\\controller\\barangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|c:\\#kuliah\\smt 3\\pemrog lanjut\\aplikasi kasir 2\\final project\\controller\\barangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\controller\\barangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\final project\\view\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formtambah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\final project\\view\\formcemilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formcemilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\final project\\view\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\view\\formmakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\final project\\model\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A407B0B-1F94-49DD-8ADC-324F60C5EE23}|Final Project\\Final Project.csproj|solutionrelative:final project\\model\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,13 +42,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "formMakanan.cs",
               "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\View\\formMakanan.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formMakanan.cs",
               "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\View\\formMakanan.cs",
               "RelativeToolTip": "Final Project\\View\\formMakanan.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAUwJIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAzwJcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T18:35:45.345Z",
               "IsPinned": true,
@@ -52,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "formCemilan.cs",
               "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\View\\formCemilan.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formCemilan.cs",
@@ -63,18 +67,6 @@
               "WhenOpened": "2024-12-26T10:06:15.775Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "formTambah.cs [Design]",
-              "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\View\\formTambah.cs",
-              "RelativeDocumentMoniker": "Final Project\\View\\formTambah.cs",
-              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\View\\formTambah.cs [Design]*",
-              "RelativeToolTip": "Final Project\\View\\formTambah.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T10:45:52.886Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
@@ -122,39 +114,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\Model\\Context\\DbContext.cs",
+              "RelativeDocumentMoniker": "Final Project\\Model\\Context\\DbContext.cs",
+              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\Model\\Context\\DbContext.cs",
+              "RelativeToolTip": "Final Project\\Model\\Context\\DbContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwEoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:51:22.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formTambah.cs [Design]",
+              "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\View\\formTambah.cs",
+              "RelativeDocumentMoniker": "Final Project\\View\\formTambah.cs",
+              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\View\\formTambah.cs [Design]",
+              "RelativeToolTip": "Final Project\\View\\formTambah.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:45:52.886Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BarangController.cs",
               "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\Controller\\BarangController.cs",
               "RelativeDocumentMoniker": "Final Project\\Controller\\BarangController.cs",
-              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\Controller\\BarangController.cs*",
-              "RelativeToolTip": "Final Project\\Controller\\BarangController.cs*",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAswFIAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\Controller\\BarangController.cs",
+              "RelativeToolTip": "Final Project\\Controller\\BarangController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwC8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T00:35:19.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BarangRepository.cs",
               "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\Model\\Repository\\BarangRepository.cs",
               "RelativeDocumentMoniker": "Final Project\\Model\\Repository\\BarangRepository.cs",
-              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\Model\\Repository\\BarangRepository.cs",
-              "RelativeToolTip": "Final Project\\Model\\Repository\\BarangRepository.cs",
-              "ViewState": "AgIAAAABAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\Model\\Repository\\BarangRepository.cs*",
+              "RelativeToolTip": "Final Project\\Model\\Repository\\BarangRepository.cs*",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAkwIAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T02:34:21.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "formTambah.cs",
               "DocumentMoniker": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\View\\formTambah.cs",
               "RelativeDocumentMoniker": "Final Project\\View\\formTambah.cs",
-              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\View\\formTambah.cs*",
-              "RelativeToolTip": "Final Project\\View\\formTambah.cs*",
-              "ViewState": "AgIAAHYAAAAAAAAAAAApwJEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\#KULIAH\\SMT 3\\Pemrog Lanjut\\aplikasi kasir 2\\Final Project\\View\\formTambah.cs",
+              "RelativeToolTip": "Final Project\\View\\formTambah.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwFwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T18:37:59.375Z",
               "EditorCaption": ""
