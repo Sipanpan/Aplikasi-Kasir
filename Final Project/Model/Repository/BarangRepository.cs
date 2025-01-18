@@ -124,8 +124,6 @@ namespace Final_Project.Model.Repository
             // membuat objek command menggunakan blok using
             using (SQLiteCommand cmd = new SQLiteCommand(sql, _conn))
             {
-                
-
                 try
                 {
                     // cmd.ExecuteNonQuery();
